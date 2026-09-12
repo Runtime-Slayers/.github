@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%" role="img" aria-labelledby="inno-title inno-desc">
+  <title id="inno-title">Runtime-Slayers Hallmark Deep-Tech Innovations Showcase</title>
+  <desc id="inno-desc">Showcase of NVST, Microfluidic Plasma Separator, Smart Cane Edge AI, Haptic Ring Sensory Substitution, and Plasma-CPAN Fusion Network.</desc>
+  <defs>
+    <linearGradient id="in-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c14"/>
+      <stop offset="100%" stop-color="#0e172a"/>
+    </linearGradient>
+    <linearGradient id="in-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141f38"/>
+      <stop offset="100%" stop-color="#0b1220"/>
+    </linearGradient>
+    <pattern id="in-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="380" rx="14" fill="url(#in-bg)"/>
+  <rect width="960" height="380" rx="14" fill="url(#in-grid)"/>
+  <rect width="960" height="380" rx="14" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <text x="480" y="34" fill="#f8fafc" font-size="17" font-weight="800" text-anchor="middle" letter-spacing="0.06em">HALLMARK DEEP-TECH INNOVATIONS &amp; TRANSLATIONAL SYSTEMS</text>
+  <text x="480" y="52" fill="#94a3b8" font-size="11" text-anchor="middle">Physical Realization Across Clinical AI, Microfluidics, Assistive Robotics &amp; Plasma Physics</text>
+
+  <!-- Top Row: 3 Cards -->
+  <!-- Card 1: NVST Suite -->
+  <g transform="translate(30, 70)">
+    <rect width="280" height="135" rx="12" fill="url(#in-card)" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect width="280" height="28" rx="12" fill="#0284c7" opacity="0.25"/>
+    <text x="14" y="19" fill="#38bdf8" font-size="11" font-weight="800">CLINICAL VASCULAR AI</text>
+    <text x="14" y="48" fill="#f8fafc" font-size="13" font-weight="700">NVST: Neuro-Vascular Transformer</text>
+    <text x="14" y="66" fill="#94a3b8" font-size="10">carotid-ultrasound-deep-fusion &amp; extensions</text>
+    <text x="14" y="88" fill="#cbd5e1" font-size="10">• Fuses B-mode ultrasound with blood metabolic markers</text>
+    <text x="14" y="104" fill="#cbd5e1" font-size="10">• Detects vulnerable rupture plaques under 50% stenosis</text>
+    <text x="14" y="120" fill="#38bdf8" font-size="10" font-weight="600">Eliminating fatal ischemic strokes pre-symptomatically</text>
+  </g>
+
+  <!-- Card 2: Microfluidic Plasma Separator -->
+  <g transform="translate(340, 70)">
+    <rect width="280" height="135" rx="12" fill="url(#in-card)" stroke="#34d399" stroke-width="1.5"/>
+    <rect width="280" height="28" rx="12" fill="#059669" opacity="0.25"/>
+    <text x="14" y="19" fill="#34d399" font-size="11" font-weight="800">BIOMEDICAL TRANSDUCTION</text>
+    <text x="14" y="48" fill="#f8fafc" font-size="13" font-weight="700">Microfluidic Plasma Separator</text>
+    <text x="14" y="66" fill="#94a3b8" font-size="10">ai-microfluidic-plasma-separator &amp; device-part-2</text>
+    <text x="14" y="88" fill="#cbd5e1" font-size="10">• 4-stage passive cascade with secondary Dean vortices</text>
+    <text x="14" y="104" fill="#cbd5e1" font-size="10">• &gt;99.2% pure blood plasma separation without centrifuges</text>
+    <text x="14" y="120" fill="#34d399" font-size="10" font-weight="600">Zero-hemolysis point-of-care clinical diagnostics</text>
+  </g>
+
+  <!-- Card 3: Smart Cane Edge AI -->
+  <g transform="translate(650, 70)">
+    <rect width="280" height="135" rx="12" fill="url(#in-card)" stroke="#f59e0b" stroke-width="1.5"/>
+    <rect width="280" height="28" rx="12" fill="#d97706" opacity="0.25"/>
+    <text x="14" y="19" fill="#f59e0b" font-size="11" font-weight="800">ASSISTIVE EDGE ROBOTICS</text>
+    <text x="14" y="48" fill="#f8fafc" font-size="13" font-weight="700">Smart Cane: Edge AI Mobility</text>
+    <text x="14" y="66" fill="#94a3b8" font-size="10">Smart-Cane autonomous mobility platform</text>
+    <text x="14" y="88" fill="#cbd5e1" font-size="10">• ESP32-S3 TinyML with multi-zone LiDAR &amp; ultrasonic ToF</text>
+    <text x="14" y="104" fill="#cbd5e1" font-size="10">• Millisecond haptic &amp; auditory directional cues</text>
+    <text x="14" y="120" fill="#f59e0b" font-size="10" font-weight="600">Navigational autonomy for the visually impaired</text>
+  </g>
+
+  <!-- Bottom Row: 2 Wider Cards -->
+  <!-- Card 4: Haptic Ring Sensory Substitution -->
+  <g transform="translate(30, 220)">
+    <rect width="435" height="135" rx="12" fill="url(#in-card)" stroke="#c084fc" stroke-width="1.5"/>
+    <rect width="435" height="28" rx="12" fill="#9333ea" opacity="0.25"/>
+    <text x="14" y="19" fill="#c084fc" font-size="11" font-weight="800">SENSORY SUBSTITUTION</text>
+    <text x="14" y="48" fill="#f8fafc" font-size="13" font-weight="700">Haptic Ring: Vibrotactile Speech Encoding for the Deaf</text>
+    <text x="14" y="66" fill="#94a3b8" font-size="10">Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding</text>
+    <text x="14" y="88" fill="#cbd5e1" font-size="10">• Real-time microphone audio converted into spatial vibrotactile phoneme pulses</text>
+    <text x="14" y="104" fill="#cbd5e1" font-size="10">• Compact micro-actuator finger ring delivering tactile language comprehension</text>
+    <text x="14" y="120" fill="#c084fc" font-size="10" font-weight="600">Restores conversational spatial awareness without surgical implants</text>
+  </g>
+
+  <!-- Card 5: Plasma-CPAN & Advanced Engineering -->
+  <g transform="translate(495, 220)">
+    <rect width="435" height="135" rx="12" fill="url(#in-card)" stroke="#fb7185" stroke-width="1.5"/>
+    <rect width="435" height="28" rx="12" fill="#e11d48" opacity="0.25"/>
+    <text x="14" y="19" fill="#fb7185" font-size="11" font-weight="800">PLASMA FUSION &amp; EXTREME PHYSICS</text>
+    <text x="14" y="48" fill="#f8fafc" font-size="13" font-weight="700">Plasma-CPAN: Causal Physics-Aware Neural Network</text>
+    <text x="14" y="66" fill="#94a3b8" font-size="10">plasma-cpan &amp; Plasma-Assisted-Ignition-in-Cryogenic-Rocket-Engines</text>
+    <text x="14" y="88" fill="#cbd5e1" font-size="10">• Causal physics-aware networks modeling high-temperature plasma instability</text>
+    <text x="14" y="104" fill="#cbd5e1" font-size="10">• Controls non-linear magnetic confinement &amp; cryogenic ignition shockwaves</text>
+    <text x="14" y="120" fill="#fb7185" font-size="10" font-weight="600">Unlocking sustainable fusion confinement &amp; reliable rocket re-ignition</text>
+  </g>
+</svg>
