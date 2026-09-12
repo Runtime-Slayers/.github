@@ -31,7 +31,7 @@
   <a href="#motive"><b>Our Motive</b></a> •
   <a href="#manifesto"><b>Manifesto</b></a> •
   <a href="#research-council"><b>The Research Council</b></a> •
-  <a href="#seven-pillars"><b>Curiosity Genesis &amp; Derivations</b></a> •
+  <a href="#seven-pillars"><b>Curiosity Genesis &amp; Discoveries</b></a> •
   <a href="#flagship-repos"><b>Top 50 Flagships</b></a> •
   <a href="#tech-arsenal"><b>Tech Arsenal</b></a> •
   <a href="#societal-impact"><b>Societal Impact</b></a> •
@@ -51,12 +51,28 @@ Across **Aerospace, Defense, Electronics, Biomedical Systems, Genomics, Neuromor
 
 **Runtime Slayers bridges this divide.** We use physics, biological fidelity, and common sense as non-negotiable structural priors, and train high-capacity AI surrogates—Physics-Informed Neural Networks, Spatio-Temporal Graph Transformers, Active Inference autopoietic agents, and TinyML micro-silicon kernels—to decode nature's most complex dynamical systems.
 
+<!-- Drawing 1: Multi-Domain AI Engine -->
 <p align="center">
-  <img src="assets/architecture-diagram.svg" width="100%" alt="Runtime-Slayers Multi-Domain AI Engine Architecture" />
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/architecture-diagram.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/architecture-diagram.svg" width="100%" alt="Runtime-Slayers Multi-Domain AI Engine Architecture" />
+  </a>
 </p>
 
+<!-- Drawing 2: Section Divider -->
 <p align="center">
-  <img src="assets/section-divider.svg" width="100%" alt="Section Divider" />
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" />
+  </a>
+</p>
+
+### 🔄 The End-to-End Deep-Tech Execution Pipeline
+How we take an unsolved physical or biological bottleneck and engineer it into a deterministic, deployable runtime:
+
+<!-- Drawing 3: AI Execution Flow -->
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/ai-execution-flow.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/ai-execution-flow.svg" width="100%" alt="Runtime-Slayers AI Execution Pipeline Flow" />
+  </a>
 </p>
 
 ---
@@ -106,7 +122,9 @@ Operating from the **Amrita School of Artificial Intelligence, Amrita Vishwa Vid
    We do not pursue incremental novelty. We direct our collective intellectual power toward high-stakes bottlenecks for civilization: eliminating fatal ischemic strokes through non-invasive vascular phenotyping, restoring verbal communication to the deaf through sensory tactile substitution, engineering climate-resilient crop root networks, and ensuring sovereign command-and-control survivability under asymmetric warfare.
 
 <p align="center">
-  <img src="assets/section-divider.svg" width="100%" alt="Section Divider" />
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" />
+  </a>
 </p>
 
 ---
@@ -116,8 +134,11 @@ Operating from the **Amrita School of Artificial Intelligence, Amrita Vishwa Vid
 
 The intellectual engine of **Runtime-Slayers** is driven by our founding research architects, fusing theoretical physics, transducer engineering, multimodal intelligence, and edge silicon into an integrated research council:
 
+<!-- Drawing 4: Research Council Convergence -->
 <p align="center">
-  <img src="assets/research-council.svg" width="100%" alt="Runtime-Slayers Core Research Council" />
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/research-council.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/research-council.svg" width="100%" alt="Runtime-Slayers Core Research Council" />
+  </a>
 </p>
 
 <table width="100%">
@@ -136,7 +157,7 @@ The intellectual engine of **Runtime-Slayers** is driven by our founding researc
       <p>Rajendra approaches AI from first-principles aerospace engineering and theoretical physics. He views neural networks not as black-box approximators, but as dynamical physical systems governed by non-equilibrium thermodynamics, Hamilton-Jacobi-Bellman principles, and quantum wave mechanics. His research unites aerodynamic flight regimes, ion propulsion, and quantum biological phenomena into grounded, deployable AI architectures.</p>
       <p><b>🔬 Core Research Domains:</b><br/>
       • Thermodynamic Gated Physics Loss Formulation &amp; PINN Stability<br/>
-      • Semiclassical WKB Approximations for Cold-Field Quantum Tunneling<br/>
+      • Semiclassical Approximations for Cold-Field Quantum Tunneling<br/>
       • Hypersonic Plasma Sheath RF Tunneling &amp; Cryogenic Rocket Propulsion<br/>
       • Active Inference, Free Energy Minimization &amp; Cognitive Defense Grids</p>
     </td>
@@ -171,7 +192,7 @@ The intellectual engine of **Runtime-Slayers** is driven by our founding researc
       <hr/>
       <p><b>🧠 The Epistemic Perspective:</b><br/>
       <i>"True reasoning emerges when high-dimensional foundation representations are anchored by explicit graph topologies and stress-tested under adversarial pressure."</i></p>
-      <p>Muthuraman is our architect of high-dimensional reasoning and competitive machine intelligence. He bridges unconstrained vision-language representation spaces with structured symbolic knowledge graphs. Having driven 278 competitive submissions in the Kaggle CUHK-X Multimodal Video Reasoning Challenge (elevating accuracy from 0.485 to >0.77485), Muthuraman specializes in pruning computational complexity, eliminating token hallucination, and engineering attention mechanisms that uncover subtle radiological biomarkers.</p>
+      <p>Muthuraman is our architect of high-dimensional reasoning and competitive machine intelligence. He bridges unconstrained vision-language representation spaces with structured symbolic knowledge graphs. Having driven 278 competitive submissions in the Kaggle CUHK-X Multimodal Video Reasoning Challenge (elevating accuracy from 0.485 to over 0.77485), Muthuraman specializes in pruning computational complexity, eliminating token hallucination, and engineering attention mechanisms that uncover subtle radiological biomarkers.</p>
       <p><b>🔬 Core Research Domains:</b><br/>
       • Large Vision-Language Models (VLMs) &amp; Temporal Consensus Ensembles<br/>
       • Spatio-Temporal Graph Neural Networks (ST-GNNs) &amp; Graph Transformers<br/>
@@ -200,15 +221,24 @@ The intellectual engine of **Runtime-Slayers** is driven by our founding researc
 </table>
 
 <p align="center">
-  <img src="assets/section-divider.svg" width="100%" alt="Section Divider" />
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" />
+  </a>
 </p>
 
 ---
 
 <a id="seven-pillars"></a>
-## 🏛️ The Seven Pillars: Curiosity Genesis & Formal Derivations
+## 🏛️ The Seven Pillars: Curiosity Genesis & Scientific Discoveries
 
-Our repositories are structured across seven foundational scientific pillars. Each pillar was sparked by a fundamental physical paradox or structural failure of standard machine learning, resolved through rigorous mathematical derivation:
+Our repositories are structured across seven foundational scientific pillars. Each pillar was sparked by a fundamental physical paradox or structural failure of standard machine learning, resolved through rigorous, first-principles engineering:
+
+<!-- Drawing 5: Seven Pillars Ecosystem Map -->
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/seven-pillars-map.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/seven-pillars-map.svg" width="100%" alt="Runtime-Slayers Seven Research Pillars Ecosystem Map" />
+  </a>
+</p>
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────┐
@@ -229,45 +259,20 @@ Our repositories are structured across seven foundational scientific pillars. Ea
 ### 🚀 Pillar I: Aero-Propulsion, Space Systems & Extreme Physics
 
 <details open>
-<summary><b>🔍 Epistemic Curiosity Genesis: The Failure of Monotonic Degradation in PINNs</b></summary>
+<summary><b>🔍 Epistemic Curiosity Genesis: The Failure of Monotonic Degradation in Standard AI</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Standard Physics-Informed Neural Networks (PINNs) applied to turbofan Remaining Useful Life (RUL) estimation enforce a strict monotonic wear penalty: $\frac{\partial D}{\partial t} \ge 0$. However, in commercial and military aviation, aircraft undergo depot-level maintenance: turbine blades are recoated, bearings are replaced, and compressor stages are washed. These interventions induce non-differentiable jump recoveries ($\Delta D < 0$) in the degradation trajectory. Standard PINNs treat these life-extending overhauls as catastrophic physics violations, resulting in severe RUL underestimation and premature engine groundings.
+> **The Base Idea & Curiosity Spark**: Standard Physics-Informed Neural Networks applied to turbofan Remaining Useful Life (RUL) estimation enforce a strict continuous wear penalty, assuming engines degrade non-stop. However, in real aviation operations, aircraft undergo depot-level maintenance: turbine blades are recoated, compressor stages are washed, and bearings are replaced. These maintenance overhauls cause sharp, sudden, life-extending recoveries in the sensor data. Standard machine learning models treat these recoveries as catastrophic physics violations, resulting in severe life underestimation and premature engine groundings.
 
-#### 📐 Formal Mathematical Derivation: Thermodynamic Gated Physics Loss
-To solve this, we formulated the **Thermodynamic Gated Physics Loss** implemented in [TITAN-NET](https://github.com/Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer). We decouple continuous cruise degradation from discrete maintenance events by coupling the Clausius-Duhem inequality with a thermal gradient gating function:
+#### 💡 The Scientific & Engineering Principle: Thermodynamic Entropy Gating
+To solve this, in our flagship [TITAN-NET](https://github.com/Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer), we formulated the **Thermodynamic Gated Physics Loss**. The loss function balances empirical sensor telemetry with thermodynamic entropy constraints. It monitors exhaust gas temperatures and the rate of change across the entire sensor array:
+* **During Normal Cruising Flight**: The thermal gate remains open, strictly enforcing physical wear rules and preventing the neural network from hallucinating unrealistic health improvements.
+* **During Maintenance Overhauls**: When telemetry registers a rapid multi-sensor jump characteristic of component replacement, the gate smoothly deactivates the wear penalty. This enables the model to assimilate component renewal without gradient explosion or false alarms.
 
-$$
-\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{data}} + \lambda_{\text{phys}} \cdot \Psi(T_{\text{exhaust}}, \nabla_t \Phi) \cdot \max\Big(0, -\dot{S}_{\text{gen}}\Big)
-$$
-
-Where the thermodynamic entropy generation rate $\dot{S}_{\text{gen}}$ in the gas path is governed by:
-
-$$
-\dot{S}_{\text{gen}} = \rho \left( \frac{\partial s}{\partial t} + \mathbf{v} \cdot \nabla s \right) - \nabla \cdot \left(\frac{\mathbf{q}}{T}\right) - \frac{\boldsymbol{\tau} : \nabla \mathbf{v}}{T} \ge 0
-$$
-
-The gating operator $\Psi(T_{\text{exhaust}}, \nabla_t \Phi)$ acts as a soft Heaviside filter over the engine operational state:
-
-$$
-\Psi(T_{\text{exhaust}}, \nabla_t \Phi) = \frac{1}{1 + \exp\Big(-\kappa \cdot \big(\|\nabla_t \Phi_{\text{sensor}}\| - \theta_{\text{maint}}\big)\Big)}
-$$
-
-During standard flight, $\Psi \to 1$, strictly enforcing thermodynamic degradation. When maintenance occurs, $\|\nabla_t \Phi\| > \theta_{\text{maint}}$, driving $\Psi \to 0$ and allowing the network to assimilate component renewal without gradient explosion.
-
-#### 📐 Semiclassical WKB Quantum Ion Propulsion Derivation
-In [Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB](https://github.com/Runtime-Slayers/Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB), we eliminate thermal cathode burn-out by modeling cold-field electron tunneling ionization under the Wentzel-Kramers-Brillouin (WKB) approximation:
-
-$$
-T_{\text{WKB}} \approx \exp\left( -2 \int_{x_1}^{x_2} \sqrt{\frac{2m_e}{\hbar^2} \Big(V(x) - E\Big)} \, dx \right)
-$$
-
-For a triangular barrier shaped by an intense local electric field $\mathcal{E}$ and surface work function $\Phi$:
-
-$$
-V(x) - E = \Phi - e\mathcal{E}x \implies T_{\text{WKB}} = \exp\left( -\frac{4\sqrt{2m_e}\Phi^{3/2}}{3e\hbar \mathcal{E}} \right)
-$$
-
-Slashing ionization activation energy and increasing propellant lifetime by over $300\%$.
+#### 💡 Semiclassical Quantum Cold-Field Ion Propulsion
+In [Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB](https://github.com/Runtime-Slayers/Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB), we eliminate thermal cathode burn-out in deep-space electric thrusters:
+* Instead of boiling electrons off a white-hot filament that rapidly erodes and fails, we use intense local electric fields to narrow the quantum potential barrier at the cathode tip.
+* Electrons tunnel directly through the surface barrier at room temperature via quantum field emission.
+* This dramatically slashes the energy required for propellant ionization and extends ion thruster operational life by over 300 percent, unlocking long-duration deep-space satellite missions.
 
 </details>
 
@@ -278,22 +283,15 @@ Slashing ionization activation energy and increasing propellant lifetime by over
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Fragility of Centralized Command Under Electronic Attack</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Classical multi-agent defense command architectures rely on centralized cloud relays or consensus voting protocols (e.g., Raft, Paxos). In a contested electromagnetic environment, broadband jamming and directed-energy weapons sever communication links. Under saturated hypersonic multi-axis incursions, centralized nodes become single points of catastrophic failure. How can an edge-defense network dynamically self-organize without any centralized command?
+> **The Base Idea & Curiosity Spark**: Classical defense command architectures rely on centralized cloud relays or consensus voting protocols. In modern contested electronic warfare environments, high-power broadband jamming and directed energy instantly sever satellite and radio communication. Under saturated, multi-directional hypersonic drone incursions, centralized nodes become single points of catastrophic failure. How can an edge-defense network dynamically self-organize without any central command?
 
-#### 📐 Formal Mathematical Derivation: Active Inference & Free Energy Autopoiesis
-In [Project-VISHWAROOP](https://github.com/Runtime-Slayers/Project-VISHWAROOP), we model the defense grid as an autopoietic Markov blanket operating under Karl Friston's **Free Energy Principle**. Each edge node maintains an internal state $\mu$ that continuously minimizes variational free energy $\mathcal{F}$ over sensory observations $y$:
-
-$$
-\mathcal{F}(y, \mu) = \mathbb{E}_{q(\vartheta \mid \mu)} \left[ \ln q(\vartheta \mid \mu) - \ln p(y, \vartheta) \right] = \underbrace{D_{\text{KL}}\Big(q(\vartheta \mid \mu) \parallel p(\vartheta \mid y)\Big)}_{\text{Epistemic Divergence}} - \underbrace{\ln p(y)}_{\text{Evidence Bound}}
-$$
-
-When communication channels are jammed, the sensory evidence $\ln p(y)$ collapses. The node immediately switches its internal objective from passive observation to active counter-inference by executing action $a$:
-
-$$
-a^* = \arg\min_a \mathbb{E}_{q(\vartheta \mid \mu)} \left[ \ln q(\vartheta \mid \mu) - \ln p(y(a), \vartheta) \right]
-$$
-
-This drives autonomous frequency hopping, beamforming nulling, and distributed kinetic engagement without requiring a single packet of centralized command telemetry.
+#### 💡 The Scientific & Engineering Principle: Active Inference & Autonomous Free Energy Minimization
+In [Project-VISHWAROOP](https://github.com/Runtime-Slayers/Project-VISHWAROOP), we model the defense grid as a self-organizing sensory network operating under the Free Energy Principle:
+* Each edge node continuously maintains an internal belief state of the operational battlespace.
+* When enemy jamming severs external communication channels, incoming telemetry collapses, creating an acute spike in local uncertainty.
+* Rather than freezing or failing, the node immediately switches its internal objective from passive listening to active counter-inference.
+* It autonomously executes localized actions: dynamic frequency hopping, directional antenna beam-nulling, and distributed kinetic engagement.
+* The entire network coordinates seamlessly through local sensory interactions without requiring a single command packet from headquarters.
 
 </details>
 
@@ -302,30 +300,15 @@ This drives autonomous frequency hopping, beamforming nulling, and distributed k
 ### ⚛️ Pillar III: Quantum Information, Cryptography & Secure Networks
 
 <details>
-<summary><b>🔍 Epistemic Curiosity Genesis: The Fragility of Satellite Navigation in Contested Space</b></summary>
+<summary><b>🔍 Epistemic Curiosity Genesis: The Fragility of Satellite Navigation in Contested Environments</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Modern autonomous navigation is dangerously dependent on GNSS (GPS/GLONASS/Galileo). Satellite signals arrive at Earth's surface at an infinitesimal power level ($\approx -160\,\text{dBW}$), making them trivial to jam or spoof. Inertial navigation systems (INS) drift quadratically over time: $\mathbf{x}_{\text{error}} \propto \frac{1}{2} a_{\text{bias}} t^2$. Can room-temperature quantum spin states provide drift-free navigation without external RF signals?
+> **The Base Idea & Curiosity Spark**: Modern autonomous navigation is dangerously dependent on satellite GPS. Signals arrive at Earth's surface at extremely weak power levels (often weaker than background noise), making them trivial to jam or spoof. Traditional inertial sensors drift rapidly over time, losing accuracy within minutes. Can room-temperature quantum biology provide drift-free navigation without any external radio signals?
 
-#### 📐 Formal Mathematical Derivation: Radical-Pair Quantum Magnetometry
-In [Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation](https://github.com/Runtime-Slayers/Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation), we harness Nitrogen-Vacancy (NV) diamond centers modeled on the quantum radical-pair mechanism of avian cryptochrome-4. The spin state density matrix $\hat{\rho}(t)$ evolves under the Stochastic Liouville-von Neumann Master Equation:
-
-$$
-\frac{d\hat{\rho}}{dt} = -\frac{i}{\hbar} \left[ \hat{\mathcal{H}}_{\text{spin}}, \hat{\rho} \right] - \frac{k_S}{2} \left\{ \hat{P}_S, \hat{\rho} \right\} - \frac{k_T}{2} \left\{ \hat{P}_T, \hat{\rho} \right\} + \mathcal{D}(\hat{\rho})
-$$
-
-Where the spin Hamiltonian couples Zeeman interaction with geomagnetic field $\mathbf{B}$ and hyperfine nuclear coupling $\mathbf{A}_k$:
-
-$$
-\hat{\mathcal{H}}_{\text{spin}} = g_e \mu_B \mathbf{B} \cdot (\hat{\mathbf{S}}_1 + \hat{\mathbf{S}}_2) + \sum_k \hat{\mathbf{I}}_k \cdot \mathbf{A}_k \cdot \hat{\mathbf{S}}_1
-$$
-
-Singlet yield $\Phi_S$ is sensitive to geomagnetic inclinations down to nanotesla precision:
-
-$$
-\Phi_S = k_S \int_0^\infty \text{Tr}\left( \hat{P}_S \, \hat{\rho}(t) \right) dt
-$$
-
-Coupled with an adaptive 5D Unscented Kalman Filter matching crustal magnetic anomaly maps, this achieves sub-meter positional tracking under 100% GPS blackout.
+#### 💡 The Scientific & Engineering Principle: Radical-Pair Quantum Magnetometry
+In [Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation](https://github.com/Runtime-Slayers/Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation), we harness room-temperature quantum diamond sensors inspired by the radical-pair compass found in migratory bird cryptochrome proteins:
+* Entangled electron spin pairs maintain quantum coherence across microsecond timescales.
+* The transition rates between singlet and triplet quantum states are exquisitely sensitive to subtle variations in Earth's local geomagnetic field inclination.
+* By fusing these quantum magnetic orientation readings with high-resolution crustal geological anomaly maps using an Unscented Kalman Filter, our autonomous platform achieves sub-meter positional tracking under 100% satellite GPS blackout.
 
 </details>
 
@@ -336,27 +319,12 @@ Coupled with an adaptive 5D Unscented Kalman Filter matching crustal magnetic an
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Acoustic and Spatial Ambiguity of Carotid Plaques</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Ischemic stroke is the world's second leading cause of mortality, primarily triggered by the rupture of vulnerable atherosclerotic plaques in the carotid bifurcation. Traditional B-mode ultrasound evaluates plaque severity purely by lumen stenosis percentage. However, clinical pathology reveals that **hypoechoic, lipid-rich plaques rupture at $< 50\%$ stenosis**, while heavily calcified fibrous plaques remain stable at $> 80\%$ stenosis. Pure computer vision on ultrasound fails due to acoustic shadowing, speckle noise, and operator variance.
+> **The Base Idea & Curiosity Spark**: Ischemic stroke is the world's second leading cause of death, primarily triggered by the rupture of vulnerable arterial plaques in the neck. Traditional ultrasound evaluates plaque danger purely by diameter narrowing percentage. However, clinical pathology proves that soft, lipid-rich plaques can rupture and cause fatal strokes even at less than 50 percent narrowing, while hard calcified plaques remain stable even at 80 percent narrowing. Standard computer vision on ultrasound fails due to acoustic shadowing and speckle noise.
 
-#### 📐 Formal Mathematical Derivation: Volumetric OECT Transconductance & Multimodal NVST
-In our clinical vascular suite ([carotid-ultrasound-deep-fusion](https://github.com/Runtime-Slayers/carotid-ultrasound-deep-fusion) and [Bio-Sync-AI](https://github.com/Runtime-Slayers/Bio-Sync-AI-Adaptive-Self-Healing-Bioelectronic-Skin-Patches)), we solve this through dual physical innovations:
-1. **Volumetric Organic Electrochemical Transistor (OECT) Amplification**:
-   Unlike silicon field-effect transistors where gating is restricted to a 2D surface, our PEDOT:PSS hydrogel channel exhibits **bulk volumetric ion penetration**:
-
-$$
-g_m = \left. \frac{\partial I_D}{\partial V_G} \right|_{V_D} = \frac{W \cdot d}{L} \mu C^* \Big( V_{\text{th}} - V_G \Big)
-$$
-
-   Where volumetric capacitance $C^* > 100\,\text{F/cm}^3$, amplifying microvolt-level electrophysiological potentials with extraordinary signal-to-noise ratios ($> 45\,\text{dB}$) directly on the skin surface.
-
-2. **Neuro-Vascular Symbiotic Cross-Attention**:
-   We fuse B-mode acoustic attenuation tensors $\mathbf{F}_{\text{acoustic}} \in \mathbb{R}^{H \times W \times C}$ with blood serum metabolic biomarkers $\mathbf{m} \in \mathbb{R}^{D}$ via scaled dot-product cross-attention:
-
-$$
-\mathbf{Z}_{\text{fused}} = \text{Softmax}\left( \frac{(\mathbf{W}_Q \mathbf{F}_{\text{acoustic}})(\mathbf{W}_K \mathbf{m})^T}{\sqrt{d_k}} \right) (\mathbf{W}_V \mathbf{m})
-$$
-
-   This pinpoints rupture-prone vulnerable plaques years before catastrophic cerebrovascular incidents.
+#### 💡 The Scientific & Engineering Principle: Volumetric Bio-Transduction & Multimodal Fusion
+In our clinical vascular suite ([carotid-ultrasound-deep-fusion](https://github.com/Runtime-Slayers/carotid-ultrasound-deep-fusion) and [Bio-Sync-AI](https://github.com/Runtime-Slayers/Bio-Sync-AI-Adaptive-Self-Healing-Bioelectronic-Skin-Patches)), we solve this through two breakthroughs:
+* **Volumetric Organic Electrochemical Transistors (OECTs)**: Unlike standard silicon chips where electrical current flows only along a flat surface, our conductive hydrogel channels allow ions from body fluids to penetrate throughout the entire volume of the material. This yields massive volumetric amplification, capturing subtle microvolt-level cardiac and neural signals with pristine clarity directly on the skin.
+* **Acoustic-Metabolic Cross-Attention**: Our AI model fuses deep acoustic texture maps from ultrasound scans with systemic blood metabolic markers through cross-modal attention networks. This detects dangerous, rupture-prone vulnerable plaques years before a catastrophic stroke can occur.
 
 </details>
 
@@ -365,24 +333,15 @@ $$
 ### 🧬 Pillar V: Genomics, Molecular Dynamics & Computational Biology
 
 <details>
-<summary><b>🔍 Epistemic Curiosity Genesis: The Non-Linearity of the Central Dogma</b></summary>
+<summary><b>🔍 Epistemic Curiosity Genesis: The Hidden Disconnect in the Central Dogma</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Molecular biology has long relied on the dogma that transcriptomic mRNA abundance directly dictates phenotypic protein synthesis. Single-cell CITE-seq (Cellular Indexing of Transcriptomes and Epitopes by Sequencing) empirical data reveals that **Pearson correlation between mRNA and surface protein expression often drops below 0.35**. Traditional differential expression models fail because they ignore post-transcriptional buffering delays, ribosomal elongation pauses, and selective degradation.
+> **The Base Idea & Curiosity Spark**: Molecular biology has long assumed that higher messenger RNA (mRNA) counts automatically lead to more protein in the cell. Real single-cell multi-omics data reveals that the correlation between mRNA and actual surface proteins often drops below 35 percent. Standard gene expression tools fail because they ignore post-transcriptional delays, protein degradation, and translational pauses.
 
-#### 📐 Formal Mathematical Derivation: Cross-Modal Optimal Transport & MoG Latent Discordance
-In [CITEDiscord-Net](https://github.com/Runtime-Slayers/CITEDiscord-Net), we formulate mRNA-to-protein discordance as an entropy-regularized optimal transport problem across multi-modal manifolds:
-
-$$
-\mathcal{W}_{\epsilon}(\mu_{\text{RNA}}, \nu_{\text{Protein}}) = \min_{\mathbf{T} \in \Pi} \sum_{i,j} \mathbf{T}_{ij} \cdot D_{\text{cost}}(\mathbf{x}_i, \mathbf{y}_j) + \epsilon \sum_{i,j} \mathbf{T}_{ij} \ln \mathbf{T}_{ij}
-$$
-
-Coupled with a **Mixture-of-Gaussians (MoG)** prior over latent discordance vectors:
-
-$$
-p(\mathbf{z}_{\text{discord}}) = \sum_{k=1}^K \pi_k \, \mathcal{N}\Big(\mathbf{z} \;\Big|\; \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k\Big)
-$$
-
-This isolates hidden post-transcriptional regulatory checkpoints and reveals novel oncological target pathways invisible to standard single-cell transcriptomics.
+#### 💡 The Scientific & Engineering Principle: Optimal Transport on Single-Cell Manifolds
+In [CITEDiscord-Net](https://github.com/Runtime-Slayers/CITEDiscord-Net), we formulate the disconnect between RNA and protein as an optimal transport problem:
+* The system calculates the minimal biochemical energy required to transform RNA expression distributions into observed surface protein profiles across thousands of individual cells.
+* By modeling the latent discordance between transcripts and proteins using mixture probability distributions, the model isolates hidden post-transcriptional regulatory bottlenecks.
+* This reveals novel therapeutic drug targets in cancer and autoimmune diseases that remain invisible to ordinary single-cell sequencing.
 
 </details>
 
@@ -391,24 +350,15 @@ This isolates hidden post-transcriptional regulatory checkpoints and reveals nov
 ### 🔮 Pillar VI: Multimodal Foundation Models, Neuropedagogy & Cognitive Science
 
 <details>
-<summary><b>🔍 Epistemic Curiosity Genesis: The Catastrophic Hallucination of Video-Language Models</b></summary>
+<summary><b>🔍 Epistemic Curiosity Genesis: The Compounding Hallucination of Video-Language Models</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Large Vision-Language Models (VLMs) demonstrate impressive reasoning on static images, but suffer catastrophic hallucination when deployed on continuous video streams. They confabulate temporal causality, invert object interactions, and drift into speculative output over multi-minute sequences. Why? Because autoregressive token generation compounds spatial-temporal uncertainty exponentially across video frames: $\text{Var}(y_T) \propto e^{\lambda T}$.
+> **The Base Idea & Curiosity Spark**: Large Vision-Language Models perform well on static photographs, but frequently hallucinate when analyzing continuous video streams. They invent events that never happened, invert cause and effect, and lose track of physical objects over time. Why? Because word-by-word prediction errors compound exponentially across successive video frames.
 
-#### 📐 Formal Mathematical Derivation: Neural-Symbolic Consensus Reasoning
-In our flagship [CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning](https://github.com/Runtime-Slayers/CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning) pipeline (which scaled from 0.485 to >0.77485 accuracy across 278 experimental architectures), we bounded temporal drift via **Markov Logic Symbolic Constraints**:
-
-$$
-P(Y \mid \mathbf{V}) = \frac{1}{\mathcal{Z}} \exp\left( \sum_i w_i \cdot f_i(\mathbf{V}, Y) + \sum_j \lambda_j \cdot \mathcal{C}_j(Y) \right)
-$$
-
-Where $\mathcal{C}_j(Y) \in \{0, 1\}$ represents hard symbolic rules enforcing temporal causality (e.g., an object cannot be removed before it is placed). Tokens with high semantic entropy are filtered out:
-
-$$
-\mathcal{H}_{\text{token}}(x_t) = -\sum_{w \in \mathcal{V}} P(w \mid x_{<t}, \mathbf{V}) \log P(w \mid x_{<t}, \mathbf{V}) \le \theta_{\text{epistemic}}
-$$
-
-Eliminating temporal hallucinations and ensuring reliable video reasoning across long horizons.
+#### 💡 The Scientific & Engineering Principle: Neural-Symbolic Temporal Verification
+In our [CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning](https://github.com/Runtime-Slayers/CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning) framework (which elevated benchmark accuracy from 0.485 to over 0.77485 across 278 experimental architectures), we bounded temporal drift through neural-symbolic logic:
+* Deep neural networks generate rich multi-modal visual embeddings of video scenes.
+* An explicit symbolic logic engine verifies temporal causality—ensuring that physical laws are obeyed (for instance, an object cannot be removed before it is placed, and an actor cannot be in two locations at once).
+* Predictions with high semantic uncertainty are filtered out before reaching the user, completely eliminating temporal hallucinations in complex long-horizon video understanding.
 
 </details>
 
@@ -417,29 +367,22 @@ Eliminating temporal hallucinations and ensuring reliable video reasoning across
 ### 🌾 Pillar VII: Societal Resilience, Precision Agriculture & Scientific Epistemology
 
 <details>
-<summary><b>🔍 Epistemic Curiosity Genesis: Root Architecture as a 3D Topological Sensor</b></summary>
+<summary><b>🔍 Epistemic Curiosity Genesis: Root Architecture as an Underground 3D Sensor</b></summary>
 
-> **The Base Idea & Curiosity Spark**: Modern agricultural drought monitoring depends on satellite remote sensing (NDVI, soil reflectance). However, by the time satellite imagery registers canopy moisture stress, **the plant's vascular xylem has already suffered irreversible cavitation**, slashing crop yield by $> 40\%$. Roots are the primary sensors of soil edaphic moisture, but extracting 3D geometric phenotypes from opaque, heterogeneous soil has been computationally intractable.
+> **The Base Idea & Curiosity Spark**: Agricultural drought monitoring traditionally relies on satellites looking at leaf greenness. However, by the time satellite images register that leaves are drying out, the crop's internal water transport vessels have already suffered irreversible vascular damage, slashing yields by over 40 percent. Root networks are the plant's true underground drought sensors, but mapping intricate 3D root geometries through opaque soil was historically impossible.
 
-#### 📐 Formal Mathematical Derivation: Persistent Homology of Root Skeletons
-In [RhizoWhisperer](https://github.com/Runtime-Slayers/RhizoWhisperer) and [RhizoWhisperer-Model-Architectures](https://github.com/Runtime-Slayers/RhizoWhisperer-Model-Architectures), we solve this through **Topological Data Analysis (TDA)**. We treat segmented 3D root systems as point clouds and compute the Vietoris-Rips filtration complex:
-
-$$
-\text{VR}_\epsilon(X) = \left\{ \sigma \subseteq X \;\Big|\; \forall u, v \in \sigma, \; \|u - v\| \le \epsilon \right\}
-$$
-
-We track the birth ($b_i$) and death ($d_i$) of $k$-dimensional topological cavities (loops and voids indicating root branching angles and lateral exploration). We measure drought response through the **$p$-Wasserstein distance** between persistence diagrams:
-
-$$
-\mathcal{W}_p(\mathcal{D}_{\text{stressed}}, \mathcal{D}_{\text{baseline}}) = \left( \inf_{\gamma} \sum_{x \in \mathcal{D}_{\text{stressed}}} \|x - \gamma(x)\|_\infty^p \right)^{1/p}
-$$
-
-This detects root water foraging adaptations **14 days before any detectable change in leaf canopy reflectance**, enabling early precision irrigation and climate-resilient crop breeding.
+#### 💡 The Scientific & Engineering Principle: Topological Shape Analysis of 3D Root Networks
+In [RhizoWhisperer](https://github.com/Runtime-Slayers/RhizoWhisperer) and [RhizoWhisperer-Model-Architectures](https://github.com/Runtime-Slayers/RhizoWhisperer-Model-Architectures), we solve this using Topological Data Analysis:
+* High-resolution 3D volumetric scans of soil cores are converted into topological skeletal networks.
+* The algorithm tracks the emergence and persistence of multi-dimensional geometric loops, branching junctions, and spatial exploration voids as roots grow through soil.
+* By measuring the mathematical distance between stressed and healthy root topological signatures, the system detects water-foraging adaptations underground **14 full days before any visible change appears on the plant canopy**, enabling precision irrigation and climate-resilient crop breeding.
 
 </details>
 
 <p align="center">
-  <img src="assets/section-divider.svg" width="100%" alt="Section Divider" />
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" />
+  </a>
 </p>
 
 ---
@@ -461,8 +404,8 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 2. [Plasma-Assisted-Ignition-in-Cryogenic-Rocket-Engines](https://github.com/Runtime-Slayers/Plasma-Assisted-Ignition-in-Cryogenic-Rocket-Engines)
 * **💡 The Base Idea & Curiosity Spark**: Relighting cryogenic rocket engines in deep-space vacuum is notoriously dangerous due to high activation energy barrier and cold-wall quenching. We asked: *Can non-equilibrium electron-impact plasma shift combustion kinetics to trigger instant ignition at sub-zero vacuum temperatures?*
-* **⚙️ AI & Engineering Implementation**: Non-equilibrium kinetic chemistry solver modeling electron-impact dissociation driven by a 3500V, 50kHz five-electrode array with thoriated tungsten cathodes ($n_e \approx 10^{19}\,\text{m}^{-3}, T_e \approx 2.8\,\text{eV}$).
-* **🌍 Societal & Industrial Impact**: Slashes cryogenic activation energy by $60.7\%$ for $\text{CH}_4/\text{LOX}$ and $65.1\%$ for $\text{LH}_2/\text{LOX}$, guaranteeing dependable in-space multi-restart capabilities for lunar and interplanetary spacecraft.
+* **⚙️ AI & Engineering Implementation**: Non-equilibrium kinetic chemistry solver modeling electron-impact dissociation driven by a 3500V, 50kHz five-electrode array with thoriated tungsten cathodes (electron densities around 10^19 m^-3 and electron energies of 2.8 eV).
+* **🌍 Societal & Industrial Impact**: Slashes cryogenic activation energy by 60.7% for methane/liquid oxygen and 65.1% for hydrogen/liquid oxygen, guaranteeing dependable in-space multi-restart capabilities for lunar and interplanetary spacecraft.
 * **📊 Empirical Validation**: Cryogenic shock-tube ignition delay data and non-equilibrium kinetic rate constants.
 
 #### 3. [The-E-4C-NEMESIS-Flying-Nuclear-Bunker-Concept](https://github.com/Runtime-Slayers/The-E-4C-NEMESIS-Flying-Nuclear-Bunker-Concept)
@@ -473,7 +416,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 4. [Quantum-Tunneling-Inspired-Communication-Through-Plasma-Sheaths](https://github.com/Runtime-Slayers/Quantum-Tunneling-Inspired-Communication-Through-Plasma-Sheaths)
 * **💡 The Base Idea & Curiosity Spark**: For 60 years, spacecraft re-entering Earth's atmosphere have suffered 4–7 minutes of terrifying radio blackout due to dense plasma shielding. We realized: *Plasma sheaths behave analogously to quantum potential barriers; by tuning multi-frequency phase resonance, we can induce electromagnetic tunneling through the sheath.*
-* **⚙️ AI & Engineering Implementation**: Solves Maxwell's equations through supercritical plasma sheath layers ($n_e > 10^{20}\,\text{m}^{-3}$) using the **Transfer Matrix Method (TMM)**, exploiting resonant multi-frequency quantum tunneling transmission poles.
+* **⚙️ AI & Engineering Implementation**: Solves Maxwell's equations through supercritical plasma sheath layers (critical electron density exceeding 10^20 m^-3) using the **Transfer Matrix Method (TMM)**, exploiting resonant multi-frequency quantum tunneling transmission poles.
 * **🌍 Societal & Industrial Impact**: Solves the perilous "re-entry blackout" phenomenon that has severed telemetry during spacecraft atmospheric entry (Apollo, Space Shuttle, Artemis) and hypersonic flight.
 * **📊 Empirical Validation**: Validated on flight experiment telemetry from the NASA RAM-C atmospheric entry campaign.
 
@@ -497,7 +440,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 8. [Gradient-Boosted-Ensemble-for-Space-Debris-Collision-Risk](https://github.com/Runtime-Slayers/Gradient-Boosted-Ensemble-for-Space-Debris-Collision-Risk)
 * **💡 The Base Idea & Curiosity Spark**: Space debris is multiplying exponentially in low Earth orbit. Satellite operators receive thousands of false collision warnings daily. We asked: *Can machine learning rapidly filter ephemeris uncertainty to pinpoint true catastrophic collision threats in real time?*
-* **⚙️ AI & Engineering Implementation**: Real-time Conjunction Data Message (CDM) parsing engine combining gradient-boosted decision trees with orbital covariance propagation to compute collision probability ($P_c$) under high ephemeris uncertainty.
+* **⚙️ AI & Engineering Implementation**: Real-time Conjunction Data Message (CDM) parsing engine combining gradient-boosted decision trees with orbital covariance propagation to compute collision probability (collision probability) under high ephemeris uncertainty.
 * **🌍 Societal & Industrial Impact**: Protects active low-Earth-orbit constellations, prevents catastrophic orbital fragmentation events, and preserves near-Earth orbital lanes against the runaway Kessler syndrome.
 * **📊 Empirical Validation**: Validated on real public ESA/Space-Track conjunction data messages and NORAD two-line element (TLE) sets.
 
@@ -513,7 +456,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 10. [DefenseNet](https://github.com/Runtime-Slayers/DefenseNet)
 * **💡 The Base Idea & Curiosity Spark**: Cyber attackers move laterally inside networks in milliseconds, hidden beneath millions of benign packets. Can we represent entire enterprise network states as continuous dynamic graphs and detect intrusions structurally rather than by static signatures?
-* **⚙️ AI & Engineering Implementation**: Spatio-Temporal Graph Neural Network (ST-GNN) performing real-time structural analysis over enterprise network topology to detect covert lateral movement and Advanced Persistent Threats (APTs) in $< 800\,\mu\text{s}$.
+* **⚙️ AI & Engineering Implementation**: Spatio-Temporal Graph Neural Network (ST-GNN) performing real-time structural analysis over enterprise network topology to detect covert lateral movement and Advanced Persistent Threats (APTs) in under 800 microseconds.
 * **🌍 Societal & Industrial Impact**: Protects critical national infrastructure (power grids, nuclear plants, defense communication relays) from state-sponsored cyber sabotage.
 * **📊 Empirical Validation**: Evaluated on DARPA OpTC and UNSW-NB15 enterprise network telemetry corpora.
 
@@ -525,9 +468,9 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 12. [Neuromorphic-Radar-for-Stealth-Aircraft-Detection](https://github.com/Runtime-Slayers/Neuromorphic-Radar-for-Stealth-Aircraft-Detection)
 * **💡 The Base Idea & Curiosity Spark**: Stealth aircraft scatter radar signals to look like background clutter. But predatory animals detect stealth prey in noisy environments using motion-selective retinal and cortical receptive fields. Can we apply visual cortex neurobiology to radar signal processing?
-* **⚙️ AI & Engineering Implementation**: Bio-inspired visual cortex neural architecture modeling motion-selective V1/MT receptive fields to extract micro-Doppler radar signatures of low-RCS targets immersed in heavy clutter down to $-30\,\text{dB}$.
+* **⚙️ AI & Engineering Implementation**: Bio-inspired visual cortex neural architecture modeling motion-selective V1/MT receptive fields to extract micro-Doppler radar signatures of low-RCS targets immersed in heavy clutter down to -30 dB.
 * **🌍 Societal & Industrial Impact**: Enhances national airspace early warning capabilities against stealth low-observable threats without requiring multi-billion-dollar radar hardware overhauls.
-* **📊 Empirical Validation**: Synthetic aperture radar (SAR) and simulated micro-Doppler radar signatures with down to $-30\,\text{dB}$ signal-to-clutter ratios.
+* **📊 Empirical Validation**: Synthetic aperture radar (SAR) and simulated micro-Doppler radar signatures with down to -30 dB signal-to-clutter ratios.
 
 #### 13. [Multi-Modal-AI-Fusion-for-Counter-UAS-Detection](https://github.com/Runtime-Slayers/Multi-Modal-AI-Fusion-for-Counter-UAS-Detection)
 * **💡 The Base Idea & Curiosity Spark**: Micro-drones are too small for conventional radar, too quiet for single microphones, and too fast for single cameras. By fusing micro-Doppler acoustic harmonics, radar chirps, and thermal imaging asynchronously, can we detect rogue drones instantly?
@@ -559,7 +502,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 17. [Topological-Surface-Code-Error-Correction-for-Satellite-QKD](https://github.com/Runtime-Slayers/Topological-Surface-Code-Error-Correction-for-Satellite-QKD)
 * **💡 The Base Idea & Curiosity Spark**: Free-space satellite quantum key distribution (QKD) suffers severe photon loss through atmospheric turbulence. Can rotated topological surface codes dynamically correct quantum phase and bit-flip errors over moving satellite downlinks?
-* **⚙️ AI & Engineering Implementation**: Simulates rotated topological surface codes ($d=3, 5, 7$) with Minimum-Weight Perfect Matching (MWPM) decoders operating over turbulent, beam-wandering free-space satellite-to-ground optical links.
+* **⚙️ AI & Engineering Implementation**: Simulates rotated topological surface codes (code distances 3, 5, and 7) with Minimum-Weight Perfect Matching (MWPM) decoders operating over turbulent, beam-wandering free-space satellite-to-ground optical links.
 * **🌍 Societal & Industrial Impact**: Guarantees post-quantum computational security for intercontinental financial transfers, diplomatic communications, and national infrastructure keys.
 * **📊 Empirical Validation**: Atmospheric optical turbulence models parameterized with Kolmogorov turbulence statistics and ESA satellite downlink profiles.
 
@@ -582,7 +525,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 * **📊 Empirical Validation**: Executed and verified on simulated noisy intermediate-scale quantum (NISQ) backends with depolarizing error models.
 
 #### 21. [Quantum-Neural-Hybrid-Medical-Imaging-Reconstruction](https://github.com/Runtime-Slayers/Quantum-Neural-Hybrid-Medical-Imaging-Reconstruction)
-* **💡 The Base Idea & Curiosity Spark**: MRI scans take 45 minutes because collecting full k-space frequency data is slow. Can quantum tensor networks reconstruct perfect anatomical images from only $10\%$ of the data?
+* **💡 The Base Idea & Curiosity Spark**: MRI scans take 45 minutes because collecting full k-space frequency data is slow. Can quantum tensor networks reconstruct perfect anatomical images from only 10% of the data?
 * **⚙️ AI & Engineering Implementation**: Hybrid quantum-classical reconstruction algorithm combining Matrix Product States (MPS) with classical convolutional decoders to reconstruct diagnostic-grade MRI/CT volumes from ultra-sparse k-space undersamplings.
 * **🌍 Societal & Industrial Impact**: Drastically reduces patient scan times from 45 minutes to under 5 minutes, mitigating claustrophobia and pediatric sedation risks while expanding diagnostic access.
 * **📊 Empirical Validation**: Validated on clinical brain MRI scans from **The Cancer Imaging Archive (TCIA)** and IBM Quantum backend simulators.
@@ -591,7 +534,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 * **💡 The Base Idea & Curiosity Spark**: Why do amyloid-beta peptides aggregate into the toxic fibrils of Alzheimer's disease? Classical molecular dynamics misses electron spin dissipation. By modeling spin dissipation via MPS-VQE, we pinpointed the exact quantum nucleation triggers of fibrillization.
 * **⚙️ AI & Engineering Implementation**: Research framework for CIBB 2026. Integrates Graph Neural Networks, MPS-VQE, and Hierarchical Equations of Motion (HEOM-MPO) with Floquet topological driving to model quantum spin dissipation during Amyloid-Beta 42 fibrillization.
 * **🌍 Societal & Industrial Impact**: Pinpoints the elusive quantum-molecular nucleation triggers of Alzheimer's disease, illuminating novel target pathways for small-molecule therapeutic interventions.
-* **📊 Empirical Validation**: Protein Data Bank (PDB) experimental coordinates for $A\beta_{1-42}$ fibrils ($PDB: 2NAO, 5OQV$).
+* **📊 Empirical Validation**: Protein Data Bank (PDB) experimental coordinates for Amyloid-Beta 1-42 fibrils (PDB references 2NAO and 5OQV).
 
 ---
 
@@ -610,7 +553,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 * **📊 Empirical Validation**: Rigorously validated on the international BraTS benchmark and clinical neuro-imaging cohorts.
 
 #### 25. [carotid-ultrasound-deep-fusion](https://github.com/Runtime-Slayers/carotid-ultrasound-deep-fusion)
-* **💡 The Base Idea & Curiosity Spark**: Most stroke victims have $< 50\%$ carotid artery blockage, yet their plaques rupture suddenly. Why? Because lipid-rich plaques are unstable. By fusing B-mode ultrasound video with metabolic serum biomarkers via cross-attention, we detect rupture risk years early.
+* **💡 The Base Idea & Curiosity Spark**: Most stroke victims have under 50% carotid artery blockage, yet their plaques rupture suddenly. Why? Because lipid-rich plaques are unstable. By fusing B-mode ultrasound video with metabolic serum biomarkers via cross-attention, we detect rupture risk years early.
 * **⚙️ AI & Engineering Implementation**: **NVST-Ultra & Omni**: Multimodal Neuro-Vascular Symbiotic Transformer performing cross-attention fusion between B-mode carotid ultrasound video frames and high-dimensional metabolic serum markers (lipids, HbA1c, inflammatory cytokines).
 * **🌍 Societal & Industrial Impact**: Detects vulnerable, rupture-prone carotid artery plaques years before catastrophic ischemic stroke onset, saving tens of thousands of lives through early prophylactic intervention.
 * **📊 Empirical Validation**: Multi-center clinical carotid ultrasound datasets matched with blood laboratory panels.
@@ -629,9 +572,9 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 28. [ai-microfluidic-plasma-separator](https://github.com/Runtime-Slayers/ai-microfluidic-plasma-separator)
 * **💡 The Base Idea & Curiosity Spark**: Point-of-care blood tests in remote areas fail because centrifuges require electricity and break down. By shaping micro-channels to generate Dean vortices, can we filter plasma passively using zero electricity?
-* **⚙️ AI & Engineering Implementation**: Deep learning surrogate optimizer coupled with Stokes flow Navier-Stokes solvers. Optimizes passive microfluidic channel constrictions and Dean vortex generation to achieve $>99.2\%$ blood cell filtration without hemolysis.
+* **⚙️ AI & Engineering Implementation**: Deep learning surrogate optimizer coupled with Stokes flow Navier-Stokes solvers. Optimizes passive microfluidic channel constrictions and Dean vortex generation to achieve over 99.2% blood cell filtration without hemolysis.
 * **🌍 Societal & Industrial Impact**: Enables low-cost, electricity-free point-of-care blood diagnostics in remote rural clinics and developing nations, democratizing immediate lab tests.
-* **📊 Empirical Validation**: Validated against micro-particle image velocimetry ($\mu\text{PIV}$) experiments and numerical CFD bench runs.
+* **📊 Empirical Validation**: Validated against micro-particle image velocimetry (micro-particle image velocimetry) experiments and numerical CFD bench runs.
 
 #### 29. [EEG-Spectral-Biomarkers-for-PTSD-Classification](https://github.com/Runtime-Slayers/EEG-Spectral-Biomarkers-for-PTSD-Classification)
 * **💡 The Base Idea & Curiosity Spark**: PTSD diagnosis currently relies on subjective questionnaires where patients often mask trauma. Can neural oscillations (theta/beta ratio and frontal alpha asymmetry) provide an objective, biological electrophysiological diagnosis?
@@ -668,7 +611,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 * **📊 Empirical Validation**: Validated on real 10x Genomics peripheral blood mononuclear cell (PBMC) CITE-seq datasets.
 
 #### 34. [biofilm-segmentation-admm](https://github.com/Runtime-Slayers/biofilm-segmentation-admm)
-* **💡 The Base Idea & Curiosity Spark**: Bacterial biofilms cause $80\%$ of chronic hospital infections. In microscopy images, biofilms are fuzzy, overlapping, and low-contrast. By fusing deep learning with ADMM convex optimization, we achieved pixel-perfect biomass quantification.
+* **💡 The Base Idea & Curiosity Spark**: Bacterial biofilms cause 80% of chronic hospital infections. In microscopy images, biofilms are fuzzy, overlapping, and low-contrast. By fusing deep learning with ADMM convex optimization, we achieved pixel-perfect biomass quantification.
 * **⚙️ AI & Engineering Implementation**: Synergizes the mathematical optimization power of the **Alternating Direction Method of Multipliers (ADMM)** with deep convolutional backbones (U-Net, EfficientNetB0, Mask R-CNN) for dense biofilm biomass quantification.
 * **🌍 Societal & Industrial Impact**: Accelerates antimicrobial resistance research, dental plaque management, and industrial water pipeline biocorrosion mitigation.
 * **📊 Empirical Validation**: High-resolution confocal laser scanning microscopy (CLSM) biofilm imagery.
@@ -693,7 +636,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 38. [Structure-Aware-Drug-Repurposing](https://github.com/Runtime-Slayers/Structure-Aware-Drug-Repurposing)
 * **💡 The Base Idea & Curiosity Spark**: Designing new drugs takes 12 years and billions of dollars. During pandemic outbreaks, we cannot wait. Geometric deep learning on 3D viral protein pockets allows us to screen 4,000+ FDA-approved drugs in minutes for immediate repurposing.
-* **⚙️ AI & Engineering Implementation**: Geometric deep learning pipeline embedding 3D protein pocket conformations and molecular SMILES graphs into a shared metric space, scoring binding affinity ($K_d / K_i$) across FDA-approved pharmacopeias.
+* **⚙️ AI & Engineering Implementation**: Geometric deep learning pipeline embedding 3D protein pocket conformations and molecular SMILES graphs into a shared metric space, scoring binding affinity (dissociation and inhibition constants) across FDA-approved pharmacopeias.
 * **🌍 Societal & Industrial Impact**: Slashes therapeutic development timelines from 12 years to weeks during emergent viral outbreaks by repurposing established, safety-verified molecules.
 * **📊 Empirical Validation**: Tested against the **ChEMBL**, **DrugBank**, and **PDBbind** curated experimental binding affinity databases.
 
@@ -702,8 +645,8 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 ### 🔮 Pillar VI: Multimodal Foundation Models, Neuropedagogy & Cognitive Science
 
 #### 39. [CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning](https://github.com/Runtime-Slayers/CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning)
-* **💡 The Base Idea & Curiosity Spark**: In high-stakes multimodal video reasoning, foundation models hallucinate temporal causality. By combining visual prompt ensembles with symbolic verification gates, we climbed from $0.485$ to $>0.77485$ accuracy across 278 competition architectures.
-* **⚙️ AI & Engineering Implementation**: Complete 278-submission archival framework developed for the prestigious **Kaggle CUHK-X Multimodal Video Reasoning Challenge (Large Model Track)**. Combines visual prompt engineering, temporal consensus voting, and neural-symbolic constraints, elevating accuracy from $0.485$ to $>0.77485$.
+* **💡 The Base Idea & Curiosity Spark**: In high-stakes multimodal video reasoning, foundation models hallucinate temporal causality. By combining visual prompt ensembles with symbolic verification gates, we climbed from 0.485 to over 0.77485 accuracy across 278 competition architectures.
+* **⚙️ AI & Engineering Implementation**: Complete 278-submission archival framework developed for the prestigious **Kaggle CUHK-X Multimodal Video Reasoning Challenge (Large Model Track)**. Combines visual prompt engineering, temporal consensus voting, and neural-symbolic constraints, elevating accuracy from 0.485 to over 0.77485.
 * **🌍 Societal & Industrial Impact**: Advances autonomous vehicle decision-making, video surveillance auditability, and robotics understanding of complex real-world physical events over extended time horizons.
 * **📊 Empirical Validation**: Rigorously benchmarked across thousands of competition evaluation video reasoning tasks.
 
@@ -721,7 +664,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 #### 42. [Cross-Frequency-EEG-Coupling-as-Real-Time-Learning-Metric](https://github.com/Runtime-Slayers/Cross-Frequency-EEG-Coupling-as-Real-Time-Learning-Metric)
 * **💡 The Base Idea & Curiosity Spark**: How do you know if a student is actually understanding a concept versus staring blankly? Theta-gamma phase-amplitude coupling (PAC) in the brain directly measures active synaptic memory consolidation in real time.
-* **⚙️ AI & Engineering Implementation**: Computes **Phase-Amplitude Coupling (PAC)** between frontal low-frequency theta waves ($4-8\,\text{Hz}$) and cortical gamma oscillations ($30-80\,\text{Hz}$) using the Modulation Index, quantifying active synaptic memory encoding.
+* **⚙️ AI & Engineering Implementation**: Computes **Phase-Amplitude Coupling (PAC)** between frontal low-frequency theta waves (4 to 8 Hz) and cortical gamma oscillations (30 to 80 Hz) using the Modulation Index, quantifying active synaptic memory encoding.
 * **🌍 Societal & Industrial Impact**: Provides an objective neurological metric for learning efficiency, allowing curriculum developers to optimize instructional pacing for maximum retention.
 * **📊 Empirical Validation**: Continuous EEG recordings captured during cognitive memory consolidation and arithmetic problem-solving tasks.
 
@@ -754,8 +697,8 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 * **📊 Empirical Validation**: Benchmarked for latency, memory footprint, and FP16/INT8 inference accuracy on NVIDIA Jetson and edge microcontrollers.
 
 #### 47. [Automated-Detection-of-p-Hacking-via-Machine-Learning](https://github.com/Runtime-Slayers/Automated-Detection-of-p-Hacking-via-Machine-Learning)
-* **💡 The Base Idea & Curiosity Spark**: More than $50\%$ of published biomedical studies fail replication because researchers massage data to achieve $p < 0.05$. We built an automated text-mining ML pipeline that flags statistical anomalies and p-curve distortions across scientific literature.
-* **⚙️ AI & Engineering Implementation**: Statistical forensics pipeline that scans published academic literature, extracting test statistics ($t, F, r, z$), computing p-curves, and running caliper tests around the $p = 0.05$ boundary to detect questionable research practices.
+* **💡 The Base Idea & Curiosity Spark**: More than 50% of published biomedical studies fail replication because researchers massage data to achieve p-values under 0.05. We built an automated text-mining ML pipeline that flags statistical anomalies and p-curve distortions across scientific literature.
+* **⚙️ AI & Engineering Implementation**: Statistical forensics pipeline that scans published academic literature, extracting test statistics (t, F, r, and z scores), computing p-curves, and running caliper tests around the p = 0.05 boundary to detect questionable research practices.
 * **🌍 Societal & Industrial Impact**: Restores integrity to the scientific method, combating the replication crisis in biomedical, psychological, and social sciences by identifying fraudulent or cherry-picked results.
 * **📊 Empirical Validation**: Tested against the landmark **Center for Open Science (OSC 2015)** Reproducibility Project corpus.
 
@@ -774,7 +717,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 #### 50. [AI-Lab-Infrastructure-Optimizer-Resource-Scheduling](https://github.com/Runtime-Slayers/AI-Lab-Infrastructure-Optimizer-Resource-Scheduling)
 * **💡 The Base Idea & Curiosity Spark**: Training large deep learning models burns immense electricity and generates high carbon emissions. Can combinatorial scheduling balance GPU cluster utilization against dynamic electricity tariffs to slash costs and carbon?
 * **⚙️ AI & Engineering Implementation**: Multi-objective combinatorial optimization engine using modified Johnson's scheduling and genetic algorithms to balance GPU cluster utilization, electricity tariff fluctuations, and carbon emissions.
-* **🌍 Societal & Industrial Impact**: Lowers academic supercomputing electricity bills by up to $34\%$ while minimizing the carbon footprint of massive AI model training runs.
+* **🌍 Societal & Industrial Impact**: Lowers academic supercomputing electricity bills by up to 34% while minimizing the carbon footprint of massive AI model training runs.
 * **📊 Empirical Validation**: Evaluated against real historical workload logs from the **Green500** and university HPC clusters.
 
 <p align="center">
@@ -818,7 +761,7 @@ Our technological ecosystem bridges formal symbolic mathematics, distributed GPU
 ```
 
 <p align="center">
-  <img src="assets/section-divider.svg" width="100%" alt="Section Divider" />
+  <p align="center"><a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" /></a></p>
 </p>
 
 ---
@@ -831,7 +774,7 @@ At Runtime-Slayers, code is never written for the sake of empty abstraction. Eve
 | Scientific Domain | Critical Societal Bottleneck | Runtime-Slayers Open-Source Solution | Tangible Human Benefit |
 | :--- | :--- | :--- | :--- |
 | **Aero-Propulsion** | Unpredicted turbofan failure & groundings | **[TITAN-NET](https://github.com/Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer)** | Eliminates catastrophic in-flight engine failures; saves millions in maintenance |
-| **Space Exploration** | Spacecraft re-entry blackout & ion thruster wear | **[Quantum Tunneling Sheath](https://github.com/Runtime-Slayers/Quantum-Tunneling-Inspired-Communication-Through-Plasma-Sheaths)** & **[WKB Thruster](https://github.com/Runtime-Slayers/Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB)** | Continuous astronaut re-entry telemetry & $4\times$ longer cubesat satellite lifetime |
+| **Space Exploration** | Spacecraft re-entry blackout & ion thruster wear | **[Quantum Tunneling Sheath](https://github.com/Runtime-Slayers/Quantum-Tunneling-Inspired-Communication-Through-Plasma-Sheaths)** & **[WKB Thruster](https://github.com/Runtime-Slayers/Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB)** | Continuous astronaut re-entry telemetry & 4x longer cubesat satellite lifetime |
 | **Neurodegeneration** | Unseen Alzheimer's oligomerization | **[ab42-quantum-spin](https://github.com/Runtime-Slayers/ab42-quantum-spin-cibb2026)** | Molecular therapeutic targets identified before irreversible neuronal cell loss |
 | **Cardiovascular Health** | Asymptomatic vulnerable carotid plaque rupture | **[carotid-ultrasound-deep-fusion](https://github.com/Runtime-Slayers/carotid-ultrasound-deep-fusion)** | Preventative detection of ischemic stroke, the world's #2 cause of death |
 | **Sensory Accessibility** | Social exclusion of the deaf & visually impaired | **[Haptic-Ring](https://github.com/Runtime-Slayers/Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding)** & **[Smart-Cane](https://github.com/Runtime-Slayers/Smart-Cane)** | Non-auditory speech reception & independent obstacle-free physical mobility |
@@ -840,7 +783,7 @@ At Runtime-Slayers, code is never written for the sake of empty abstraction. Eve
 | **Scientific Epistemology** | Replication crisis & covert scientific p-hacking | **[p-Hacking Detection](https://github.com/Runtime-Slayers/Automated-Detection-of-p-Hacking-via-Machine-Learning)** | Restoring statistical forensics and reproducibility across biomedical literature |
 
 <p align="center">
-  <img src="assets/section-divider.svg" width="100%" alt="Section Divider" />
+  <p align="center"><a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer"><img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" /></a></p>
 </p>
 
 ---
@@ -869,3 +812,16 @@ We welcome rigorous intellectual collaboration with **academic laboratories, aer
 ```
 
 </div>
+"""
+
+# Write to profile/README.md
+profile_path = os.path.join(base_dir, "profile", "README.md")
+with open(profile_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+print(f"Successfully generated: {profile_path} ({len(readme_content)} characters)")
+
+# Write to root README.md
+root_path = os.path.join(base_dir, "README.md")
+with open(root_path, "w", encoding="utf-8") as f:
+    f.write(readme_content)
+print(f"Successfully generated: {root_path} ({len(readme_content)} characters)")

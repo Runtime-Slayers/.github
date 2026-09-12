@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" width="100%" height="100%" role="img" aria-labelledby="flow-title flow-desc">
+  <title id="flow-title">Runtime-Slayers AI Execution Flow</title>
+  <desc id="flow-desc">Four-stage pipeline: Real-World Physical Problem to First-Principles Invariant Constraint to Deep Neural Surrogate to Edge Silicon Compilation.</desc>
+  <defs>
+    <linearGradient id="fl-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c15"/>
+      <stop offset="100%" stop-color="#0e172a"/>
+    </linearGradient>
+    <linearGradient id="fl-box" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141f38"/>
+      <stop offset="100%" stop-color="#0c1322"/>
+    </linearGradient>
+    <marker id="arr-fl" markerWidth="9" markerHeight="7" refX="8" refY="3.5" orient="auto"><polygon points="0 0, 9 3.5, 0 7" fill="#38bdf8"/></marker>
+    <pattern id="fl-dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#334155" opacity="0.3"/></pattern>
+  </defs>
+
+  <rect width="960" height="300" rx="14" fill="url(#fl-bg)"/>
+  <rect width="960" height="300" rx="14" fill="url(#fl-dots)"/>
+  <rect width="960" height="300" rx="14" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <text x="480" y="32" fill="#f8fafc" font-size="16" font-weight="800" text-anchor="middle" letter-spacing="0.06em">THE END-TO-END DEEP-TECH EXECUTION PIPELINE</text>
+  <text x="480" y="50" fill="#94a3b8" font-size="11" text-anchor="middle">How Runtime-Slayers Transforms Complex Multi-Domain Bottlenecks into Deterministic Deployable Systems</text>
+
+  <!-- Connectors -->
+  <line x1="220" y1="165" x2="250" y2="165" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arr-fl)"/>
+  <line x1="460" y1="165" x2="490" y2="165" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arr-fl)"/>
+  <line x1="700" y1="165" x2="730" y2="165" stroke="#38bdf8" stroke-width="2.5" marker-end="url(#arr-fl)"/>
+
+  <!-- Step 1 -->
+  <g transform="translate(30, 80)">
+    <rect width="190" height="170" rx="12" fill="url(#fl-box)" stroke="#38bdf8" stroke-width="1.5"/>
+    <rect width="190" height="28" rx="12" fill="#0284c7" opacity="0.25"/>
+    <text x="95" y="19" fill="#38bdf8" font-size="10" font-weight="800" text-anchor="middle">PHASE 1: THE BOTTLENECK</text>
+    <text x="95" y="52" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="middle">Real-World Physics</text>
+    <text x="16" y="80" fill="#94a3b8" font-size="10">• Extreme flight regimes</text>
+    <text x="16" y="98" fill="#94a3b8" font-size="10">• Hypersonic plasma blackouts</text>
+    <text x="16" y="116" fill="#94a3b8" font-size="10">• Microvolt bio-transduction</text>
+    <text x="16" y="134" fill="#94a3b8" font-size="10">• Electronic warfare jamming</text>
+    <text x="16" y="152" fill="#64748b" font-size="9">Pure math becomes intractable</text>
+  </g>
+
+  <!-- Step 2 -->
+  <g transform="translate(270, 80)">
+    <rect width="190" height="170" rx="12" fill="url(#fl-box)" stroke="#818cf8" stroke-width="1.5"/>
+    <rect width="190" height="28" rx="12" fill="#4f46e5" opacity="0.25"/>
+    <text x="95" y="19" fill="#818cf8" font-size="10" font-weight="800" text-anchor="middle">PHASE 2: INVARIANT LAWS</text>
+    <text x="95" y="52" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="middle">Physical Conservation</text>
+    <text x="16" y="80" fill="#94a3b8" font-size="10">• Thermodynamic entropy rates</text>
+    <text x="16" y="98" fill="#94a3b8" font-size="10">• Clausius-Duhem inequalities</text>
+    <text x="16" y="116" fill="#94a3b8" font-size="10">• Free Energy Markov blankets</text>
+    <text x="16" y="134" fill="#94a3b8" font-size="10">• Semiclassical tunneling paths</text>
+    <text x="16" y="152" fill="#64748b" font-size="9">Grounds AI against hallucination</text>
+  </g>
+
+  <!-- Step 3 -->
+  <g transform="translate(510, 80)">
+    <rect width="190" height="170" rx="12" fill="url(#fl-box)" stroke="#c084fc" stroke-width="1.5"/>
+    <rect width="190" height="28" rx="12" fill="#9333ea" opacity="0.25"/>
+    <text x="95" y="19" fill="#c084fc" font-size="10" font-weight="800" text-anchor="middle">PHASE 3: AI SURROGATES</text>
+    <text x="95" y="52" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="middle">Neural Architecture</text>
+    <text x="16" y="80" fill="#94a3b8" font-size="10">• Physics-Informed PINNs</text>
+    <text x="16" y="98" fill="#94a3b8" font-size="10">• Spatio-Temporal Graph Nets</text>
+    <text x="16" y="116" fill="#94a3b8" font-size="10">• Temporal Video Transformers</text>
+    <text x="16" y="134" fill="#94a3b8" font-size="10">• Active Inference Autopoiesis</text>
+    <text x="16" y="152" fill="#64748b" font-size="9">High-capacity empirical reasoning</text>
+  </g>
+
+  <!-- Step 4 -->
+  <g transform="translate(750, 80)">
+    <rect width="180" height="170" rx="12" fill="url(#fl-box)" stroke="#34d399" stroke-width="1.5"/>
+    <rect width="180" height="28" rx="12" fill="#059669" opacity="0.25"/>
+    <text x="90" y="19" fill="#34d399" font-size="10" font-weight="800" text-anchor="middle">PHASE 4: RUNTIME SILICON</text>
+    <text x="90" y="52" fill="#f8fafc" font-size="13" font-weight="700" text-anchor="middle">Edge Deployment</text>
+    <text x="14" y="80" fill="#94a3b8" font-size="10">• Bare-metal ESP32-S3 INT8</text>
+    <text x="14" y="98" fill="#94a3b8" font-size="10">• Deterministic FreeRTOS tasks</text>
+    <text x="14" y="116" fill="#94a3b8" font-size="10">• Organic bio-transistors</text>
+    <text x="14" y="134" fill="#94a3b8" font-size="10">• Micro-second sensor loops</text>
+    <text x="14" y="152" fill="#64748b" font-size="9">Works in extreme real world</text>
+  </g>
+</svg>
