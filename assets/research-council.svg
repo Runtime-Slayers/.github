@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%" role="img" aria-labelledby="council-title council-desc">
+  <title id="council-title">Runtime-Slayers Core Research Council</title>
+  <desc id="council-desc">Visual synthesis of the four founding research architects showing their individual intellectual pillars and collaborative convergence at the runtime boundary.</desc>
+
+  <defs>
+    <linearGradient id="c-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0d1527"/>
+    </linearGradient>
+    <linearGradient id="c-card" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#192338"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="c-hub" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+    
+    <pattern id="c-dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#475569" opacity="0.25"/>
+    </pattern>
+
+    <marker id="m-blue" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#38bdf8"/>
+    </marker>
+    <marker id="m-emerald" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#34d399"/>
+    </marker>
+    <marker id="m-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#c084fc"/>
+    </marker>
+    <marker id="m-amber" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#fbbf24"/>
+    </marker>
+  </defs>
+
+  <rect width="960" height="420" rx="12" fill="url(#c-bg)"/>
+  <rect width="960" height="420" rx="12" fill="url(#c-dots)"/>
+  <rect width="960" height="420" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Heading -->
+  <text x="480" y="36" fill="#f8fafc" font-size="18" font-family="'Segoe UI', sans-serif" font-weight="700" text-anchor="middle" letter-spacing="0.06em">THE CORE RESEARCH COUNCIL</text>
+  <text x="480" y="56" fill="#94a3b8" font-size="11" font-family="'Segoe UI', sans-serif" text-anchor="middle">First-Principles Physics • Material Transduction • Multimodal Reasoning • Edge Silicon</text>
+
+  <!-- ==================== CONNECTORS (Orthogonal curved) ==================== -->
+  <!-- Top Left (Rajendra) to Center -->
+  <path d="M 336 144 H 420 A 8 8 0 0 1 428 152 V 188 A 8 8 0 0 0 436 196 H 444" fill="none" stroke="#38bdf8" stroke-width="1.8" marker-end="url(#m-blue)"/>
+  <!-- Top Right (Muthuraman) to Center -->
+  <path d="M 624 144 H 540 A 8 8 0 0 0 532 152 V 188 A 8 8 0 0 1 524 196 H 516" fill="none" stroke="#c084fc" stroke-width="1.8" marker-end="url(#m-purple)"/>
+  <!-- Bottom Left (Saran) to Center -->
+  <path d="M 336 296 H 420 A 8 8 0 0 0 428 288 V 252 A 8 8 0 0 1 436 244 H 444" fill="none" stroke="#34d399" stroke-width="1.8" marker-end="url(#m-emerald)"/>
+  <!-- Bottom Right (Likith) to Center -->
+  <path d="M 624 296 H 540 A 8 8 0 0 1 532 288 V 252 A 8 8 0 0 0 524 244 H 516" fill="none" stroke="#fbbf24" stroke-width="1.8" marker-end="url(#m-amber)"/>
+
+  <!-- ==================== RESEARCHER CARDS ==================== -->
+  <!-- 1. Rajendra -->
+  <g id="card-rajendra">
+    <rect x="48" y="88" width="288" height="112" rx="10" fill="url(#c-card)" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="80" cy="124" r="20" fill="#0284c7" opacity="0.3"/>
+    <text x="80" y="130" fill="#38bdf8" font-size="16" text-anchor="middle">⚡</text>
+    <text x="112" y="120" fill="#ffffff" font-size="14" font-family="'Segoe UI', sans-serif" font-weight="700">B. Rajendra Reddy</text>
+    <text x="112" y="136" fill="#38bdf8" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="600">Lead Deep-Tech Researcher &amp; Quantum Architect</text>
+    <text x="112" y="152" fill="#94a3b8" font-size="9" font-family="'Segoe UI', sans-serif">Expert Aerospace Engineer • ORCID: 0009-0005-3349-1162</text>
+    <rect x="64" y="164" width="256" height="24" rx="4" fill="#0c4a6e" opacity="0.4"/>
+    <text x="192" y="180" fill="#7dd3fc" font-size="9.5" font-family="'Segoe UI', sans-serif" font-style="italic" text-anchor="middle">"Imagination, curiosity, physics &amp; simple common sense"</text>
+  </g>
+
+  <!-- 2. Muthuraman Ramanathan -->
+  <g id="card-muthuraman">
+    <rect x="624" y="88" width="288" height="112" rx="10" fill="url(#c-card)" stroke="#c084fc" stroke-width="1.5"/>
+    <circle cx="656" cy="124" r="20" fill="#7c3aed" opacity="0.3"/>
+    <text x="656" y="130" fill="#c084fc" font-size="16" text-anchor="middle">🔮</text>
+    <text x="688" y="120" fill="#ffffff" font-size="14" font-family="'Segoe UI', sans-serif" font-weight="700">Muthuraman Ramanathan</text>
+    <text x="688" y="136" fill="#c084fc" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="600">Multimodal AI &amp; Neural-Symbolic Systems Lead</text>
+    <text x="688" y="152" fill="#94a3b8" font-size="9" font-family="'Segoe UI', sans-serif">Competitive ML Lead • ORCID: 0009-0004-2634-1476</text>
+    <rect x="640" y="164" width="256" height="24" rx="4" fill="#4c1d95" opacity="0.4"/>
+    <text x="768" y="180" fill="#d8b4fe" font-size="9.5" font-family="'Segoe UI', sans-serif" font-style="italic" text-anchor="middle">"Consensus reasoning anchored by topological graphs"</text>
+  </g>
+
+  <!-- 3. Boddu Saran -->
+  <g id="card-saran">
+    <rect x="48" y="240" width="288" height="112" rx="10" fill="url(#c-card)" stroke="#34d399" stroke-width="1.5"/>
+    <circle cx="80" cy="276" r="20" fill="#059669" opacity="0.3"/>
+    <text x="80" y="282" fill="#34d399" font-size="16" text-anchor="middle">🧬</text>
+    <text x="112" y="272" fill="#ffffff" font-size="14" font-family="'Segoe UI', sans-serif" font-weight="700">Boddu Saran</text>
+    <text x="112" y="288" fill="#34d399" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="600">Systems Bioengineer &amp; Transducer Architect</text>
+    <text x="112" y="304" fill="#94a3b8" font-size="9" font-family="'Segoe UI', sans-serif">Transducer Physics • ORCID: 0009-0006-4010-050X</text>
+    <rect x="64" y="316" width="256" height="24" rx="4" fill="#064e3b" opacity="0.4"/>
+    <text x="192" y="332" fill="#a7f3d0" font-size="9.5" font-family="'Segoe UI', sans-serif" font-style="italic" text-anchor="middle">"Bridging living tissue and computation via organic materials"</text>
+  </g>
+
+  <!-- 4. Likith Palakurthi -->
+  <g id="card-likith">
+    <rect x="624" y="240" width="288" height="112" rx="10" fill="url(#c-card)" stroke="#fbbf24" stroke-width="1.5"/>
+    <circle cx="656" cy="276" r="20" fill="#d97706" opacity="0.3"/>
+    <text x="656" y="282" fill="#fbbf24" font-size="16" text-anchor="middle">🤖</text>
+    <text x="688" y="272" fill="#ffffff" font-size="14" font-family="'Segoe UI', sans-serif" font-weight="700">Likith Palakurthi</text>
+    <text x="688" y="288" fill="#fbbf24" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="600">Embedded Edge &amp; Assistive Robotics Engineer</text>
+    <text x="688" y="304" fill="#94a3b8" font-size="9" font-family="'Segoe UI', sans-serif">TinyML &amp; Assistive Tech • ORCID: 0009-0007-2205-5079</text>
+    <rect x="640" y="316" width="256" height="24" rx="4" fill="#78350f" opacity="0.4"/>
+    <text x="768" y="332" fill="#fde68a" font-size="9.5" font-family="'Segoe UI', sans-serif" font-style="italic" text-anchor="middle">"Fault-tolerant silicon for tangible human accessibility"</text>
+  </g>
+
+  <!-- ==================== CENTRAL CONVERGENCE CORE ==================== -->
+  <g id="central-core">
+    <circle cx="480" cy="220" r="54" fill="#0f172a" stroke="url(#c-hub)" stroke-width="2.5"/>
+    <circle cx="480" cy="220" r="46" fill="#1e1b4b" opacity="0.8"/>
+    <text x="480" y="212" fill="#38bdf8" font-size="11" font-family="'Segoe UI', sans-serif" font-weight="800" text-anchor="middle">RUNTIME</text>
+    <text x="480" y="228" fill="#c084fc" font-size="11" font-family="'Segoe UI', sans-serif" font-weight="800" text-anchor="middle">SLAYERS</text>
+    <text x="480" y="244" fill="#94a3b8" font-size="8.5" font-family="'Segoe UI', sans-serif" text-anchor="middle">BOUNDARY</text>
+  </g>
+</svg>

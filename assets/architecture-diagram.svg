@@ -1,0 +1,170 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 480" width="100%" height="100%" role="img" aria-labelledby="arch-title arch-desc">
+  <title id="arch-title">Runtime-Slayers Multi-Domain AI Engine Architecture</title>
+  <desc id="arch-desc">Architecture diagram showing sensory telemetry flowing through mathematical invariant engines, processed by the Core Research Council AI surrogates, and outputting to Aerospace, Defense, Electronics, and Biomedical domains.</desc>
+  
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#0e1524"/>
+    </linearGradient>
+    <linearGradient id="card-grad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#161f33"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="blue-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="cyan-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f2fe"/>
+      <stop offset="100%" stop-color="#4facfe"/>
+    </linearGradient>
+    <linearGradient id="purple-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#9333ea"/>
+    </linearGradient>
+    <linearGradient id="rose-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <linearGradient id="emerald-accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Arrow markers -->
+    <marker id="arr-cyan" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#38bdf8"/>
+    </marker>
+    <marker id="arr-purple" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#c084fc"/>
+    </marker>
+    <marker id="arr-emerald" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#34d399"/>
+    </marker>
+    
+    <!-- Subtle dot grid pattern -->
+    <pattern id="dot-grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.3"/>
+    </pattern>
+
+    <filter id="soft-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="480" rx="12" fill="url(#bg-grad)"/>
+  <rect width="960" height="480" rx="12" fill="url(#dot-grid)"/>
+  <rect width="960" height="480" rx="12" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Section Title -->
+  <text x="480" y="36" fill="#f8fafc" font-size="18" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" font-weight="700" text-anchor="middle" letter-spacing="0.05em">THE RUNTIME-SLAYERS MULTI-DOMAIN AI ENGINE</text>
+  <text x="480" y="56" fill="#94a3b8" font-size="11" font-family="'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif" text-anchor="middle">Extracting Complex High-Level Results Across Natural, Mechanical &amp; Biological Systems</text>
+
+  <!-- ==================== CONNECTORS (Drawn first for clean z-order) ==================== -->
+  <!-- Col 1 to Col 2 (x: 216 -> 272) -->
+  <path d="M 216 112 H 244 A 8 8 0 0 1 252 120 V 172 A 8 8 0 0 0 260 180 H 272" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arr-cyan)" opacity="0.85"/>
+  <path d="M 216 180 H 272" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arr-cyan)" opacity="0.85"/>
+  <path d="M 216 248 H 244 A 8 8 0 0 0 252 240 V 188 A 8 8 0 0 1 260 180 H 272" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arr-cyan)" opacity="0.85"/>
+  <path d="M 216 316 H 244 A 8 8 0 0 1 252 324 V 348 A 8 8 0 0 0 260 356 H 272" fill="none" stroke="#38bdf8" stroke-width="1.5" marker-end="url(#arr-cyan)" opacity="0.85"/>
+
+  <!-- Col 2 to Col 3 (x: 464 -> 528) -->
+  <path d="M 464 180 H 496 A 8 8 0 0 1 504 188 V 232 A 8 8 0 0 0 512 240 H 528" fill="none" stroke="#c084fc" stroke-width="1.5" marker-end="url(#arr-purple)" opacity="0.9"/>
+  <path d="M 464 356 H 496 A 8 8 0 0 0 504 348 V 248 A 8 8 0 0 1 512 240 H 528" fill="none" stroke="#c084fc" stroke-width="1.5" marker-end="url(#arr-purple)" opacity="0.9"/>
+
+  <!-- Col 3 to Col 4 (x: 720 -> 768) -->
+  <path d="M 720 220 H 744 A 8 8 0 0 0 752 212 V 112 A 8 8 0 0 1 760 104 H 768" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arr-emerald)" opacity="0.85"/>
+  <path d="M 720 232 H 744 A 8 8 0 0 0 752 224 V 188 A 8 8 0 0 1 760 180 H 768" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arr-emerald)" opacity="0.85"/>
+  <path d="M 720 248 H 744 A 8 8 0 0 1 752 256 V 268 A 8 8 0 0 0 760 276 H 768" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arr-emerald)" opacity="0.85"/>
+  <path d="M 720 260 H 744 A 8 8 0 0 1 752 268 V 348 A 8 8 0 0 0 760 356 H 768" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arr-emerald)" opacity="0.85"/>
+  <path d="M 720 272 H 740 A 8 8 0 0 1 748 280 V 420 A 8 8 0 0 0 756 428 H 768" fill="none" stroke="#34d399" stroke-width="1.5" marker-end="url(#arr-emerald)" opacity="0.85"/>
+
+  <!-- ==================== COLUMN 1: EMPIRICAL GROUND TRUTH ==================== -->
+  <g id="col-empirical">
+    <!-- Card 1 -->
+    <rect x="40" y="88" width="176" height="48" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="56" y="110" fill="#f8fafc" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="600">Turbofan Telemetry</text>
+    <text x="56" y="126" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">NASA C-MAPSS Runs</text>
+
+    <!-- Card 2 -->
+    <rect x="40" y="156" width="176" height="48" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="56" y="178" fill="#f8fafc" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="600">Multi-Modal Radar &amp; RF</text>
+    <text x="56" y="194" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">Micro-Doppler &amp; SDR IQ</text>
+
+    <!-- Card 3 -->
+    <rect x="40" y="224" width="176" height="48" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="56" y="246" fill="#f8fafc" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="600">Bioelectric Potentials</text>
+    <text x="56" y="262" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">PhysioNet EDF &amp; OECT</text>
+
+    <!-- Card 4 -->
+    <rect x="40" y="292" width="176" height="48" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="56" y="314" fill="#f8fafc" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="600">Molecular &amp; Imaging</text>
+    <text x="56" y="330" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">TCIA MRI, PDB &amp; CITE-seq</text>
+  </g>
+
+  <!-- ==================== COLUMN 2: MATHEMATICAL INVARIANCE ENGINES ==================== -->
+  <g id="col-math">
+    <!-- Math Block 1 -->
+    <rect x="272" y="116" width="192" height="128" rx="10" fill="url(#card-grad)" stroke="#0ea5e9" stroke-width="1.2"/>
+    <rect x="288" y="128" width="88" height="18" rx="4" fill="#0369a1" opacity="0.4"/>
+    <text x="332" y="141" fill="#38bdf8" font-size="9" font-family="'Segoe UI', sans-serif" font-weight="700" text-anchor="middle">THERMODYNAMICS</text>
+    <text x="288" y="166" fill="#f1f5f9" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="600">Clausius-Duhem Gating</text>
+    <text x="288" y="184" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">dS_gen/dt &gt;= 0 Conservation</text>
+    <text x="288" y="202" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">WKB Quantum Tunneling</text>
+    <text x="288" y="220" fill="#38bdf8" font-size="10" font-family="'Segoe UI', sans-serif">Gross-Pitaevskii NLSE</text>
+
+    <!-- Math Block 2 -->
+    <rect x="272" y="292" width="192" height="128" rx="10" fill="url(#card-grad)" stroke="#a855f7" stroke-width="1.2"/>
+    <rect x="288" y="304" width="96" height="18" rx="4" fill="#6b21a8" opacity="0.4"/>
+    <text x="336" y="317" fill="#c084fc" font-size="9" font-family="'Segoe UI', sans-serif" font-weight="700" text-anchor="middle">ACTIVE INFERENCE</text>
+    <text x="288" y="342" fill="#f1f5f9" font-size="12" font-family="'Segoe UI', sans-serif" font-weight="600">Variational Free Energy</text>
+    <text x="288" y="360" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">Markov Blanket Autopoiesis</text>
+    <text x="288" y="378" fill="#94a3b8" font-size="10" font-family="'Segoe UI', sans-serif">Liouville-von Neumann SDE</text>
+    <text x="288" y="396" fill="#c084fc" font-size="10" font-family="'Segoe UI', sans-serif">Persistent Homology (TDA)</text>
+  </g>
+
+  <!-- ==================== COLUMN 3: CORE AI SURROGATES & GRAPH REASONING ==================== -->
+  <g id="col-core-ai">
+    <rect x="528" y="152" width="192" height="176" rx="12" fill="url(#card-grad)" stroke="#8b5cf6" stroke-width="2" filter="url(#soft-glow)"/>
+    <rect x="528" y="152" width="192" height="176" rx="12" fill="url(#card-grad)" stroke="#8b5cf6" stroke-width="1.5"/>
+    <rect x="548" y="168" width="112" height="20" rx="4" fill="#5b21b6" opacity="0.4"/>
+    <text x="604" y="182" fill="#c084fc" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="700" text-anchor="middle">AI SURROGATE CORE</text>
+    
+    <text x="548" y="214" fill="#ffffff" font-size="13" font-family="'Segoe UI', sans-serif" font-weight="700">Physics-Informed Graphs</text>
+    <text x="548" y="232" fill="#94a3b8" font-size="11" font-family="'Segoe UI', sans-serif">• Spatio-Temporal GNNs</text>
+    <text x="548" y="250" fill="#94a3b8" font-size="11" font-family="'Segoe UI', sans-serif">• Neural-Symbolic Consensus</text>
+    <text x="548" y="268" fill="#94a3b8" font-size="11" font-family="'Segoe UI', sans-serif">• Attention-Gated Radiomics</text>
+    <text x="548" y="286" fill="#94a3b8" font-size="11" font-family="'Segoe UI', sans-serif">• Multi-Modal Video VLM</text>
+    <text x="548" y="306" fill="#38bdf8" font-size="10" font-family="'Segoe UI', sans-serif">Deterministic Silicon Runtime</text>
+  </g>
+
+  <!-- ==================== COLUMN 4: DOMAIN IMPACTS ==================== -->
+  <g id="col-domains">
+    <!-- Domain 1: Aerospace -->
+    <rect x="768" y="80" width="156" height="48" rx="8" fill="url(#card-grad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="780" y="100" fill="#38bdf8" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="700">AEROSPACE &amp; SPACE</text>
+    <text x="780" y="116" fill="#f8fafc" font-size="11" font-family="'Segoe UI', sans-serif">TITAN-NET &amp; Plasma TMM</text>
+
+    <!-- Domain 2: Defense -->
+    <rect x="768" y="156" width="156" height="48" rx="8" fill="url(#card-grad)" stroke="#f43f5e" stroke-width="1"/>
+    <text x="780" y="176" fill="#fb7185" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="700">DEFENSE &amp; EW</text>
+    <text x="780" y="192" fill="#f8fafc" font-size="11" font-family="'Segoe UI', sans-serif">Vishwaroop &amp; DefenseNet</text>
+
+    <!-- Domain 3: Electronics -->
+    <rect x="768" y="252" width="156" height="48" rx="8" fill="url(#card-grad)" stroke="#a855f7" stroke-width="1"/>
+    <text x="780" y="272" fill="#c084fc" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="700">ELECTRONICS &amp; BCI</text>
+    <text x="780" y="288" fill="#f8fafc" font-size="11" font-family="'Segoe UI', sans-serif">BioSync-AI &amp; PEDOT OECT</text>
+
+    <!-- Domain 4: Biomedical -->
+    <rect x="768" y="332" width="156" height="48" rx="8" fill="url(#card-grad)" stroke="#10b981" stroke-width="1"/>
+    <text x="780" y="352" fill="#34d399" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="700">BIOMEDICAL &amp; CANCER</text>
+    <text x="780" y="368" fill="#f8fafc" font-size="11" font-family="'Segoe UI', sans-serif">Carotid NVST &amp; Brain Radiomics</text>
+
+    <!-- Domain 5: Assistive & Agritech -->
+    <rect x="768" y="404" width="156" height="48" rx="8" fill="url(#card-grad)" stroke="#fbbf24" stroke-width="1"/>
+    <text x="780" y="424" fill="#fbbf24" font-size="10" font-family="'Segoe UI', sans-serif" font-weight="700">ASSISTIVE &amp; AGRI</text>
+    <text x="780" y="440" fill="#f8fafc" font-size="11" font-family="'Segoe UI', sans-serif">Haptic-Ring &amp; RhizoWhisperer</text>
+  </g>
+</svg>
