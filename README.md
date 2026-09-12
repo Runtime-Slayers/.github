@@ -6,10 +6,10 @@
 
 [![GitHub Organization](https://img.shields.io/badge/GitHub-Runtime--Slayers-0D1117?style=for-the-badge&logo=github&logoColor=58A6FF)](https://github.com/Runtime-Slayers)
 [![Institutional Affiliation](https://img.shields.io/badge/Affiliation-Amrita%20Vishwa%20Vidyapeetham-8B0000?style=for-the-badge&logo=academia&logoColor=white)](https://www.amrita.edu)
-[![Founding Core](https://img.shields.io/badge/Founding%20Core-SLR2%20Collective-1F6FEB?style=for-the-badge&logo=probot&logoColor=white)](#-the-slr2-cognitive-equation-who-we-are--our-mindset)
+[![Founding Core](https://img.shields.io/badge/Founding%20Core-SLR2%20Collective-1F6FEB?style=for-the-badge&logo=probot&logoColor=white)](#slr2-collective)
 [![Catalog Scale](https://img.shields.io/badge/Indexed%20Repositories-108%20Scientific%20Packages-238636?style=for-the-badge&logo=git&logoColor=white)](https://github.com/orgs/Runtime-Slayers/repositories)
-[![Zero-Synthetic Mandate](https://img.shields.io/badge/Epistemic%20Mandate-100%25%20Empirical%20Ground%20Truth-DA3633?style=for-the-badge&logo=target&logoColor=white)](#-the-four-immutable-axioms)
-[![Open Science](https://img.shields.io/badge/Open%20Science-Reproducibility%20Packages-8957E5?style=for-the-badge&logo=arxiv&logoColor=white)](#-societal-sovereignty--human-centric-utility)
+[![Zero-Synthetic Mandate](https://img.shields.io/badge/Epistemic%20Mandate-100%25%20Empirical%20Ground%20Truth-DA3633?style=for-the-badge&logo=target&logoColor=white)](#axioms)
+[![Open Science](https://img.shields.io/badge/Open%20Science-Reproducibility%20Packages-8957E5?style=for-the-badge&logo=arxiv&logoColor=white)](#societal-impact)
 
 <br/>
 
@@ -28,19 +28,20 @@
 ```
 
 <p align="center">
-  <a href="#-the-runtime-slayers-epistemic-manifesto"><b>Manifesto</b></a> •
-  <a href="#-the-slr2-cognitive-equation-who-we-are--our-mindset"><b>The SLR2 Collective</b></a> •
-  <a href="#-the-seven-pillars-curiosity-genesis--formal-derivations"><b>Curiosity Genesis & Derivations</b></a> •
-  <a href="#-top-50-flagship-repositories-encyclopedia"><b>Top 50 Flagships</b></a> •
-  <a href="#-technology-arsenal--hardware-synthesis"><b>Tech Arsenal</b></a> •
-  <a href="#-societal-sovereignty--human-centric-utility"><b>Societal Impact</b></a> •
-  <a href="#-collaborative-channels--contact"><b>Collaborate</b></a>
+  <a href="#manifesto"><b>Manifesto</b></a> •
+  <a href="#slr2-collective"><b>The SLR2 Collective</b></a> •
+  <a href="#seven-pillars"><b>Curiosity Genesis & Derivations</b></a> •
+  <a href="#flagship-repos"><b>Top 50 Flagships</b></a> •
+  <a href="#tech-arsenal"><b>Tech Arsenal</b></a> •
+  <a href="#societal-impact"><b>Societal Impact</b></a> •
+  <a href="#collaborate"><b>Collaborate</b></a>
 </p>
 
 ---
 
 </div>
 
+<a id="manifesto"></a>
 ## 🌌 The Runtime-Slayers Epistemic Manifesto
 
 ### The Crisis of Modern Artificial Intelligence
@@ -69,13 +70,14 @@ Operating out of the **Amrita School of Artificial Intelligence, Amrita Vishwa V
    Constraints                 TCIA & DISFA            FPGA & FreeRTOS             Crop Resilience
 ```
 
+<a id="axioms"></a>
 ### The Four Immutable Axioms
 
 1. **Axiom I: First-Principle Invariance**
-   Every neural loss surface must incorporate physical priors. Unconstrained optimization generates non-physical solutions. Whether calculating remaining useful life in a Pratt & Whitney turbofan or predicting electron tunneling through a supercritical re-entry plasma sheath, physical conservation laws—energy, momentum, mass continuity, and thermodynamic entropy production—are embedded directly into our computational graphs.
+   Every neural loss surface must incorporate physical priors. Unconstrained optimization generates non-physical solutions. Whether calculating remaining useful life in an aero turbofan or predicting electron tunneling through a supercritical re-entry plasma sheath, physical conservation laws—energy, momentum, mass continuity, and thermodynamic entropy production—are embedded directly into our computational graphs.
 
 2. **Axiom II: The Zero-Synthetic-Delusion Mandate**
-   We enforce a strict, organization-wide rejection of synthetic data illusions. Models trained on synthetic benchmarks yield fragile, uncalibrated confidence. Every architecture in our 108+ repositories is trained, evaluated, and stress-tested against real-world physics and messy empirical telemetry:
+   We enforce a strict, organization-wide rejection of synthetic data illusions. Models trained on synthetic benchmarks yield fragile, uncalibrated confidence. Every architecture in our 108+ repositories is trained, evaluated, and stress-tested against real-world physics and noisy empirical telemetry:
    * **Turbofan Aero-Propulsion**: NASA C-MAPSS degradation trajectories with real flight-profile transitions.
    * **Neurotechnology & BCI**: PhysioNet international 10-20 EEG EDF archives, TCIA clinical oncology scans, and DISFA facial action unit metrics.
    * **Quantum & Atomic Systems**: NIST Atomic Spectra Database (ASD) and NASA NSTAR empirical telemetry.
@@ -89,11 +91,14 @@ Operating out of the **Amrita School of Artificial Intelligence, Amrita Vishwa V
 
 ---
 
+<a id="slr2-collective"></a>
 ## 👥 The SLR2 Cognitive Equation: Who We Are & Our Mindset
 
 The intellectual engine of **Runtime-Slayers** is powered by the **SLR2 Collective** (Saran, Likith, Rajendra, Ramanathan). We operate as a tightly coupled cognitive circuit, where each founder's perspective acts as a vital mathematical operator:
 
-$$\text{Runtime-Slayers} = \oint_{\text{SLR2}} \Big( \mathcal{T}_{\text{Rajendra}} \;\otimes\; \mathcal{B}_{\text{Saran}} \;\otimes\; \mathcal{M}_{\text{Muthuraman}} \;\otimes\; \mathcal{E}_{\text{Likith}} \Big) \, d(\text{Runtime})$$
+$$
+\text{Runtime-Slayers} = \oint_{\text{SLR2}} \Big( \mathcal{T}_{\text{Rajendra}} \otimes \mathcal{B}_{\text{Saran}} \otimes \mathcal{M}_{\text{Muthuraman}} \otimes \mathcal{E}_{\text{Likith}} \Big) \, d(\text{Runtime})
+$$
 
 ```
    ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -134,6 +139,7 @@ $$\text{Runtime-Slayers} = \oint_{\text{SLR2}} \Big( \mathcal{T}_{\text{Rajendra
       <p>
         <a href="https://github.com/sepas1609"><img src="https://img.shields.io/badge/GitHub-sepas1609-181717?style=flat-square&logo=github" alt="GitHub" /></a>
         <a href="https://orcid.org/0009-0006-4010-050X"><img src="https://img.shields.io/badge/ORCID-0009--0006--4010--050X-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" /></a>
+        <a href="mailto:saran.boddu777@gmail.com"><img src="https://img.shields.io/badge/Email-saran.boddu777%40gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email" /></a>
       </p>
       <hr/>
       <p><b>🧠 The Epistemic Perspective:</b><br/>
@@ -185,6 +191,7 @@ $$\text{Runtime-Slayers} = \oint_{\text{SLR2}} \Big( \mathcal{T}_{\text{Rajendra
 
 ---
 
+<a id="seven-pillars"></a>
 ## 🏛️ The Seven Pillars: Curiosity Genesis & Formal Derivations
 
 Our 108+ repositories are organized into seven foundational scientific pillars. Each pillar was sparked by a fundamental physical paradox or structural failure of standard machine learning, resolved through rigorous mathematical derivation:
@@ -209,33 +216,42 @@ Our 108+ repositories are organized into seven foundational scientific pillars. 
 
 <details open>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Failure of Monotonic Degradation in PINNs</b></summary>
-<br/>
 
 > **The Paradox**: Standard Physics-Informed Neural Networks (PINNs) applied to turbofan Remaining Useful Life (RUL) estimation enforce a strict monotonic entropy and wear penalty: $\frac{\partial D}{\partial t} \ge 0$. However, in commercial and military aviation, aircraft undergo depot-level maintenance: turbine blades are recoated, bearings are replaced, and compressor stages are washed. These interventions induce non-differentiable jump recoveries ($\Delta D < 0$) in the degradation trajectory. Standard PINNs treat these life-extending overhauls as catastrophic physics violations, resulting in severe RUL underestimation and premature engine groundings.
 
 #### 📐 Formal Mathematical Derivation: Thermodynamic Gated Physics Loss
 To solve this, we formulated the **Thermodynamic Gated Physics Loss** implemented in [TITAN-NET](https://github.com/Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer). We decouple continuous cruise degradation from discrete maintenance events by coupling the Clausius-Duhem inequality with a thermal gradient gating function:
 
-$$\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{data}} + \lambda_{\text{phys}} \cdot \Psi(T_{\text{exhaust}}, \nabla_t \Phi) \cdot \max\Big(0, -\dot{S}_{\text{gen}}\Big)$$
+$$
+\mathcal{L}_{\text{total}} = \mathcal{L}_{\text{data}} + \lambda_{\text{phys}} \cdot \Psi(T_{\text{exhaust}}, \nabla_t \Phi) \cdot \max\Big(0, -\dot{S}_{\text{gen}}\Big)
+$$
 
 Where the thermodynamic entropy generation rate $\dot{S}_{\text{gen}}$ in the gas path is governed by:
 
-$$\dot{S}_{\text{gen}} = \rho \left( \frac{\partial s}{\partial t} + \mathbf{v} \cdot \nabla s \right) - \nabla \cdot \left(\frac{\mathbf{q}}{T}\right) - \frac{\boldsymbol{\tau} : \nabla \mathbf{v}}{T} \ge 0$$
+$$
+\dot{S}_{\text{gen}} = \rho \left( \frac{\partial s}{\partial t} + \mathbf{v} \cdot \nabla s \right) - \nabla \cdot \left(\frac{\mathbf{q}}{T}\right) - \frac{\boldsymbol{\tau} : \nabla \mathbf{v}}{T} \ge 0
+$$
 
 The gating operator $\Psi(T_{\text{exhaust}}, \nabla_t \Phi)$ acts as a soft Heaviside filter over the engine operational state:
 
-$$\Psi(T_{\text{exhaust}}, \nabla_t \Phi) = \frac{1}{1 + \exp\Big(-\kappa \cdot \big(\|\nabla_t \Phi_{\text{sensor}}\| - \theta_{\text{maint}}\big)\Big)}$$
+$$
+\Psi(T_{\text{exhaust}}, \nabla_t \Phi) = \frac{1}{1 + \exp\Big(-\kappa \cdot \big(\|\nabla_t \Phi_{\text{sensor}}\| - \theta_{\text{maint}}\big)\Big)}
+$$
 
 During standard flight, $\Psi \to 1$, strictly enforcing thermodynamic degradation. When maintenance occurs, $\|\nabla_t \Phi\| > \theta_{\text{maint}}$, driving $\Psi \to 0$ and allowing the network to assimilate component renewal without gradient explosion.
 
 #### 📐 Semiclassical WKB Quantum Ion Propulsion Derivation
 In [Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB](https://github.com/Runtime-Slayers/Quantum-Tunneling-Enhanced-Ion-Propulsion-WKB), we eliminate thermal cathode burn-out by modeling cold-field electron tunneling ionization under the Wentzel-Kramers-Brillouin (WKB) approximation:
 
-$$T_{\text{WKB}} \approx \exp\left( -2 \int_{x_1}^{x_2} \sqrt{\frac{2m_e}{\hbar^2} \Big(V(x) - E\Big)} \, dx \right)$$
+$$
+T_{\text{WKB}} \approx \exp\left( -2 \int_{x_1}^{x_2} \sqrt{\frac{2m_e}{\hbar^2} \Big(V(x) - E\Big)} \, dx \right)
+$$
 
 For a triangular barrier shaped by an intense local electric field $\mathcal{E}$ and surface work function $\Phi$:
 
-$$V(x) - E = \Phi - e\mathcal{E}x \implies T_{\text{WKB}} = \exp\left( -\frac{4\sqrt{2m_e}\Phi^{3/2}}{3e\hbar \mathcal{E}} \right)$$
+$$
+V(x) - E = \Phi - e\mathcal{E}x \implies T_{\text{WKB}} = \exp\left( -\frac{4\sqrt{2m_e}\Phi^{3/2}}{3e\hbar \mathcal{E}} \right)
+$$
 
 Slashing ionization activation energy and increasing propellant lifetime by over $300\%$.
 
@@ -247,18 +263,21 @@ Slashing ionization activation energy and increasing propellant lifetime by over
 
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Fragility of Centralized Command Under Electronic Attack</b></summary>
-<br/>
 
 > **The Paradox**: Classical multi-agent defense command architectures rely on centralized cloud relays or consensus voting protocols (e.g., Raft, Paxos). In a contested electromagnetic environment, broadband jamming and directed-energy weapons sever communication links. Under saturated hypersonic multi-axis incursions, centralized nodes become single points of catastrophic failure. How can an edge-defense network dynamically self-organize without any centralized command?
 
 #### 📐 Formal Mathematical Derivation: Active Inference & Free Energy Autopoiesis
 In [Project-VISHWAROOP](https://github.com/Runtime-Slayers/Project-VISHWAROOP), we model the defense grid as an autopoietic Markov blanket operating under Karl Friston's **Free Energy Principle**. Each edge node maintains an internal state $\mu$ that continuously minimizes variational free energy $\mathcal{F}$ over sensory observations $y$:
 
-$$\mathcal{F}(y, \mu) = \mathbb{E}_{q(\vartheta \mid \mu)} \left[ \ln q(\vartheta \mid \mu) - \ln p(y, \vartheta) \right] = \underbrace{D_{\text{KL}}\Big(q(\vartheta \mid \mu) \parallel p(\vartheta \mid y)\Big)}_{\text{Epistemic Divergence}} - \underbrace{\ln p(y)}_{\text{Evidence Bound}}$$
+$$
+\mathcal{F}(y, \mu) = \mathbb{E}_{q(\vartheta \mid \mu)} \left[ \ln q(\vartheta \mid \mu) - \ln p(y, \vartheta) \right] = \underbrace{D_{\text{KL}}\Big(q(\vartheta \mid \mu) \parallel p(\vartheta \mid y)\Big)}_{\text{Epistemic Divergence}} - \underbrace{\ln p(y)}_{\text{Evidence Bound}}
+$$
 
 When communication channels are jammed, the sensory evidence $\ln p(y)$ collapses. The node immediately switches its internal objective from passive observation to active counter-inference by executing action $a$:
 
-$$a^* = \arg\min_a \mathbb{E}_{q(\vartheta \mid \mu)} \left[ \ln q(\vartheta \mid \mu) - \ln p(y(a), \vartheta) \right]$$
+$$
+a^* = \arg\min_a \mathbb{E}_{q(\vartheta \mid \mu)} \left[ \ln q(\vartheta \mid \mu) - \ln p(y(a), \vartheta) \right]
+$$
 
 This drives autonomous frequency hopping, beamforming nulling, and distributed kinetic engagement without requiring a single packet of centralized command telemetry.
 
@@ -270,22 +289,27 @@ This drives autonomous frequency hopping, beamforming nulling, and distributed k
 
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Fragility of Satellite Navigation in Contested Space</b></summary>
-<br/>
 
 > **The Paradox**: Modern autonomous navigation is dangerously dependent on GNSS (GPS/GLONASS/Galileo). Satellite signals arrive at Earth's surface at an infinitesimal power level ($\approx -160\,\text{dBW}$), making them trivial to jam or spoof. Inertial navigation systems (INS) drift quadratically over time: $\mathbf{x}_{\text{error}} \propto \frac{1}{2} a_{\text{bias}} t^2$. Can room-temperature quantum spin states provide drift-free navigation without external RF signals?
 
 #### 📐 Formal Mathematical Derivation: Radical-Pair Quantum Magnetometry
 In [Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation](https://github.com/Runtime-Slayers/Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation), we harness Nitrogen-Vacancy (NV) diamond centers modeled on the quantum radical-pair mechanism of avian cryptochrome-4. The spin state density matrix $\hat{\rho}(t)$ evolves under the Stochastic Liouville-von Neumann Master Equation:
 
-$$\frac{d\hat{\rho}}{dt} = -\frac{i}{\hbar} \left[ \hat{\mathcal{H}}_{\text{spin}}, \hat{\rho} \right] - \frac{k_S}{2} \left\{ \hat{P}_S, \hat{\rho} \right\} - \frac{k_T}{2} \left\{ \hat{P}_T, \hat{\rho} \right\} + \mathcal{D}(\hat{\rho})$$
+$$
+\frac{d\hat{\rho}}{dt} = -\frac{i}{\hbar} \left[ \hat{\mathcal{H}}_{\text{spin}}, \hat{\rho} \right] - \frac{k_S}{2} \left\{ \hat{P}_S, \hat{\rho} \right\} - \frac{k_T}{2} \left\{ \hat{P}_T, \hat{\rho} \right\} + \mathcal{D}(\hat{\rho})
+$$
 
 Where the spin Hamiltonian couples Zeeman interaction with geomagnetic field $\mathbf{B}$ and hyperfine nuclear coupling $\mathbf{A}_k$:
 
-$$\hat{\mathcal{H}}_{\text{spin}} = g_e \mu_B \mathbf{B} \cdot (\hat{\mathbf{S}}_1 + \hat{\mathbf{S}}_2) + \sum_k \hat{\mathbf{I}}_k \cdot \mathbf{A}_k \cdot \hat{\mathbf{S}}_1$$
+$$
+\hat{\mathcal{H}}_{\text{spin}} = g_e \mu_B \mathbf{B} \cdot (\hat{\mathbf{S}}_1 + \hat{\mathbf{S}}_2) + \sum_k \hat{\mathbf{I}}_k \cdot \mathbf{A}_k \cdot \hat{\mathbf{S}}_1
+$$
 
 Singlet yield $\Phi_S$ is sensitive to geomagnetic inclinations down to nanotesla precision:
 
-$$\Phi_S = k_S \int_0^\infty \text{Tr}\left( \hat{P}_S \, \hat{\rho}(t) \right) dt$$
+$$
+\Phi_S = k_S \int_0^\infty \text{Tr}\left( \hat{P}_S \, \hat{\rho}(t) \right) dt
+$$
 
 Coupled with an adaptive 5D Unscented Kalman Filter matching crustal magnetic anomaly maps, this achieves sub-meter positional tracking under 100% GPS blackout.
 
@@ -297,7 +321,6 @@ Coupled with an adaptive 5D Unscented Kalman Filter matching crustal magnetic an
 
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Acoustic and Spatial Ambiguity of Carotid Plaques</b></summary>
-<br/>
 
 > **The Paradox**: Ischemic stroke is the world's second leading cause of mortality, primarily triggered by the rupture of vulnerable atherosclerotic plaques in the carotid bifurcation. Traditional B-mode ultrasound evaluates plaque severity purely by lumen stenosis percentage. However, clinical pathology reveals that **hypoechoic, lipid-rich plaques rupture at $< 50\%$ stenosis**, while heavily calcified fibrous plaques remain stable at $> 80\%$ stenosis. Pure computer vision on ultrasound fails due to acoustic shadowing, speckle noise, and operator variance.
 
@@ -306,14 +329,18 @@ In our clinical vascular suite ([carotid-ultrasound-deep-fusion](https://github.
 1. **Volumetric Organic Electrochemical Transistor (OECT) Amplification**:
    Unlike silicon field-effect transistors where gating is restricted to a 2D surface, our PEDOT:PSS hydrogel channel exhibits **bulk volumetric ion penetration**:
 
-   $$g_m = \left. \frac{\partial I_D}{\partial V_G} \right|_{V_D} = \frac{W \cdot d}{L} \mu C^* \Big( V_{\text{th}} - V_G \Big)$$
+$$
+g_m = \left. \frac{\partial I_D}{\partial V_G} \right|_{V_D} = \frac{W \cdot d}{L} \mu C^* \Big( V_{\text{th}} - V_G \Big)
+$$
 
    Where volumetric capacitance $C^* > 100\,\text{F/cm}^3$, amplifying microvolt-level electrophysiological potentials with extraordinary signal-to-noise ratios ($> 45\,\text{dB}$) directly on the skin surface.
 
 2. **Neuro-Vascular Symbiotic Cross-Attention**:
    We fuse B-mode acoustic attenuation tensors $\mathbf{F}_{\text{acoustic}} \in \mathbb{R}^{H \times W \times C}$ with blood serum metabolic biomarkers $\mathbf{m} \in \mathbb{R}^{D}$ via scaled dot-product cross-attention:
 
-   $$\mathbf{Z}_{\text{fused}} = \text{Softmax}\left( \frac{(\mathbf{W}_Q \mathbf{F}_{\text{acoustic}})(\mathbf{W}_K \mathbf{m})^T}{\sqrt{d_k}} \right) (\mathbf{W}_V \mathbf{m})$$
+$$
+\mathbf{Z}_{\text{fused}} = \text{Softmax}\left( \frac{(\mathbf{W}_Q \mathbf{F}_{\text{acoustic}})(\mathbf{W}_K \mathbf{m})^T}{\sqrt{d_k}} \right) (\mathbf{W}_V \mathbf{m})
+$$
 
    This pinpoints rupture-prone vulnerable plaques years before catastrophic cerebrovascular incidents.
 
@@ -325,18 +352,21 @@ In our clinical vascular suite ([carotid-ultrasound-deep-fusion](https://github.
 
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Non-Linearity of the Central Dogma</b></summary>
-<br/>
 
 > **The Paradox**: Molecular biology has long relied on the dogma that transcriptomic mRNA abundance directly dictates phenotypic protein synthesis. Single-cell CITE-seq (Cellular Indexing of Transcriptomes and Epitopes by Sequencing) empirical data reveals that **Pearson correlation between mRNA and surface protein expression often drops below 0.35**. Traditional differential expression models fail because they ignore post-transcriptional buffering delays, ribosomal elongation pauses, and selective degradation.
 
 #### 📐 Formal Mathematical Derivation: Cross-Modal Optimal Transport & MoG Latent Discordance
 In [CITEDiscord-Net](https://github.com/Runtime-Slayers/CITEDiscord-Net), we formulate mRNA-to-protein discordance as an entropy-regularized optimal transport problem across multi-modal manifolds:
 
-$$\mathcal{W}_{\epsilon}(\mu_{\text{RNA}}, \nu_{\text{Protein}}) = \min_{\mathbf{T} \in \Pi} \sum_{i,j} \mathbf{T}_{ij} \cdot D_{\text{cost}}(\mathbf{x}_i, \mathbf{y}_j) + \epsilon \sum_{i,j} \mathbf{T}_{ij} \ln \mathbf{T}_{ij}$$
+$$
+\mathcal{W}_{\epsilon}(\mu_{\text{RNA}}, \nu_{\text{Protein}}) = \min_{\mathbf{T} \in \Pi} \sum_{i,j} \mathbf{T}_{ij} \cdot D_{\text{cost}}(\mathbf{x}_i, \mathbf{y}_j) + \epsilon \sum_{i,j} \mathbf{T}_{ij} \ln \mathbf{T}_{ij}
+$$
 
 Coupled with a **Mixture-of-Gaussians (MoG)** prior over latent discordance vectors:
 
-$$p(\mathbf{z}_{\text{discord}}) = \sum_{k=1}^K \pi_k \, \mathcal{N}\Big(\mathbf{z} \;\Big|\; \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k\Big)$$
+$$
+p(\mathbf{z}_{\text{discord}}) = \sum_{k=1}^K \pi_k \, \mathcal{N}\Big(\mathbf{z} \;\Big|\; \boldsymbol{\mu}_k, \boldsymbol{\Sigma}_k\Big)
+$$
 
 This isolates hidden post-transcriptional regulatory checkpoints and reveals novel oncological target pathways invisible to standard single-cell transcriptomics.
 
@@ -348,18 +378,21 @@ This isolates hidden post-transcriptional regulatory checkpoints and reveals nov
 
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: The Catastrophic Hallucination of Video-Language Models</b></summary>
-<br/>
 
 > **The Paradox**: Large Vision-Language Models (VLMs) demonstrate impressive reasoning on static images, but suffer catastrophic hallucination when deployed on continuous video streams. They confabulate temporal causality, invert object interactions, and drift into speculative output over multi-minute sequences. Why? Because autoregressive token generation compounds spatial-temporal uncertainty exponentially across video frames: $\text{Var}(y_T) \propto e^{\lambda T}$.
 
 #### 📐 Formal Mathematical Derivation: Neural-Symbolic Consensus Reasoning
 In our flagship [CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning](https://github.com/Runtime-Slayers/CUHK-X-Kaggle-VLM-Neural-Symbolic-Consensus-Reasoning) pipeline (which scaled from 0.485 to >0.77485 accuracy across 278 experimental architectures), we bounded temporal drift via **Markov Logic Symbolic Constraints**:
 
-$$P(Y \mid \mathbf{V}) = \frac{1}{\mathcal{Z}} \exp\left( \sum_i w_i \cdot f_i(\mathbf{V}, Y) + \sum_j \lambda_j \cdot \mathcal{C}_j(Y) \right)$$
+$$
+P(Y \mid \mathbf{V}) = \frac{1}{\mathcal{Z}} \exp\left( \sum_i w_i \cdot f_i(\mathbf{V}, Y) + \sum_j \lambda_j \cdot \mathcal{C}_j(Y) \right)
+$$
 
 Where $\mathcal{C}_j(Y) \in \{0, 1\}$ represents hard symbolic rules enforcing temporal causality (e.g., an object cannot be removed before it is placed). Tokens with high semantic entropy are filtered out:
 
-$$\mathcal{H}_{\text{token}}(x_t) = -\sum_{w \in \mathcal{V}} P(w \mid x_{<t}, \mathbf{V}) \log P(w \mid x_{<t}, \mathbf{V}) \le \theta_{\text{epistemic}}$$
+$$
+\mathcal{H}_{\text{token}}(x_t) = -\sum_{w \in \mathcal{V}} P(w \mid x_{<t}, \mathbf{V}) \log P(w \mid x_{<t}, \mathbf{V}) \le \theta_{\text{epistemic}}
+$$
 
 Eliminating temporal hallucinations and ensuring reliable video reasoning across long horizons.
 
@@ -371,18 +404,21 @@ Eliminating temporal hallucinations and ensuring reliable video reasoning across
 
 <details>
 <summary><b>🔍 Epistemic Curiosity Genesis: Root Architecture as a 3D Topological Sensor</b></summary>
-<br/>
 
 > **The Paradox**: Modern agricultural drought monitoring depends on satellite remote sensing (NDVI, soil reflectance). However, by the time satellite imagery registers canopy moisture stress, **the plant's vascular xylem has already suffered irreversible cavitation**, slashing crop yield by $> 40\%$. Roots are the primary sensors of soil edaphic moisture, but extracting 3D geometric phenotypes from opaque, heterogeneous soil has been computationally intractable.
 
 #### 📐 Formal Mathematical Derivation: Persistent Homology of Root Skeletons
 In [RhizoWhisperer](https://github.com/Runtime-Slayers/RhizoWhisperer) and [RhizoWhisperer-Model-Architectures](https://github.com/Runtime-Slayers/RhizoWhisperer-Model-Architectures), we solve this through **Topological Data Analysis (TDA)**. We treat segmented 3D root systems as point clouds and compute the Vietoris-Rips filtration complex:
 
-$$\text{VR}_\epsilon(X) = \left\{ \sigma \subseteq X \;\Big|\; \forall u, v \in \sigma, \; \|u - v\| \le \epsilon \right\}$$
+$$
+\text{VR}_\epsilon(X) = \left\{ \sigma \subseteq X \;\Big|\; \forall u, v \in \sigma, \; \|u - v\| \le \epsilon \right\}
+$$
 
 We track the birth ($b_i$) and death ($d_i$) of $k$-dimensional topological cavities (loops and voids indicating root branching angles and lateral exploration). We measure drought response through the **$p$-Wasserstein distance** between persistence diagrams:
 
-$$\mathcal{W}_p(\mathcal{D}_{\text{stressed}}, \mathcal{D}_{\text{baseline}}) = \left( \inf_{\gamma} \sum_{x \in \mathcal{D}_{\text{stressed}}} \|x - \gamma(x)\|_\infty^p \right)^{1/p}$$
+$$
+\mathcal{W}_p(\mathcal{D}_{\text{stressed}}, \mathcal{D}_{\text{baseline}}) = \left( \inf_{\gamma} \sum_{x \in \mathcal{D}_{\text{stressed}}} \|x - \gamma(x)\|_\infty^p \right)^{1/p}
+$$
 
 This detects root water foraging adaptations **14 days before any detectable change in leaf canopy reflectance**, enabling early precision irrigation and climate-resilient crop breeding.
 
@@ -390,6 +426,7 @@ This detects root water foraging adaptations **14 days before any detectable cha
 
 ---
 
+<a id="flagship-repos"></a>
 ## 🌟 Top 50 Flagship Repositories: Encyclopedia
 
 Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**, detailing technological novelty, mathematical grounding, real-world societal impact, and empirical validation source.
@@ -445,7 +482,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 #### 9. [Project-VISHWAROOP](https://github.com/Runtime-Slayers/Project-VISHWAROOP)
 * **Mathematical Architecture**: Autopoietic Cognitive Defense Grid formulated upon Karl Friston's **Active Inference & Free Energy Principle**, minimizing variational free energy under heavy jamming and communication severance.
 * **Societal & Industrial Impact**: Prevents defense command paralysis during saturated multi-axis hypersonic, cyber, and electronic attacks, preserving defensive sovereignty without human panic errors.
-* **Empirical Validation**: Multi-agent agent-based simulation stress-tested across asymmetric electronic jamming scenarios.
+* **Empirical Validation**: Distributed multi-agent simulation stress-tested across asymmetric electronic jamming scenarios.
 
 #### 10. [DefenseNet](https://github.com/Runtime-Slayers/DefenseNet)
 * **Mathematical Architecture**: Spatio-Temporal Graph Neural Network (ST-GNN) performing real-time structural analysis over enterprise network topology to detect covert lateral movement and Advanced Persistent Threats (APTs) in $< 800\,\mu\text{s}$.
@@ -674,6 +711,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 ---
 
+<a id="tech-arsenal"></a>
 ## 🛠️ Technology Arsenal & Hardware Synthesis
 
 Our technological ecosystem bridges formal symbolic mathematics, distributed GPU deep learning, and bare-metal micro-silicon:
@@ -709,6 +747,7 @@ Our technological ecosystem bridges formal symbolic mathematics, distributed GPU
 
 ---
 
+<a id="societal-impact"></a>
 ## 🌍 Societal Sovereignty & Human-Centric Utility
 
 At Runtime-Slayers, code is never written for the sake of empty abstraction. Every architecture is engineered to establish technological sovereignty and protect human life:
@@ -726,6 +765,7 @@ At Runtime-Slayers, code is never written for the sake of empty abstraction. Eve
 
 ---
 
+<a id="collaborate"></a>
 ## 🤝 Collaborative Channels & Contact
 
 We welcome rigorous intellectual collaboration with **academic laboratories, aerospace defense contractors, clinical research institutes, and open-source systems contributors** who share our commitment to mathematical truth and physical invariance.
