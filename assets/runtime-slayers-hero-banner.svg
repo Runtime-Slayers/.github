@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 240" width="100%" height="100%" role="img" aria-label="Runtime Slayers Hero Banner">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0c1222"/>
+      <stop offset="100%" stop-color="#05070e"/>
+    </linearGradient>
+
+    <!-- Moving Laser Sweep Gradient for Letters (Disco Light Pulse) -->
+    <linearGradient id="laser-sweep" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" 
+          values="#38bdf8;#818cf8;#c084fc;#f43f5e;#fb7185;#f59e0b;#34d399;#38bdf8" 
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="25%" stop-color="#818cf8">
+        <animate attributeName="stop-color" 
+          values="#818cf8;#c084fc;#f43f5e;#fb7185;#f59e0b;#34d399;#38bdf8;#818cf8" 
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#c084fc">
+        <animate attributeName="stop-color" 
+          values="#c084fc;#f43f5e;#fb7185;#f59e0b;#34d399;#38bdf8;#818cf8;#c084fc" 
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#f43f5e">
+        <animate attributeName="stop-color" 
+          values="#f43f5e;#fb7185;#f59e0b;#34d399;#38bdf8;#818cf8;#c084fc;#f43f5e" 
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" 
+          values="#38bdf8;#818cf8;#c084fc;#f43f5e;#fb7185;#f59e0b;#34d399;#38bdf8" 
+          dur="4s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <!-- Glowing Laser Sweep for the Horizon Beam -->
+    <linearGradient id="beam-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#f43f5e" stop-opacity="1"/>
+      <stop offset="80%" stop-color="#c084fc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+      <animate attributeName="x1" values="-100%;100%" dur="3s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0%;200%" dur="3s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Multi-Layer Neon Glow Filter -->
+    <filter id="neon-buzz" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur1"/>
+      <feGaussianBlur stdDeviation="8" result="blur2"/>
+      <feGaussianBlur stdDeviation="15" result="blur3"/>
+      <feMerge>
+        <feMergeNode in="blur3"/>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle Particle Dot Grid -->
+    <pattern id="banner-grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#334155" opacity="0.3"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes textShimmer {
+      0% { letter-spacing: 0.08em; opacity: 0.95; }
+      50% { letter-spacing: 0.10em; opacity: 1; }
+      100% { letter-spacing: 0.08em; opacity: 0.95; }
+    }
+    @keyframes laserPulse {
+      0% { transform: scaleX(0.98); opacity: 0.7; }
+      50% { transform: scaleX(1.02); opacity: 1; filter: drop-shadow(0 0 8px #f43f5e); }
+      100% { transform: scaleX(0.98); opacity: 0.7; }
+    }
+    @keyframes starTwinkle {
+      0%, 100% { opacity: 0.2; transform: scale(0.8); }
+      50% { opacity: 0.9; transform: scale(1.3); }
+    }
+    .hero-title {
+      font-family: 'Montserrat', 'Impact', 'Segoe UI Black', -apple-system, sans-serif;
+      font-size: 58px;
+      font-weight: 900;
+      text-anchor: middle;
+      text-transform: uppercase;
+      animation: textShimmer 4s ease-in-out infinite;
+    }
+    .hero-sub {
+      font-family: 'JetBrains Mono', 'Segoe UI', monospace;
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: 0.22em;
+      text-anchor: middle;
+      text-transform: uppercase;
+    }
+    .hero-tags {
+      font-family: 'JetBrains Mono', 'Segoe UI', monospace;
+      font-size: 10px;
+      letter-spacing: 0.28em;
+      text-anchor: middle;
+    }
+    .star-spark {
+      animation: starTwinkle 2.5s ease-in-out infinite;
+    }
+  </style>
+
+  <!-- Base Panel -->
+  <rect width="1000" height="240" rx="16" fill="url(#hero-bg)"/>
+  <rect width="1000" height="240" rx="16" fill="url(#banner-grid)"/>
+  <rect width="1000" height="240" rx="16" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+
+  <!-- Glowing Corner Accents -->
+  <path d="M 16 40 V 16 H 40" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <path d="M 960 16 H 984 V 40" fill="none" stroke="#38bdf8" stroke-width="2.5"/>
+  <path d="M 16 200 V 224 H 40" fill="none" stroke="#f43f5e" stroke-width="2.5"/>
+  <path d="M 960 224 H 984 V 200" fill="none" stroke="#f43f5e" stroke-width="2.5"/>
+
+  <!-- Atmospheric Cosmic Stars -->
+  <circle cx="120" cy="50" r="1.5" fill="#38bdf8" class="star-spark" style="animation-delay: 0.2s;"/>
+  <circle cx="280" cy="35" r="2" fill="#c084fc" class="star-spark" style="animation-delay: 0.8s;"/>
+  <circle cx="720" cy="45" r="1.5" fill="#f43f5e" class="star-spark" style="animation-delay: 1.2s;"/>
+  <circle cx="870" cy="60" r="2" fill="#34d399" class="star-spark" style="animation-delay: 0.5s;"/>
+  <circle cx="180" cy="180" r="2" fill="#f59e0b" class="star-spark" style="animation-delay: 1.5s;"/>
+  <circle cx="820" cy="185" r="1.5" fill="#38bdf8" class="star-spark" style="animation-delay: 1.9s;"/>
+
+  <!-- Top Institutional Moniker -->
+  <text x="500" y="46" fill="#94a3b8" class="hero-sub">
+    ⚡ AMRITA SCHOOL OF ARTIFICIAL INTELLIGENCE • AUTONOMOUS RESEARCH COLLECTIVE ⚡
+  </text>
+
+  <!-- Background Ambient Glow behind Letters -->
+  <text x="500" y="128" fill="url(#laser-sweep)" filter="url(#neon-buzz)" class="hero-title" opacity="0.65">
+    RUNTIME SLAYERS
+  </text>
+
+  <!-- Foreground High-Contrast Text with Disco Laser Sweep -->
+  <text x="500" y="128" fill="#ffffff" stroke="url(#laser-sweep)" stroke-width="2" class="hero-title">
+    RUNTIME SLAYERS
+  </text>
+
+  <!-- Sweeping Laser Horizon Beam -->
+  <rect x="150" y="148" width="700" height="3" rx="1.5" fill="url(#beam-grad)" style="animation: laserPulse 2.5s infinite;"/>
+  <circle cx="500" cy="149" r="4" fill="#f8fafc" filter="url(#neon-buzz)"/>
+
+  <!-- Dynamic Mission Pillars Tagline -->
+  <text x="500" y="184" fill="#38bdf8" class="hero-tags">
+    AEROSPACE • DEFENSE • ELECTRONICS • BIOMEDICAL • QUANTUM • GENOMICS
+  </text>
+
+  <!-- Bottom Terminal Directive -->
+  <text x="500" y="212" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="10" text-anchor="middle">
+    &lt; EXECUTING NON-EQUILIBRIUM INVARIANTS &amp; REAL-WORLD DEEP-TECH RUNTIMES &gt;
+  </text>
+</svg>

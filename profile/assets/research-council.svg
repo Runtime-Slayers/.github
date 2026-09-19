@@ -26,45 +26,45 @@
   <text x="480" y="34" fill="#f8fafc" font-size="17" font-weight="800" text-anchor="middle" letter-spacing="0.06em">THE CORE RESEARCH COUNCIL • COGNITIVE SYNTHESIS</text>
   <text x="480" y="52" fill="#94a3b8" font-size="11" text-anchor="middle">Uniting Theoretical Physics, Materials Transduction, Multimodal Reasoning &amp; Edge Silicon</text>
 
-  <!-- Convergence Paths to Central Hub (480, 200) -->
-  <path d="M 230 110 H 340 A 10 10 0 0 1 350 120 V 190 A 10 10 0 0 0 360 200 H 380" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.85"/>
-  <path d="M 230 290 H 340 A 10 10 0 0 0 350 280 V 210 A 10 10 0 0 1 360 200 H 380" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.85"/>
-  <path d="M 730 110 H 620 A 10 10 0 0 0 610 120 V 190 A 10 10 0 0 1 600 200 H 580" fill="none" stroke="#c084fc" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.85"/>
-  <path d="M 730 290 H 620 A 10 10 0 0 1 610 280 V 210 A 10 10 0 0 0 600 200 H 580" fill="none" stroke="#f59e0b" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.85"/>
+  <!-- Convergence Paths Directly Touching Central Hub Boundary (x=410 and x=550 at y=195) -->
+  <path d="M 250 105 H 340 A 12 12 0 0 1 352 117 V 183 A 12 12 0 0 0 364 195 H 410" fill="none" stroke="#38bdf8" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.9"/>
+  <path d="M 250 285 H 340 A 12 12 0 0 0 352 273 V 207 A 12 12 0 0 1 364 195 H 410" fill="none" stroke="#34d399" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.9"/>
+  <path d="M 710 105 H 620 A 12 12 0 0 0 608 117 V 183 A 12 12 0 0 1 596 195 H 550" fill="none" stroke="#c084fc" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.9"/>
+  <path d="M 710 285 H 620 A 12 12 0 0 1 608 273 V 207 A 12 12 0 0 0 596 195 H 550" fill="none" stroke="#f59e0b" stroke-width="2" marker-end="url(#arr-hub)" opacity="0.9"/>
 
   <!-- Member 1: Rajendra -->
-  <rect x="30" y="70" width="200" height="84" rx="10" fill="url(#c-card)" stroke="#38bdf8" stroke-width="1.5"/>
-  <text x="42" y="92" fill="#38bdf8" font-size="10" font-weight="700">LEAD DEEP-TECH ARCHITECT</text>
-  <text x="42" y="110" fill="#f8fafc" font-size="13" font-weight="700">Bhavanam Rajendra Reddy</text>
-  <text x="42" y="126" fill="#94a3b8" font-size="10">Theoretical Physics &amp; Aerospace</text>
-  <text x="42" y="142" fill="#64748b" font-size="9">PINN Gating • WKB Tunneling • PINNs</text>
+  <rect x="40" y="65" width="210" height="80" rx="10" fill="url(#c-card)" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="52" y="87" fill="#38bdf8" font-size="10" font-weight="700">LEAD DEEP-TECH ARCHITECT</text>
+  <text x="52" y="105" fill="#f8fafc" font-size="13" font-weight="700">Bhavanam Rajendra Reddy</text>
+  <text x="52" y="121" fill="#94a3b8" font-size="10">Theoretical Physics &amp; Aerospace</text>
+  <text x="52" y="137" fill="#64748b" font-size="9">PINN Gating • WKB Tunneling • PINNs</text>
 
   <!-- Member 2: Saran -->
-  <rect x="30" y="246" width="200" height="84" rx="10" fill="url(#c-card)" stroke="#34d399" stroke-width="1.5"/>
-  <text x="42" y="268" fill="#34d399" font-size="10" font-weight="700">TRANSDUCER ARCHITECT</text>
-  <text x="42" y="286" fill="#f8fafc" font-size="13" font-weight="700">Boddu Saran</text>
-  <text x="42" y="302" fill="#94a3b8" font-size="10">Bioengineering &amp; Materials</text>
-  <text x="42" y="318" fill="#64748b" font-size="9">PEDOT:PSS OECTs • Hydrogels • EEG</text>
+  <rect x="40" y="245" width="210" height="80" rx="10" fill="url(#c-card)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="52" y="267" fill="#34d399" font-size="10" font-weight="700">TRANSDUCER ARCHITECT</text>
+  <text x="52" y="285" fill="#f8fafc" font-size="13" font-weight="700">Boddu Saran</text>
+  <text x="52" y="301" fill="#94a3b8" font-size="10">Bioengineering &amp; Materials</text>
+  <text x="52" y="317" fill="#64748b" font-size="9">PEDOT:PSS OECTs • Hydrogels • EEG</text>
 
-  <!-- Central Hub -->
-  <circle cx="480" cy="200" r="70" fill="#0f172a" stroke="url(#c-hub)" stroke-width="3"/>
-  <circle cx="480" cy="200" r="58" fill="#131e3b" stroke="#38bdf8" stroke-dasharray="3 3"/>
-  <text x="480" y="188" fill="#f8fafc" font-size="14" font-weight="800" text-anchor="middle">RUNTIME</text>
-  <text x="480" y="206" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">SLAYERS</text>
-  <text x="480" y="224" fill="#a7f3d0" font-size="9" font-weight="600" text-anchor="middle">108 Packages</text>
-  <text x="480" y="238" fill="#94a3b8" font-size="8" text-anchor="middle">Autonomous Runtimes</text>
+  <!-- Central Hub (Center 480, 195, Radius 70) -->
+  <circle cx="480" cy="195" r="70" fill="#0f172a" stroke="url(#c-hub)" stroke-width="3"/>
+  <circle cx="480" cy="195" r="58" fill="#131e3b" stroke="#38bdf8" stroke-dasharray="3 3"/>
+  <text x="480" y="183" fill="#f8fafc" font-size="14" font-weight="800" text-anchor="middle">RUNTIME</text>
+  <text x="480" y="201" fill="#38bdf8" font-size="14" font-weight="800" text-anchor="middle">SLAYERS</text>
+  <text x="480" y="219" fill="#a7f3d0" font-size="9" font-weight="600" text-anchor="middle">108 Packages</text>
+  <text x="480" y="233" fill="#94a3b8" font-size="8" text-anchor="middle">Autonomous Runtimes</text>
 
   <!-- Member 3: Muthuraman -->
-  <rect x="730" y="70" width="200" height="84" rx="10" fill="url(#c-card)" stroke="#c084fc" stroke-width="1.5"/>
-  <text x="742" y="92" fill="#c084fc" font-size="10" font-weight="700">NEURAL-SYMBOLIC LEAD</text>
-  <text x="742" y="110" fill="#f8fafc" font-size="13" font-weight="700">Muthuraman Ramanathan</text>
-  <text x="742" y="126" fill="#94a3b8" font-size="10">Multimodal AI &amp; VLMs</text>
-  <text x="742" y="142" fill="#64748b" font-size="9">Graph Transformers • Kaggle CUHK-X</text>
+  <rect x="710" y="65" width="210" height="80" rx="10" fill="url(#c-card)" stroke="#c084fc" stroke-width="1.5"/>
+  <text x="722" y="87" fill="#c084fc" font-size="10" font-weight="700">NEURAL-SYMBOLIC LEAD</text>
+  <text x="722" y="105" fill="#f8fafc" font-size="13" font-weight="700">Muthuraman Ramanathan</text>
+  <text x="722" y="121" fill="#94a3b8" font-size="10">Multimodal AI &amp; VLMs</text>
+  <text x="722" y="137" fill="#64748b" font-size="9">Graph Transformers • Kaggle CUHK-X</text>
 
   <!-- Member 4: Likith -->
-  <rect x="730" y="246" width="200" height="84" rx="10" fill="url(#c-card)" stroke="#f59e0b" stroke-width="1.5"/>
-  <text x="742" y="268" fill="#f59e0b" font-size="10" font-weight="700">EDGE SILICON &amp; ROBOTICS</text>
-  <text x="742" y="286" fill="#f8fafc" font-size="13" font-weight="700">Likith Palakurthi</text>
-  <text x="742" y="302" fill="#94a3b8" font-size="10">Assistive Robotics &amp; Firmware</text>
-  <text x="742" y="318" fill="#64748b" font-size="9">FreeRTOS C++20 • ESP32-S3 • Tactile</text>
+  <rect x="710" y="245" width="210" height="80" rx="10" fill="url(#c-card)" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="722" y="267" fill="#f59e0b" font-size="10" font-weight="700">EDGE SILICON &amp; ROBOTICS</text>
+  <text x="722" y="285" fill="#f8fafc" font-size="13" font-weight="700">Likith Palakurthi</text>
+  <text x="722" y="301" fill="#94a3b8" font-size="10">Assistive Robotics &amp; Firmware</text>
+  <text x="722" y="317" fill="#64748b" font-size="9">FreeRTOS C++20 • ESP32-S3 • Tactile</text>
 </svg>
