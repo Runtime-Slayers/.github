@@ -2,13 +2,30 @@
   <defs>
     <linearGradient id="div-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0f172a" stop-opacity="0"/>
-      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.7"/>
-      <stop offset="50%" stop-color="#818cf8" stop-opacity="1"/>
-      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.7"/>
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#f43f5e" stop-opacity="1">
+        <animate attributeName="stop-color" values="#f43f5e;#818cf8;#38bdf8;#34d399;#f43f5e" dur="4s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="75%" stop-color="#c084fc" stop-opacity="0.8"/>
       <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
     </linearGradient>
+    <filter id="div-glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   <line x1="40" y1="12" x2="920" y2="12" stroke="url(#div-grad)" stroke-width="2"/>
-  <circle cx="480" cy="12" r="3.5" fill="#f8fafc"/>
-  <circle cx="480" cy="12" r="7" fill="#818cf8" opacity="0.35"/>
+  <circle cx="480" cy="12" r="6" fill="#818cf8" opacity="0.4" filter="url(#div-glow)">
+    <animate attributeName="r" values="4;8;4" dur="2.5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="480" cy="12" r="3" fill="#ffffff">
+    <animate attributeName="fill" values="#ffffff;#38bdf8;#f43f5e;#ffffff" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <polygon points="476,12 480,8 484,12 480,16" fill="#38bdf8" opacity="0.8">
+    <animateTransform attributeName="transform" type="rotate" from="0 480 12" to="360 480 12" dur="6s" repeatCount="indefinite"/>
+  </polygon>
 </svg>
