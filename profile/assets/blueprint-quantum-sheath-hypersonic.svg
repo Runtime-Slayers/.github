@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%" role="img" aria-labelledby="q-title q-desc">
+  <title id="q-title">Hypersonic Plasma Sheath Quantum WKB Tunneling Resonator Blueprint</title>
+  <desc id="q-desc">Architectural CAD blueprint of Mach 8-25 bow shockwave, plasma boundary layer, and WKB wave tunneling.</desc>
+  <defs>
+    <linearGradient id="q-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090f1d"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+    <pattern id="q-grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#13233a" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="q-grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="none" stroke="#1c3454" stroke-width="1"/>
+    </pattern>
+    <marker id="q-arr" markerWidth="7" markerHeight="5" refX="6" refY="2.5" orient="auto"><polygon points="0 0, 7 2.5, 0 5" fill="#00e5ff"/></marker>
+    <filter id="q-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="420" fill="url(#q-bg)"/>
+  <rect width="960" height="420" fill="url(#q-grid-minor)"/>
+  <rect width="960" height="420" fill="url(#q-grid-major)"/>
+  <rect width="960" height="420" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+
+  <!-- Blueprint Corner Guides -->
+  <path d="M 10 15 H 25 M 15 10 V 25" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M 935 15 H 950 M 945 10 V 25" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M 10 405 H 25 M 15 395 V 410" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M 935 405 H 950 M 945 395 V 410" stroke="#00e5ff" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="35" y="38" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.15em">RUNTIME SLAYERS • EXTREME AERO-PROPULSION BLUEPRINT</text>
+  <text x="35" y="58" fill="#f8fafc" font-family="'Montserrat', sans-serif" font-size="16" font-weight="800">HYPERSONIC PLASMA SHEATH QUANTUM WKB TUNNELING RESONATOR</text>
+  <text x="35" y="74" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="9">MACH 8-25 RE-ENTRY • PLASMA RF PENETRATION • 23 dB ATTENUATION REDUCTION</text>
+
+  <!-- LEFT PANEL: Nose Cone Re-entry Shockwave & Sheath Geometry -->
+  <g transform="translate(35, 95)">
+    <rect width="430" height="290" rx="8" fill="#0b1528" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="22" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG 1.0: HYPERSONIC BOW SHOCK &amp; SHEATH GEOMETRY</text>
+
+    <!-- Hypersonic Nose Cone Body -->
+    <path d="M 390 50 L 130 145 L 390 240 Z" fill="#0e1f3d" stroke="#00e5ff" stroke-width="2"/>
+    <text x="250" y="150" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">VEHICLE HULL</text>
+    <text x="250" y="165" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">Carbon-Carbon TPS</text>
+
+    <!-- Detached Hypersonic Bow Shockwave -->
+    <path d="M 410 25 C 190 50, 60 100, 60 145 C 60 190, 190 240, 410 265" 
+          fill="none" stroke="#ff3366" stroke-width="3" stroke-dasharray="8 4" opacity="0.85">
+      <animate attributeName="stroke-dashoffset" values="0;-24" dur="1s" repeatCount="indefinite"/>
+    </path>
+    <text x="65" y="110" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">BOW SHOCK (Mach 12)</text>
+
+    <!-- High-Density Ionized Plasma Sheath Layer -->
+    <path d="M 410 40 C 210 60, 85 110, 85 145 C 85 180, 210 230, 410 250 L 390 240 L 130 145 L 390 50 Z" 
+          fill="#ff3366" opacity="0.18"/>
+    <text x="120" y="90" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="8">IONIZED SHEATH</text>
+    <text x="120" y="102" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="7">n_e &gt; 10^20 m^-3</text>
+
+    <!-- Antenna Array on Vehicle Surface -->
+    <rect x="240" y="100" width="25" height="10" fill="#00e5ff" stroke="#f8fafc" stroke-width="1"/>
+    <line x1="252" y1="100" x2="170" y2="70" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <text x="270" y="108" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="8">WKB TUNNELING EMITTER</text>
+
+    <text x="16" y="275" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="8">Plasma Freq omega_p = 56.4 GHz • Standard S/X-band blocked 100% • Tunneling bypasses cutoff</text>
+  </g>
+
+  <!-- RIGHT PANEL TOP: Semiclassical Quantum Barrier Tunneling Curve -->
+  <g transform="translate(485, 95)">
+    <rect width="440" height="145" rx="8" fill="#0b1528" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="20" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG 1.1: WKB POTENTIAL BARRIER &amp; WAVE TRANSMISSION</text>
+
+    <line x1="40" y1="115" x2="390" y2="115" stroke="#475569" stroke-width="1" marker-end="url(#q-arr)"/>
+    <line x1="40" y1="115" x2="40" y2="28" stroke="#475569" stroke-width="1" marker-end="url(#q-arr)"/>
+    <text x="390" y="128" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">DISTANCE x</text>
+    <text x="22" y="28" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">V(x)</text>
+
+    <!-- Parabolic Potential Barrier Curve -->
+    <path d="M 120 115 Q 210 30, 300 115" fill="none" stroke="#ff3366" stroke-width="2.5"/>
+    <text x="210" y="48" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle">BARRIER V_max</text>
+
+    <!-- Incident Wave Packet -->
+    <path d="M 40 85 Q 55 65, 70 85 T 100 85 T 120 85" fill="none" stroke="#00e5ff" stroke-width="2"/>
+    <text x="75" y="70" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="8">INCIDENT RF</text>
+
+    <!-- Transmitted Wave Packet -->
+    <path d="M 300 105 Q 315 95, 330 105 T 360 105 T 385 105" fill="none" stroke="#10b981" stroke-width="2"/>
+    <text x="345" y="90" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="8">TRANSMITTED</text>
+
+    <text x="16" y="136" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="8">Transmission Coeff T = exp(-2 int sqrt(2m(V-E)) dx) • Continuous telemetry verified</text>
+  </g>
+
+  <!-- RIGHT PANEL BOTTOM: CAD Title Block -->
+  <g transform="translate(485, 255)">
+    <rect width="440" height="130" rx="8" fill="#0b1528" stroke="#1e3a5f" stroke-width="1.5"/>
+    
+    <line x1="0" y1="30" x2="440" y2="30" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="0" y1="65" x2="440" y2="65" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="0" y1="100" x2="440" y2="100" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="220" y1="0" x2="220" y2="100" stroke="#1e3a5f" stroke-width="1"/>
+
+    <text x="14" y="20" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">ORGANIZATION:</text>
+    <text x="85" y="20" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">RUNTIME-SLAYERS LABS</text>
+
+    <text x="234" y="20" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">DRAWING NUMBER:</text>
+    <text x="325" y="20" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">RS-AERO-PHYS-002-REV-B</text>
+
+    <text x="14" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">PROJECT REPOS:</text>
+    <text x="14" y="60" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600">plasma-cpan &amp; Plasma-Sheath-Comm</text>
+
+    <text x="234" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">LEAD ARCHITECT:</text>
+    <text x="325" y="52" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">B. RAJENDRA REDDY</text>
+
+    <text x="14" y="86" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">BENCHMARK RESULT:</text>
+    <text x="110" y="86" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">23 dB ATTENUATION DROP</text>
+
+    <text x="234" y="86" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">VALIDATION REGIME:</text>
+    <text x="330" y="86" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">MACH 8 - 25 FLIGHT</text>
+
+    <text x="14" y="118" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="8">FIRST-PRINCIPLES QUANTUM WAVE MECHANICS APPLIED TO RE-ENTRY TELEMETRY</text>
+  </g>
+</svg>

@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%" role="img" aria-labelledby="m-title m-desc">
+  <title id="m-title">Cascaded Dean Vortex Microfluidic Plasma Separator Blueprint</title>
+  <desc id="m-desc">Architectural CAD blueprint of 4-stage cascaded spiral microchannel, secondary Dean vortices, and RBC inertial focusing.</desc>
+  <defs>
+    <linearGradient id="m-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#07121b"/>
+      <stop offset="100%" stop-color="#04090f"/>
+    </linearGradient>
+    <pattern id="m-grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#0f2638" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="m-grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="none" stroke="#163954" stroke-width="1"/>
+    </pattern>
+    <filter id="m-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="960" height="420" fill="url(#m-bg)"/>
+  <rect width="960" height="420" fill="url(#m-grid-minor)"/>
+  <rect width="960" height="420" fill="url(#m-grid-major)"/>
+  <rect width="960" height="420" fill="none" stroke="#163954" stroke-width="2"/>
+
+  <!-- Blueprint Corner Guides -->
+  <path d="M 10 15 H 25 M 15 10 V 25" stroke="#10b981" stroke-width="1.5"/>
+  <path d="M 935 15 H 950 M 945 10 V 25" stroke="#10b981" stroke-width="1.5"/>
+  <path d="M 10 405 H 25 M 15 395 V 410" stroke="#10b981" stroke-width="1.5"/>
+  <path d="M 935 405 H 950 M 945 395 V 410" stroke="#10b981" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="35" y="38" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.15em">RUNTIME SLAYERS • BIOMEDICAL ENGINEERING BLUEPRINT</text>
+  <text x="35" y="58" fill="#f8fafc" font-family="'Montserrat', sans-serif" font-size="16" font-weight="800">FOUR-STAGE CASCADED PASSIVE MICROFLUIDIC PLASMA SEPARATOR</text>
+  <text x="35" y="74" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="9">SECONDARY DEAN VORTICES • INERTIAL FOCUSING • 99.8% PLASMA PURITY IN 60s</text>
+
+  <!-- LEFT PANEL: 4-Stage Spiral Microchannel Geometry -->
+  <g transform="translate(35, 95)">
+    <rect width="430" height="290" rx="8" fill="#0a1926" stroke="#163954" stroke-width="1.5"/>
+    <text x="16" y="22" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG 2.0: ARCHIMEDEAN SPIRAL &amp; BIFURCATION SKIMMERS</text>
+
+    <!-- Spiral Channel -->
+    <path d="M 215 145 
+             A 25 25 0 0 1 240 170 
+             A 50 50 0 0 1 190 220 
+             A 80 80 0 0 1 110 140 
+             A 115 115 0 0 1 225 25 
+             A 150 150 0 0 1 375 175" 
+          fill="none" stroke="#10b981" stroke-width="4" stroke-dasharray="10 4">
+      <animate attributeName="stroke-dashoffset" values="0;-28" dur="1.5s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Whole Blood Inlet -->
+    <circle cx="215" cy="145" r="7" fill="#ff3366" filter="url(#m-glow)"/>
+    <text x="230" y="150" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">INLET: WHOLE BLOOD</text>
+
+    <!-- Outlets -->
+    <circle cx="375" cy="165" r="5" fill="#10b981" filter="url(#m-glow)"/>
+    <text x="310" y="195" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">PURE PLASMA OUTLET</text>
+
+    <circle cx="385" cy="185" r="5" fill="#ff3366"/>
+    <text x="310" y="215" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">CONCENTRATED RBC WASTE</text>
+
+    <text x="16" y="275" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="8">Hydraulic Diameter D_h = 80 um • Dean Number De = 12.4 • Zero Power Syringe Driven</text>
+  </g>
+
+  <!-- RIGHT PANEL TOP: Secondary Dean Vortices Cross-Section -->
+  <g transform="translate(485, 95)">
+    <rect width="440" height="145" rx="8" fill="#0a1926" stroke="#163954" stroke-width="1.5"/>
+    <text x="16" y="20" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG 2.1: CHANNEL CROSS-SECTION &amp; DEAN VORTEX FLOW</text>
+
+    <!-- Rectangular Channel Cross Section -->
+    <rect x="70" y="38" width="280" height="75" rx="4" fill="#081420" stroke="#00e5ff" stroke-width="1.5"/>
+    <text x="80" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="7">INNER WALL (Low Pressure)</text>
+    <text x="240" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="7">OUTER WALL (High Pressure)</text>
+
+    <!-- Dean Vortices (Counter-Rotating Loops) -->
+    <ellipse cx="140" cy="75" rx="45" ry="20" fill="none" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 2"/>
+    <ellipse cx="260" cy="75" rx="45" ry="20" fill="none" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4 2"/>
+    
+    <!-- Focused RBC Particles at Outer Wall -->
+    <circle cx="280" cy="65" r="3.5" fill="#ff3366"/>
+    <circle cx="290" cy="75" r="3.5" fill="#ff3366"/>
+    <circle cx="280" cy="85" r="3.5" fill="#ff3366"/>
+    <text x="298" y="78" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="7" font-weight="700">FOCUSED RBCs</text>
+
+    <!-- Cell-Free Plasma Zone at Inner Wall -->
+    <text x="105" y="78" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">CELL-FREE PLASMA</text>
+
+    <text x="16" y="132" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="8">Inertial Lift F_L balances Dean Drag F_D -> Focuses cells into sharp narrow stream</text>
+  </g>
+
+  <!-- RIGHT PANEL BOTTOM: CAD Title Block -->
+  <g transform="translate(485, 255)">
+    <rect width="440" height="130" rx="8" fill="#0a1926" stroke="#163954" stroke-width="1.5"/>
+    
+    <line x1="0" y1="30" x2="440" y2="30" stroke="#163954" stroke-width="1"/>
+    <line x1="0" y1="65" x2="440" y2="65" stroke="#163954" stroke-width="1"/>
+    <line x1="0" y1="100" x2="440" y2="100" stroke="#163954" stroke-width="1"/>
+    <line x1="220" y1="0" x2="220" y2="100" stroke="#163954" stroke-width="1"/>
+
+    <text x="14" y="20" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">ORGANIZATION:</text>
+    <text x="85" y="20" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">RUNTIME-SLAYERS LABS</text>
+
+    <text x="234" y="20" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">DRAWING NUMBER:</text>
+    <text x="325" y="20" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">RS-BIO-CHIP-004-REV-A</text>
+
+    <text x="14" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">PROJECT REPOS:</text>
+    <text x="14" y="60" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600">ai-microfluidic-plasma &amp; device-part-2</text>
+
+    <text x="234" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">TRANSDUCER LEAD:</text>
+    <text x="325" y="52" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">BODDU SARAN</text>
+
+    <text x="14" y="86" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">PURITY METRIC:</text>
+    <text x="100" y="86" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">99.8% CELL-FREE PLASMA</text>
+
+    <text x="234" y="86" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">SEPARATION TIME:</text>
+    <text x="335" y="86" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">60 SECONDS PASSIVE</text>
+
+    <text x="14" y="118" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="8">ZERO-CENTRIFUGE POINT-OF-CARE DIAGNOSTICS FOR AUSTERE CLINICAL SETTINGS</text>
+  </g>
+</svg>

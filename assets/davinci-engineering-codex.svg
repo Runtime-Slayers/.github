@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 380" width="100%" height="100%" role="img" aria-labelledby="cdx-title cdx-desc">
+  <title id="cdx-title">The Da Vinci Laboratory: Runtime Slayers Engineering Codex</title>
+  <desc id="cdx-desc">Master engineering schematic uniting classical geometry, golden spirals, fluid dynamics, and quantum telemetry.</desc>
+  <defs>
+    <linearGradient id="cdx-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080d1a"/>
+      <stop offset="50%" stop-color="#0b1326"/>
+      <stop offset="100%" stop-color="#060912"/>
+    </linearGradient>
+    <pattern id="cdx-grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M 10 0 L 0 0 0 10" fill="none" stroke="#14233c" stroke-width="0.5"/>
+    </pattern>
+    <pattern id="cdx-grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="none" stroke="#1d3557" stroke-width="1"/>
+      <circle cx="25" cy="25" r="0.8" fill="#00e5ff" opacity="0.4"/>
+    </pattern>
+    <filter id="cdx-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Canvas Background with Blueprint Grid -->
+  <rect width="960" height="380" fill="url(#cdx-bg)"/>
+  <rect width="960" height="380" fill="url(#cdx-grid-minor)"/>
+  <rect width="960" height="380" fill="url(#cdx-grid-major)"/>
+  <rect width="960" height="380" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+
+  <!-- Technical Border with Alignment Registration Marks -->
+  <rect x="14" y="14" width="932" height="352" fill="none" stroke="#00e5ff" stroke-width="1.2" opacity="0.4"/>
+  <path d="M 10 14 H 22 M 14 10 V 22" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M 938 14 H 950 M 946 10 V 22" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M 10 366 H 22 M 14 358 V 370" stroke="#00e5ff" stroke-width="1.5"/>
+  <path d="M 938 366 H 950 M 946 358 V 370" stroke="#00e5ff" stroke-width="1.5"/>
+
+  <!-- Header Block -->
+  <text x="36" y="42" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" letter-spacing="0.2em">EX ARCHIVUM LEONARDO • RUNTIME SLAYERS DEEP-TECH CODEX</text>
+  <text x="36" y="66" fill="#f8fafc" font-family="'Montserrat', sans-serif" font-size="20" font-weight="900" letter-spacing="0.05em">THE DA VINCI LABORATORY: MASTER SYSTEM SCHEMATICS</text>
+  <text x="36" y="84" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="11">FIRST-PRINCIPLES PHYSICAL INVARIANTS • MATHEMATICAL SYNTHESIS • SILICON TRANSLATION</text>
+
+  <!-- LEFT ZONE: Leonardo's Golden Ratio Spiral & Fluid Vortices -->
+  <g transform="translate(40, 105)">
+    <rect width="270" height="240" rx="8" fill="#0c172e" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="24" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG I: GOLDEN RATIO &amp; VORTEX</text>
+    
+    <!-- Archimedean Spiral Path -->
+    <path d="M 135 130 
+             A 10 10 0 0 1 145 140 
+             A 20 20 0 0 1 125 160 
+             A 40 40 0 0 1 85 120 
+             A 70 70 0 0 1 155 50 
+             A 110 110 0 0 1 245 160" 
+          fill="none" stroke="#f59e0b" stroke-width="2" stroke-dasharray="6 3">
+      <animate attributeName="stroke-dashoffset" values="0;-18" dur="2s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="135" cy="130" r="3" fill="#f59e0b" filter="url(#cdx-glow)"/>
+    
+    <!-- Caliper Dimension Annotation -->
+    <line x1="85" y1="210" x2="185" y2="210" stroke="#00e5ff" stroke-width="1"/>
+    <line x1="85" y1="205" x2="85" y2="215" stroke="#00e5ff" stroke-width="1"/>
+    <line x1="185" y1="205" x2="185" y2="215" stroke="#00e5ff" stroke-width="1"/>
+    <text x="135" y="224" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle">phi = 1.618033 • DEAN VORTEX</text>
+  </g>
+
+  <!-- CENTER ZONE: Vitruvian Geometric Harmony & Quantum Orbital -->
+  <g transform="translate(330, 105)">
+    <rect width="300" height="240" rx="8" fill="#0c172e" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="24" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG II: QUANTUM-VITRUVIAN HARMONY</text>
+
+    <!-- Vitruvian Circle and Square -->
+    <rect x="75" y="45" width="150" height="150" fill="none" stroke="#00e5ff" stroke-width="1" opacity="0.6"/>
+    <circle cx="150" cy="120" r="75" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="150" cy="120" r="50" fill="none" stroke="#ff3366" stroke-width="1.5" stroke-dasharray="4 2">
+      <animateTransform attributeName="transform" type="rotate" from="0 150 120" to="360 150 120" dur="15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="150" cy="120" r="25" fill="none" stroke="#10b981" stroke-width="1.5"/>
+
+    <!-- Central Point -->
+    <circle cx="150" cy="120" r="4" fill="#ffffff" filter="url(#cdx-glow)"/>
+    <text x="150" y="215" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">ENERGY CONSERVATION • HAMILTONIAN INVARIANT</text>
+  </g>
+
+  <!-- RIGHT ZONE: Official Engineering Blueprint Specification Block -->
+  <g transform="translate(650, 105)">
+    <rect width="270" height="240" rx="8" fill="#0c172e" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="24" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">SPECIFICATION TITLE BLOCK</text>
+
+    <line x1="12" y1="36" x2="258" y2="36" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="12" y1="76" x2="258" y2="76" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="12" y1="116" x2="258" y2="116" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="12" y1="156" x2="258" y2="156" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="12" y1="196" x2="258" y2="196" stroke="#1e3a5f" stroke-width="1"/>
+
+    <text x="16" y="52" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">ORGANIZATION:</text>
+    <text x="16" y="68" fill="#00e5ff" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="800">RUNTIME-SLAYERS LABS</text>
+
+    <text x="16" y="92" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">DOCUMENT NUMBER:</text>
+    <text x="16" y="108" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">RS-CODEX-DV-2026-ALPHA</text>
+
+    <text x="16" y="132" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">SYSTEM PILLARS:</text>
+    <text x="16" y="148" fill="#10b981" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">7 PHYSICAL DOMAINS</text>
+
+    <text x="16" y="172" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">GROUND TRUTH METRIC:</text>
+    <text x="16" y="188" fill="#ff3366" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">100% ZERO-SYNTHETIC DATA</text>
+
+    <text x="16" y="212" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">LEAD ARCHITECT:</text>
+    <text x="16" y="226" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">B. RAJENDRA REDDY</text>
+  </g>
+</svg>

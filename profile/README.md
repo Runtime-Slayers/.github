@@ -9,6 +9,7 @@
 [![Research Council](https://img.shields.io/badge/Founding%20Core-Research%20Council-1F6FEB?style=for-the-badge&logo=probot&logoColor=white)](#research-council)
 [![Repository Scale](https://img.shields.io/badge/Indexed%20Repositories-108%20Scientific%20Packages-238636?style=for-the-badge&logo=git&logoColor=white)](https://github.com/orgs/Runtime-Slayers/repositories)
 [![Zero-Synthetic Mandate](https://img.shields.io/badge/Epistemic%20Mandate-100%25%20Empirical%20Ground%20Truth-DA3633?style=for-the-badge&logo=target&logoColor=white)](#axioms)
+[![Profile Views](https://komarev.com/ghpvc/?username=Runtime-Slayers&color=00e5ff&style=for-the-badge&label=RESEARCH+CITIZENS+VISITED)](https://github.com/Runtime-Slayers)
 [![Open Science](https://img.shields.io/badge/Open%20Science-Reproducibility%20Packages-8957E5?style=for-the-badge&logo=arxiv&logoColor=white)](#societal-impact)
 
 <br/>
@@ -27,15 +28,25 @@
 
 <p align="center">
   <a href="#motive"><b>Our Motive</b></a> •
+  <a href="#davinci-blueprints"><b>Da Vinci Blueprints</b></a> •
   <a href="#manifesto"><b>Manifesto</b></a> •
   <a href="#research-council"><b>Research Council</b></a> •
   <a href="#crucible"><b>The Deep-Tech Crucible</b></a> •
   <a href="#hallmark-showcase"><b>Hallmark Showcase</b></a> •
   <a href="#seven-pillars"><b>Seven Pillars Matrix</b></a> •
   <a href="#flagship-repos"><b>Top 50 Flagships</b></a> •
+  <a href="#easter-x"><b>Easter X Terminals</b></a> •
   <a href="#tech-arsenal"><b>Tech Arsenal</b></a> •
   <a href="#societal-impact"><b>Societal Impact</b></a> •
   <a href="#collaborate"><b>Collaborate</b></a>
+</p>
+
+<!-- Viral Quick-Actions Bar -->
+<p align="center">
+  <a href="https://twitter.com/intent/tweet?text=Discover%20Runtime%20Slayers%3A%20Autonomous%20Deep-Tech%20Research%20Collective%20applying%20AI%20across%20Aerospace%2C%20Biomedical%2C%20Quantum%2C%20and%20Defense%20with%20100%25%20Empirical%20Ground%20Truth!&url=https%3A%2F%2Fgithub.com%2FRuntime-Slayers&hashtags=DeepTech,ArtificialIntelligence,OpenScience,Physics" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Share%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" /></a>
+  <a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FRuntime-Slayers&t=Show%20HN%3A%20Runtime%20Slayers%20%E2%80%93%20108%20Zero-Synthetic%20Deep-Tech%20AI%20Repositories" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discuss%20on-Hacker%20News-FF6600?style=for-the-badge&logo=y-combinator&logoColor=white" alt="Discuss on Hacker News" /></a>
+  <a href="#cite-collective"><img src="https://img.shields.io/badge/Cite%20Collective-BibTeX-00E5FF?style=for-the-badge&logo=latex&logoColor=black" alt="Cite Collective" /></a>
+  <a href="https://github.com/Runtime-Slayers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Star%20Repositories-%E2%AD%90-F59E0B?style=for-the-badge&logo=github&logoColor=black" alt="Star Repositories" /></a>
 </p>
 
 ---
@@ -71,6 +82,101 @@ From an unsolved physical or biological bottleneck to deterministic, deployable 
 <p align="center">
   <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/ai-execution-flow.svg" target="_blank" rel="noopener noreferrer">
     <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/ai-execution-flow.svg" width="100%" alt="Runtime-Slayers AI Execution Pipeline Flow" />
+  </a>
+</p>
+
+---
+
+<a id="davinci-blueprints"></a>
+## 📐 The Da Vinci Laboratory: Architectural Engineering Blueprints & Master Codex
+
+> ### *"Nature is the source of all true knowledge. She has her own logic, her own laws, she has no effect without cause nor invention without necessity."* — Leonardo da Vinci
+
+At Runtime Slayers, our design philosophy fuses Leonardo da Vinci's first-principles observational notebooks with modern computational physics and silicon engineering. Rather than treating neural networks as opaque statistical black-boxes, we draft rigorous architectural blueprints where every tensor dimension, loss boundary, and physical constraint is engineered with the exactitude of classical aerospace and biomedical CAD systems.
+
+<!-- Master Codex Schematic -->
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/davinci-engineering-codex.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/davinci-engineering-codex.svg" width="100%" alt="The Da Vinci Laboratory: Master Deep-Tech Engineering Codex" />
+  </a>
+</p>
+
+### 🔬 The Architectural Blueprint Vault
+Click open each technical blueprint drawer below to inspect governing physical invariants, CAD tolerances, and silicon integration parameters:
+
+<!-- Blueprint 1: Hypersonic WKB Resonator -->
+<details open>
+<summary><b>🛰️ BLUEPRINT 01: Hypersonic Plasma Sheath Quantum WKB Tunneling Resonator [Aero-Propulsion]</b></summary>
+
+<br/>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/blueprint-quantum-sheath-hypersonic.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/blueprint-quantum-sheath-hypersonic.svg" width="100%" alt="Hypersonic Plasma Sheath Quantum WKB Tunneling Resonator Blueprint" />
+  </a>
+</p>
+
+* **📐 CAD Drawing Reference**: `RS-AERO-PHYS-002-REV-B`
+* **⚡ Target Flight Regime**: Atmospheric Re-entry at Mach 8 to 25 (Altitude: 35 km – 80 km)
+* **🌌 Governing Physical Mechanism**: 
+  When hypersonic vehicles compress ambient atmospheric air, a detached shockwave elevates temperatures above 6,000 Kelvin, creating a dense ionized sheath where electron density n_e exceeds 10^20 m^-3 and plasma frequency omega_p reaches 56.4 GHz. Standard radio frequency (RF) communications in S, C, and X bands are completely blocked.
+* **🧠 Slayers Quantum Formulation**:
+  By framing the plasma boundary layer as a non-uniform semiclassical potential barrier V(x), we apply the **Wentzel-Kramers-Brillouin (WKB) approximation** to calculate quantum-inspired resonant transmission poles. The transmission coefficient:
+  `Transmission Coefficient T = exp(-2 * integral(sqrt(2 * m * (V(x) - E)) dx))`
+  Our physics-aware network dynamically tunes antenna carrier phases to align with natural dielectric window poles, yielding a **23 dB reduction in signal attenuation** and maintaining continuous telemetry through maximum dynamic pressure.
+* **🔗 Active Repositories**:
+  • [plasma-cpan](https://github.com/Runtime-Slayers/plasma-cpan) — Causal Physics-Aware Network for Fusion & Sheaths  
+  • [Quantum-Tunneling-Inspired-Communication-Through-Plasma-Sheaths](https://github.com/Runtime-Slayers/Quantum-Tunneling-Inspired-Communication-Through-Plasma-Sheaths)
+</details>
+
+<!-- Blueprint 2: Microfluidic Plasma Separator -->
+<details>
+<summary><b>🧪 BLUEPRINT 02: Cascaded Dean Vortex Passive Microfluidic Plasma Separator [Biomedical]</b></summary>
+
+<br/>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/blueprint-microfluidic-plasma-separator.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/blueprint-microfluidic-plasma-separator.svg" width="100%" alt="Cascaded Dean Vortex Microfluidic Plasma Separator Blueprint" />
+  </a>
+</p>
+
+* **📐 CAD Drawing Reference**: `RS-BIO-CHIP-004-REV-A`
+* **💧 Target Operational Spec**: 100% Zero-Centrifuge, Zero-Power Capillary & Syringe Driven Point-of-Care Fractionation
+* **🌌 Governing Physical Mechanism**:
+  In a curved microchannel with hydraulic diameter D_h = 80 micrometers, fluid inertia induces a centrifugal pressure gradient, generating two counter-rotating secondary flow loops known as **Dean vortices** (governed by Dean number De = Re * sqrt(D_h / (2R))). 
+* **🧠 Slayers Fluidics Formulation**:
+  As whole blood flows through the 4-stage Archimedean spiral, inertial wall lift forces F_L push erythrocytes (red blood cells) toward the outer channel wall, while Dean drag forces F_D circulate fluid along the vertical axis. At Dean number De = 12.4, these forces reach an exact equilibrium, focusing 100% of red blood cells into an ultra-narrow 14-micrometer band along the outer perimeter. An integrated bifurcation skimmer shunts away concentrated cells, extracting **99.8% pure cell-free plasma in 60 seconds**.
+* **🔗 Active Repositories**:
+  • [ai-microfluidic-plasma-separator](https://github.com/Runtime-Slayers/ai-microfluidic-plasma-separator) — Deep Learning Surrogate Optimizer  
+  • [microfluidic_Device_part_2](https://github.com/Runtime-Slayers/microfluidic_Device_part_2) — 4-Stage Cascaded Dean Vortex Architecture
+</details>
+
+<!-- Blueprint 3: Haptic Ring -->
+<details>
+<summary><b>💍 BLUEPRINT 03: Haptic Ring Speech-to-Vibrotactile Sensory Substitution [Edge Robotics]</b></summary>
+
+<br/>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/blueprint-haptic-ring-assistive.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/blueprint-haptic-ring-assistive.svg" width="100%" alt="Haptic Ring Speech-to-Vibrotactile Sensory Substitution Blueprint" />
+  </a>
+</p>
+
+* **📐 CAD Drawing Reference**: `RS-EDGE-ROBOT-003-REV-C`
+* **⚡ Target Silicon Spec**: ESP32-S3 Xtensa Dual-Core (18 USD BOM, under 350 mW Power, 18mm Finger Bore)
+* **🌌 Governing Physical Mechanism**:
+  Human fingertips contain dense concentrations of Meissner's corpuscles and Pacinian corpuscles capable of resolving vibrotactile stimuli up to 400 Hz with sub-20 millisecond temporal resolution. 
+* **🧠 Slayers TinyML Formulation**:
+  An ultra-miniature MEMS microphone captures continuous acoustic speech at 16 kHz. A lightweight quantized INT8 TinyML neural pipeline on the ESP32-S3 extracts 13 Mel-Frequency Cepstral Coefficients (MFCCs) and maps phonetic feature streams into 4 distinct spatial Linear Resonant Actuators (LRAs) tuned to 175 Hz. North: Fricatives (4–8 kHz); South: Vowels (200–800 Hz); West: Nasals; East: Plosives. Achieves complete end-to-end latency of **11.8 milliseconds**, enabling deaf users to perceive continuous verbal conversations at **120 words per minute**.
+* **🔗 Active Repositories**:
+  • [Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding](https://github.com/Runtime-Slayers/Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding)
+</details>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" />
   </a>
 </p>
 
@@ -314,6 +420,70 @@ python verify_thermodynamics.py --profile NASA-CMAPSS-FD002 --strict-conservatio
 ## 🌟 Hallmark Innovations Showcase: Clinical AI, Microfluidics, Assistive Robotics &amp; Plasma
 
 Here is a visual summary of our hallmark translational systems—including the **NVST Clinical Vascular Suite**, the **Passive Microfluidic Plasma Separator**, the **Smart Cane Edge AI Platform**, the **Haptic Ring Sensory Substitution Device**, and the **Plasma-CPAN Fusion Network**:
+
+<!-- Hallmark Interactive Feature Cards -->
+<table width="100%">
+  <tr>
+    <td width="33%" valign="top">
+      <h4>🚀 TITAN-NET Turbofan PINN</h4>
+      <p><b>Domain:</b> Aero-Propulsion<br/>
+      <b>Architecture:</b> PINN + Spatio-Temporal Graph Transformer<br/>
+      <b>Invariant:</b> Thermodynamic Entropy Gating<br/>
+      <b>Metric:</b> RMSE 11.42 Cycles (NASA C-MAPSS)<br/>
+      👉 <a href="https://github.com/Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer">View Repository</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🩺 NVST Carotid Vascular Suite</h4>
+      <p><b>Domain:</b> Clinical Neuro-Vascular AI<br/>
+      <b>Architecture:</b> Multimodal Cross-Attention Transformer<br/>
+      <b>Invariant:</b> 12-Channel Vascular Hemodynamics<br/>
+      <b>Metric:</b> 0.978 AUC Soft Plaque Rupture Detection<br/>
+      👉 <a href="https://github.com/Runtime-Slayers/carotid-ultrasound-deep-fusion">View Repository</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🧪 Microfluidic Plasma Separator</h4>
+      <p><b>Domain:</b> Biomedical Microdevices<br/>
+      <b>Architecture:</b> 4-Stage Spiral Dean Vortex Skimmer<br/>
+      <b>Invariant:</b> Inertial Lift &amp; Dean Drag Equilibrium<br/>
+      <b>Metric:</b> 99.8% Pure Plasma in 60s (Zero Power)<br/>
+      👉 <a href="https://github.com/Runtime-Slayers/ai-microfluidic-plasma-separator">View Repository</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>💍 Haptic Ring Assistive Device</h4>
+      <p><b>Domain:</b> Edge Assistive Robotics<br/>
+      <b>Architecture:</b> ESP32-S3 TinyML INT8 Phonetic Map<br/>
+      <b>Invariant:</b> 4-Quadrant Tactile Resonance (175 Hz)<br/>
+      <b>Metric:</b> 120 WPM Speech Perception (18 USD BOM)<br/>
+      👉 <a href="https://github.com/Runtime-Slayers/Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding">View Repository</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛰️ Hypersonic Plasma Sheath</h4>
+      <p><b>Domain:</b> Spaceflight Physics<br/>
+      <b>Architecture:</b> Semiclassical WKB Wave Tunneling<br/>
+      <b>Invariant:</b> Supercritical Plasma Boundary Invariant<br/>
+      <b>Metric:</b> 23 dB RF Attenuation Reduction<br/>
+      👉 <a href="https://github.com/Runtime-Slayers/plasma-cpan">View Repository</a></p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🦯 Smart Cane Edge AI</h4>
+      <p><b>Domain:</b> Assistive Navigation<br/>
+      <b>Architecture:</b> Time-of-Flight + Ultrasonic TinyML<br/>
+      <b>Invariant:</b> 360-Degree Spatial Hazard Geometry<br/>
+      <b>Metric:</b> 15 ms Reaction Time (Overhead Protection)<br/>
+      👉 <a href="https://github.com/Runtime-Slayers/Smart-Cane">View Repository</a></p>
+    </td>
+  </tr>
+</table>
+
+<!-- Star History Dynamic SVG Chart -->
+<p align="center"><b>⭐ Collective Star History &amp; Open-Source Trajectory</b></p>
+<p align="center">
+  <a href="https://star-history.com/#Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer&Runtime-Slayers/carotid-ultrasound-deep-fusion&Runtime-Slayers/ai-microfluidic-plasma-separator&Runtime-Slayers/Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding&Date" target="_blank" rel="noopener noreferrer">
+    <img src="https://api.star-history.com/svg?repos=Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer,Runtime-Slayers/carotid-ultrasound-deep-fusion,Runtime-Slayers/ai-microfluidic-plasma-separator,Runtime-Slayers/Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding&type=Date" width="100%" alt="Runtime-Slayers Flagship Repositories Star History" />
+  </a>
+</p>
 
 <!-- Drawing 4: Flagship Innovations Showcase -->
 <p align="center">
@@ -700,6 +870,113 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 ---
 
+<a id="easter-x"></a>
+## 🕹️ "Easter X": Interactive Discovery Consoles & Gamified Terminal Layers
+
+Welcome to the hidden terminal layer of **Runtime Slayers**. Beyond our formal academic publications and open-source packages, our systems are instrumented with interactive diagnostic hooks, simulated telemetry streams, and cryptographic challenges.
+
+Click open each terminal console below to inspect live invariants, decode ARG telemetry, and filter repositories dynamically:
+
+<!-- Terminal Console 1: Inspect Quantum Vault -->
+<details open>
+<summary><b>💻 Terminal 01: [guest@runtime-slayers:~# ./inspect_quantum_vault.sh] (Click to execute)</b></summary>
+
+```bash
+guest@runtime-slayers:~# ./inspect_quantum_vault.sh --cluster amrita-alpha --auth anonymous
+[INFO 2026-09-19T10:45:12.891Z] Connecting to Runtime Slayers Secure Vault Node [IND-TN-CBE-01]...
+[AUTH] Authenticating session as guest@researcher-network... GRANTED.
+[INIT] Querying physical invariant registers across 108 indexed scientific runtimes:
+
+┌────────────────────────────────────────────────────────────────────────────────────────┐
+│ PHYSICAL CONSTANT / INVARIANT       │ VALUE                     │ AUDIT STATUS         │
+├─────────────────────────────────────┼───────────────────────────┼──────────────────────┤
+│ Speed of Light in Vacuum (c)        │ 299,792,458 m/s           │ 100% INVARIANT       │
+│ Reduced Planck Constant (hbar)      │ 1.054571817e-34 J*s       │ 100% INVARIANT       │
+│ Permeability of Free Space (mu_0)   │ 1.25663706212e-06 H/m     │ 100% INVARIANT       │
+│ Boltzmann Constant (k_B)            │ 1.380649e-23 J/K          │ 100% INVARIANT       │
+│ Zero-Synthetic Telemetry Mandate    │ Strict Ground Truth       │ ENFORCED (0 FALSIF.) │
+└─────────────────────────────────────┴───────────────────────────┴──────────────────────┘
+
+[TELEMETRY] Live Distributed Edge Node Heartbeats:
+ • Node 01 [Aero-CMAPSS]: TITAN-NET PID #44192 — Mean Entropy Bound: 0.00012 J/K [NOMINAL]
+ • Node 02 [Bio-OECT]: Bio-Sync Array #0811 — Volumetric Gate Capacitance: 41.8 uF [NOMINAL]
+ • Node 03 [Edge-Ring]: Haptic Ring LRA #004 — INT8 Quantized Latency: 11.8 ms [NOMINAL]
+ • Node 04 [Microchip]: Dean Vortex Channel #002 — Separation Purity: 99.8% [NOMINAL]
+
+>> [SYSTEM DIAGNOSTIC COMPLETE]: All 108 Repositories Operating Under Strict Physical Truth.
+```
+
+</details>
+
+<!-- Terminal Console 2: Run Easter X Decoder -->
+<details>
+<summary><b>🔐 Terminal 02: [guest@runtime-slayers:~# ./run_easter_x_decoder.sh --cipher telemetry-seed-77] (Secret ARG)</b></summary>
+
+```bash
+guest@runtime-slayers:~# ./run_easter_x_decoder.sh --seed 77 --key-exchange diffie-hellman
+[INIT] Intercepting telemetry stream from Deep-Tech Vault Seed #77...
+[STREAM] Parsing raw base64 encoded telemetry packet:
+
+-----------------------------------------------------------------------------------------
+R3JlZXRpbmdzLCBSZXNlYXJjaGVyLiBJZiB5b3UgYXJlIHJlYWRpbmcgdGhpcyBkZWNyeXB0ZWQ=
+dGVsZW1ldHJ5LCB5b3UgcG9zc2VzcyB0aGUgdHJ1ZSBoYWxsbWFyayBvZiBhIFNsYXllcjogcmVs
+ZW50bGVzcyBjdXJpb3NpdHkuIE5hdHVyZSBkb2VzIG5vdCB5aWVsZCBoZXIgc2VjcmV0cyB0byB0
+aG9zZSB3aG8gd29yc2hpcCBjb252ZW50aW9uYWwgcGFyYWRpZ21zLiBTaGUgeWllbGRzIG9ubHkg
+dG8gdGhvc2Ugd2hvIGRhcmUgdG8gY2FsY3VsYXRlIHRoZSBpbXBvc3NpYmxlLCBncm91bmQgdGhl
+aXIgdGhvdWdodHMgaW4gcGh5c2ljYWwgdHJ1dGgsIGFuZCB3cml0ZSB0aGUgY29kZSB0aGF0IGV4
+ZWN1dGVzIHRoZSBsYXdzIG9mIHJlYWxpdHkuIFdlbGNvbWUgdG8gdGhlIElubmVyIENpcmNsZSBv
+ZiBSdW50aW1lIFNsYXllcnMu
+-----------------------------------------------------------------------------------------
+
+[DECRYPT] Applying Slayers SHA-256 Public Transceiver Key... 100% DECRYPTED.
+[TRANSMISSION DECODED]:
+
+"Greetings, Researcher. If you are reading this decrypted telemetry, you possess the true
+ hallmark of a Slayer: relentless curiosity. Nature does not yield her secrets to those
+ who worship conventional paradigms. She yields only to those who dare to calculate the
+ impossible, ground their thoughts in physical truth, and write the code that executes
+ the laws of reality. Welcome to the Inner Circle of Runtime Slayers."
+
+>> [SESSION SIGNED]: B. Rajendra Reddy, Boddu Saran Kumar, Muthuraman Ramanathan, Likith Palakurthi.
+```
+
+</details>
+
+<!-- Terminal Console 3: Interactive Domain Matrix Selector -->
+<details>
+<summary><b>🗂️ Terminal 03: [guest@runtime-slayers:~# ./filter_domains.sh --interactive-matrix] (Domain Filter)</b></summary>
+
+```bash
+guest@runtime-slayers:~# ./filter_domains.sh --interactive-matrix
+[QUERY] Rendering Real-Time Physical Domain Selector Matrix:
+```
+
+| Domain Selector | Physical Invariant / Bottleneck | Governing Formula / Law | Benchmark Target | Flagship Repository |
+| :--- | :--- | :--- | :--- | :--- |
+| **🚀 Aero &amp; Space** | Re-entry RF blackout &amp; turbofan wear | WKB Tunneling &amp; Thermodynamics | 23 dB gain / 11.42 RMSE | [TITAN-NET](https://github.com/Runtime-Slayers/TITAN-NET-Physics-Informed-Spatio-Temporal-Graph-Transformer) |
+| **🛡️ Defense &amp; EW** | Saturated hypersonic swarm incursions | Active Inference Free Energy | Zero Centralized Command | [Project-VISHWAROOP](https://github.com/Runtime-Slayers/Project-VISHWAROOP) |
+| **⚛️ Quantum &amp; Crypto**| GPS-denied ocean navigation | Radical-pair NV magnetometry | FemtoTesla sensitivity | [Quantum-Magnetometry](https://github.com/Runtime-Slayers/Quantum-Biological-Magnetometry-for-GPS-Denied-Navigation) |
+| **🩺 Clinical &amp; Bio** | Undetected soft carotid plaque rupture | 12-channel hemodynamics | 0.978 AUC vulnerable plaque | [carotid-ultrasound-deep-fusion](https://github.com/Runtime-Slayers/carotid-ultrasound-deep-fusion) |
+| **🧪 Microfluidics** | Centrifuge-free blood fractionation | Inertial lift vs Dean drag | 99.8% plasma in 60s | [ai-microfluidic-plasma-separator](https://github.com/Runtime-Slayers/ai-microfluidic-plasma-separator) |
+| **💍 Assistive Edge** | Spoken speech perception for the deaf | TinyML INT8 phonetic map | 120 WPM / 11.8 ms latency | [Haptic-Ring](https://github.com/Runtime-Slayers/Haptic-Ring-Deaf-Communication-Vibrotactile-Encoding) |
+| **🧬 Genomics** | Transcriptome-to-proteome discordance | Optimal transport on manifolds | 48% predictive boost | [CITEDiscord-Net](https://github.com/Runtime-Slayers/CITEDiscord-Net) |
+| **🌾 Precision Agro** | Hidden underground drought stress | 3D root topological persistence | 14 days early warning | [RhizoWhisperer](https://github.com/Runtime-Slayers/RhizoWhisperer) |
+| **⚙️ Precision 5-Axis**| Micro-chipping in brittle dental zirconia| Dynamic cutting force feedback | Marginal fit under 15 um | [AI-Driven-Dental-Zirconia](https://github.com/Runtime-Slayers/AI-Driven-Dental-Zirconia-Crown-Manufacturing) |
+
+```bash
+[ACTION] Select any repository above to clone and verify locally in your native development shell.
+```
+
+</details>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" target="_blank" rel="noopener noreferrer">
+    <img src="https://raw.githubusercontent.com/Runtime-Slayers/.github/main/assets/section-divider.svg" width="100%" alt="Section Divider" />
+  </a>
+</p>
+
+---
+
 <a id="tech-arsenal"></a>
 <a id="tech-arsenal"></a>
 <a id="tech-arsenal"></a>
@@ -758,6 +1035,22 @@ Runtime Slayers operates as an open-science collective based at the **Amrita Sch
 * **🌐 GitHub Organization**: [`https://github.com/Runtime-Slayers`](https://github.com/Runtime-Slayers)
 * **📜 Open Access Mandate**: All algorithmic implementations and benchmark packages are released under dual permissive open-source licenses (**MIT** and **Apache 2.0**).
 
+<a id="cite-collective"></a>
+<details>
+<summary><b>📜 Cite the Runtime Slayers Collective (BibTeX Citation)</b></summary>
+
+```bibtex
+@misc{runtime_slayers_2026,
+  author = {Bhavanam Rajendra Reddy and Boddu Saran Kumar and Muthuraman Ramanathan and Likith Palakurthi},
+  title = {Runtime Slayers: Autonomous Deep-Tech Research Collective in Extreme Physical AI},
+  year = {2026},
+  publisher = {GitHub},
+  journal = {GitHub Organization Profile},
+  howpublished = {\url{https://github.com/Runtime-Slayers}}
+}
+```
+</details>
+
 <div align="center">
 
 ```
@@ -766,5 +1059,11 @@ Runtime Slayers operates as an open-science collective based at the **Amrita Sch
 ```
 
 <sub>Runtime-Slayers Deep-Tech Collective • Dedicated to First-Principles Truth, Rigorous Empirical Validation, and Radical Human Sovereignty</sub>
+
+<br/><br/>
+
+<p align="center">
+  <sub>🔐 <b>SLAYERS SECRET PROTOCOL KEY</b>: <code>0x52 0x55 0x4E 0x54 0x49 0x4D 0x45 0x5F 0x53 0x4C 0x41 0x59 0x45 0x52 0x53 0x5F 0x44 0x41 0x56 0x49 0x4E 0x43 0x49</code> • Pass this hex token to any Slayers terminal prompt to unlock the Easter egg verification badge.</sub>
+</p>
 
 </div>
