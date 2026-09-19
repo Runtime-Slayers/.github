@@ -144,7 +144,7 @@ The intellectual engine of **Runtime-Slayers** is driven by our founding researc
   <tr>
     <td width="50%" valign="top">
       <h3>⚡ Bhavanam Rajendra Reddy</h3>
-      <p><b>Lead Deep-Tech Researcher &amp; Quantum Systems Architect<br/>Expert Aerospace Engineer</b></p>
+      <p><b>Lead Deep-Tech Researcher &amp; Quantum Systems Architect<br/>Beginner level Aerospace Engineer</b></p>
       <p>
         <a href="https://github.com/BRR1154"><img src="https://img.shields.io/badge/GitHub-BRR1154-181717?style=flat-square&logo=github" alt="GitHub" /></a>
         <a href="https://orcid.org/0009-0005-3349-1162"><img src="https://img.shields.io/badge/ORCID-0009--0005--3349--1162-A6CE39?style=flat-square&logo=orcid&logoColor=white" alt="ORCID" /></a>
@@ -700,6 +700,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 ---
 
+<a id="tech-arsenal"></a>
 <a id="tech-arsenal"></a>
 <a id="tech-arsenal"></a>
 ## 🛠️ The Full-Stack Deep-Tech Arsenal

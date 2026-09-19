@@ -702,6 +702,7 @@ Below is the definitive catalog of our **Top 50 Flagship Open-Source Projects**,
 
 <a id="tech-arsenal"></a>
 <a id="tech-arsenal"></a>
+<a id="tech-arsenal"></a>
 ## 🛠️ The Full-Stack Deep-Tech Arsenal
 
 Our technical stack spans from abstract mathematical physics to bare-metal embedded silicon:
