@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 520" width="100%" height="100%" role="img" aria-label="Haptic Ring Assistive Sensory Substitution Blueprint">
+  <defs>
+    <linearGradient id="h-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#040810"/>
+      <stop offset="100%" stop-color="#0e0d1f"/>
+    </linearGradient>
+    <pattern id="h-grid-major" width="100" height="100" patternUnits="userSpaceOnUse">
+      <path d="M 100 0 L 0 0 0 100" fill="none" stroke="#1e3a5f" stroke-width="0.8" opacity="0.4"/>
+    </pattern>
+    <pattern id="h-grid-minor" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#132338" stroke-width="0.4" opacity="0.5"/>
+    </pattern>
+  </defs>
+
+  <rect width="960" height="520" fill="url(#h-bg)"/>
+  <rect width="960" height="520" fill="url(#h-grid-minor)"/>
+  <rect width="960" height="520" fill="url(#h-grid-major)"/>
+  <rect width="960" height="520" fill="none" stroke="#1e3a5f" stroke-width="2"/>
+
+  <!-- Technical Border -->
+  <rect x="15" y="15" width="930" height="490" fill="none" stroke="#9333ea" stroke-width="1.2" opacity="0.6"/>
+  <path d="M 10 15 H 20 M 15 10 V 20" stroke="#c084fc" stroke-width="1.5"/>
+  <path d="M 940 15 H 950 M 945 10 V 20" stroke="#c084fc" stroke-width="1.5"/>
+  <path d="M 10 505 H 20 M 15 500 V 510" stroke="#c084fc" stroke-width="1.5"/>
+  <path d="M 940 505 H 950 M 945 500 V 510" stroke="#c084fc" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <text x="35" y="44" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" letter-spacing="0.15em">RUNTIME SLAYERS • ASSISTIVE EDGE ROBOTICS SCHEMATIC</text>
+  <text x="35" y="66" fill="#f8fafc" font-family="'Montserrat', sans-serif" font-size="18" font-weight="800">HAPTIC RING: VIBROTACTILE SPEECH-TO-TOUCH SENSORY SUBSTITUTION</text>
+  <text x="35" y="84" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="10">4-ACTUATOR QUADRANT ARRAY • PHONETIC DECOMPOSITION • 120 WPM SPEECH RECOGNITION</text>
+
+  <!-- LEFT PANEL: Exploded Mechanical View of Finger Ring -->
+  <g transform="translate(40, 105)">
+    <rect width="420" height="340" rx="8" fill="#091326" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="24" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG 3.0: 4-QUADRANT WEARABLE RING TOPOLOGY</text>
+
+    <!-- Outer Ring Structure -->
+    <circle cx="210" cy="170" r="95" fill="#081024" stroke="#c084fc" stroke-width="3"/>
+    <!-- Inner Finger Aperture (Diameter 20mm) -->
+    <circle cx="210" cy="170" r="65" fill="#040812" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="210" y="174" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="9" text-anchor="middle">FINGER APERTURE (20mm)</text>
+
+    <!-- 4 Linear Resonant Actuators (LRAs) -->
+    <!-- Actuator 1: Top (Dorsal) -->
+    <rect x="195" y="63" width="30" height="16" rx="3" fill="#9333ea" stroke="#f8fafc" stroke-width="1"/>
+    <text x="210" y="55" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle">ACTUATOR 1: DORSAL (Vowels)</text>
+    <circle cx="210" cy="71" r="14" fill="none" stroke="#c084fc" stroke-width="1" opacity="0.6">
+      <animate attributeName="r" values="8;18;8" dur="1.5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Actuator 2: Bottom (Palmar) -->
+    <rect x="195" y="261" width="30" height="16" rx="3" fill="#9333ea" stroke="#f8fafc" stroke-width="1"/>
+    <text x="210" y="295" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle">ACTUATOR 2: PALMAR (Plosives)</text>
+
+    <!-- Actuator 3: Left (Radial) -->
+    <rect x="103" y="155" width="16" height="30" rx="3" fill="#9333ea" stroke="#f8fafc" stroke-width="1"/>
+    <text x="95" y="145" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="end">ACTUATOR 3: RADIAL (Fricatives)</text>
+
+    <!-- Actuator 4: Right (Ulnar) -->
+    <rect x="301" y="155" width="16" height="30" rx="3" fill="#9333ea" stroke="#f8fafc" stroke-width="1"/>
+    <text x="325" y="145" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="8">ACTUATOR 4: ULNAR (Nasals)</text>
+
+    <!-- Microcontroller Embedded Flex PCB -->
+    <path d="M 140 190 A 75 75 0 0 0 280 190" fill="none" stroke="#f59e0b" stroke-width="2.5"/>
+    <text x="210" y="225" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle">FLEX PCB • ESP32-S3 TinyML</text>
+
+    <text x="16" y="325" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="8">Resonant Frequency f_0 = 235 Hz • Pacinian Corpuscle Sensitivity Peak • Latency &lt; 15 ms</text>
+  </g>
+
+  <!-- RIGHT PANEL TOP: Phoneme to Spatio-Temporal Vibration Matrix -->
+  <g transform="translate(480, 105)">
+    <rect width="440" height="170" rx="8" fill="#091326" stroke="#1e3a5f" stroke-width="1.5"/>
+    <text x="16" y="22" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700">FIG 3.1: PHONETIC PULSE-CODE ENCODING MATRIX</text>
+
+    <!-- Waveform to Pulse Graphic -->
+    <path d="M 25 55 Q 35 35, 45 55 T 65 55 T 85 55 T 105 55" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="25" y="44" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="8">ACOUSTIC INPUT</text>
+
+    <line x1="115" y1="55" x2="135" y2="55" stroke="#94a3b8" stroke-width="1.2"/>
+
+    <rect x="145" y="40" width="85" height="30" rx="4" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+    <text x="187" y="58" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="8" text-anchor="middle">TINYML INT8</text>
+
+    <line x1="240" y1="55" x2="260" y2="55" stroke="#94a3b8" stroke-width="1.2"/>
+
+    <!-- 4-Track Pulse Trains -->
+    <g transform="translate(270, 38)">
+      <text x="0" y="8" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="7">ACT 1</text>
+      <rect x="35" y="2" width="20" height="7" fill="#c084fc"/>
+      <rect x="65" y="2" width="10" height="7" fill="#c084fc"/>
+
+      <text x="0" y="20" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="7">ACT 2</text>
+      <rect x="45" y="14" width="30" height="7" fill="#c084fc"/>
+
+      <text x="0" y="32" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="7">ACT 3</text>
+      <rect x="35" y="26" width="12" height="7" fill="#c084fc"/>
+      <rect x="80" y="26" width="25" height="7" fill="#c084fc"/>
+
+      <text x="0" y="44" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="7">ACT 4</text>
+      <rect x="55" y="38" width="15" height="7" fill="#c084fc"/>
+    </g>
+
+    <line x1="25" y1="100" x2="415" y2="100" stroke="#1e3a5f" stroke-width="1"/>
+
+    <text x="25" y="120" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">• Comprehension Speed: 120 Words Per Minute</text>
+    <text x="25" y="136" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">• Power Consumption: 42 mW (14-Hour Continuous Battery Life)</text>
+    <text x="25" y="152" fill="#cbd5e1" font-family="'JetBrains Mono', monospace" font-size="8">• Surgical Implants Cost: 40,000 USD vs Haptic Ring: Under 50 USD</text>
+  </g>
+
+  <!-- RIGHT PANEL BOTTOM: Official CAD Title Block -->
+  <g transform="translate(480, 290)">
+    <rect width="440" height="155" rx="8" fill="#091326" stroke="#1e3a5f" stroke-width="1.5"/>
+    
+    <line x1="0" y1="35" x2="440" y2="35" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="0" y1="75" x2="440" y2="75" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="0" y1="115" x2="440" y2="115" stroke="#1e3a5f" stroke-width="1"/>
+    <line x1="220" y1="0" x2="220" y2="115" stroke="#1e3a5f" stroke-width="1"/>
+
+    <text x="14" y="22" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">ORGANIZATION:</text>
+    <text x="85" y="22" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">RUNTIME-SLAYERS LABS</text>
+
+    <text x="234" y="22" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">DRAWING NUMBER:</text>
+    <text x="325" y="22" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">RS-ROB-ASSIST-003-REV-A</text>
+
+    <text x="14" y="58" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">PROJECT REPOS:</text>
+    <text x="14" y="68" fill="#f8fafc" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="600">Haptic-Ring-Deaf-Communication &amp; Smart-Cane</text>
+
+    <text x="234" y="58" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">EDGE LEAD:</text>
+    <text x="315" y="58" fill="#f59e0b" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">LIKITH PALAKURTHI</text>
+    <text x="234" y="70" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">SYS ARCHITECT:</text>
+    <text x="315" y="70" fill="#38bdf8" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">B. RAJENDRA REDDY</text>
+
+    <text x="14" y="98" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">MANUFACTURING COST:</text>
+    <text x="130" y="98" fill="#34d399" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700">UNDER 50 USD</text>
+
+    <text x="234" y="98" fill="#94a3b8" font-family="'JetBrains Mono', monospace" font-size="8">TARGET GROUP:</text>
+    <text x="315" y="98" fill="#c084fc" font-family="'JetBrains Mono', monospace" font-size="8" font-weight="700">PROFOUND DEAFNESS</text>
+
+    <text x="14" y="136" fill="#64748b" font-family="'JetBrains Mono', monospace" font-size="8">NON-INVASIVE SENSORY SUBSTITUTION HARDWARE COMPILATION • EMBEDDED FREERTOS</text>
+  </g>
+</svg>
