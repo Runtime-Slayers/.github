@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#0a0a1a"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  
+    <pattern id="grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/>
+    </pattern>
+    <pattern id="grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#grid-minor)"/>
+      <path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/>
+    </pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#grid-major)" opacity="0.5"/>
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#00E5FF" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <g stroke="#00E5FF" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#00E5FF" font-size="11" font-weight="bold">PROJ-11 // PROJECT AETHER — G-NeSAI COGNITIVE JAMMING CLASSIFICATION</text>
+  <text x="700" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#94a3b8" font-size="9">DRW-DEF-0011 | REV.A | DOMAIN: ELECTRONIC WARFARE</text>
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#00E5FF" stroke-width="0.8" opacity="0.6"/>
+<!-- LEFT: RF Spectrum Waterfall Display -->
+<text x="220" y="66" class="m" fill="#00E5FF" font-size="9" text-anchor="middle">RF SPECTRUM WATERFALL — JAMMING DETECTION</text>
+<!-- Frequency axis -->
+<line x1="35" y1="340" x2="435" y2="340" stroke="#94a3b8" stroke-width="1"/>
+<line x1="35" y1="80" x2="35" y2="340" stroke="#94a3b8" stroke-width="1"/>
+<text x="235" y="358" class="m" fill="#94a3b8" font-size="8" text-anchor="middle">Frequency (MHz) — 2.4 GHz band</text>
+<text x="22" y="210" class="m" fill="#94a3b8" font-size="8" text-anchor="middle" transform="rotate(-90 22 210)">Time (ms)</text>
+<!-- Waterfall cells (simulated) -->
+<!-- Normal noise (blue/dark) -->
+<g opacity="0.7">
+  <rect x="36" y="82" width="400" height="15" fill="#001530"/>
+  <rect x="36" y="97" width="400" height="15" fill="#001d3d"/>
+  <rect x="36" y="112" width="400" height="15" fill="#001530"/>
+  <rect x="36" y="127" width="400" height="15" fill="#002040"/>
+  <rect x="36" y="142" width="400" height="15" fill="#001530"/>
+  <!-- Spot jammer burst (bright red/orange) -->
+  <rect x="150" y="157" width="80" height="12" fill="#FF3366" opacity="0.9" filter="url(#glow)"/>
+  <rect x="160" y="169" width="70" height="12" fill="#FF6B00" opacity="0.8" filter="url(#glow)"/>
+  <rect x="155" y="181" width="75" height="12" fill="#FF3366" opacity="0.9" filter="url(#glow)"/>
+  <!-- Sweep jammer (moving band) -->
+  <rect x="280" y="157" width="40" height="12" fill="#F59E0B" opacity="0.7"/>
+  <rect x="300" y="169" width="40" height="12" fill="#F59E0B" opacity="0.7"/>
+  <rect x="320" y="181" width="40" height="12" fill="#F59E0B" opacity="0.7"/>
+  <!-- Barrage jammer (wide) -->
+  <rect x="36" y="200" width="400" height="12" fill="#c084fc" opacity="0.5"/>
+  <rect x="36" y="212" width="400" height="12" fill="#c084fc" opacity="0.4"/>
+  <!-- Normal return -->
+  <rect x="36" y="225" width="400" height="15" fill="#001d3d"/>
+  <rect x="36" y="240" width="400" height="15" fill="#001530"/>
+  <rect x="36" y="255" width="400" height="15" fill="#001d3d"/>
+  <rect x="36" y="270" width="400" height="15" fill="#001530"/>
+  <rect x="36" y="285" width="400" height="15" fill="#001d3d"/>
+  <rect x="36" y="300" width="400" height="15" fill="#001530"/>
+  <rect x="36" y="315" width="400" height="15" fill="#001d3d"/>
+</g>
+<!-- Detection annotations -->
+<rect x="148" y="155" width="84" height="40" fill="none" stroke="#FF3366" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="192" y="210" class="m" fill="#FF3366" font-size="7.5" text-anchor="middle">SPOT JAM</text>
+<rect x="275" y="155" width="90" height="30" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="320" y="200" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">SWEEP</text>
+<rect x="35" y="198" width="402" height="26" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,2"/>
+<text x="440" y="208" class="m" fill="#c084fc" font-size="7.5">BARRAGE</text>
+<!-- Divider -->
+<line x1="455" y1="48" x2="455" y2="412" stroke="#00E5FF" stroke-width="0.8" opacity="0.4"/>
+<!-- RIGHT: G-NeSAI Pipeline -->
+<text x="700" y="68" class="s" fill="#00E5FF" font-size="11" font-weight="bold" text-anchor="middle">G-NeSAI CLASSIFICATION PIPELINE</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#00E5FF" stroke-width="0.5" opacity="0.4"/>
+<!-- Input -->
+<rect x="490" y="85" width="200" height="42" rx="5" fill="#001020" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="590" y="105" class="m" fill="#00E5FF" font-size="9" text-anchor="middle">RF SIGNAL CAPTURE</text>
+<text x="590" y="119" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">IQ samples — 100 MSPS SDR</text>
+<!-- Feature extraction -->
+<rect x="490" y="142" width="200" height="42" rx="5" fill="#0a1a00" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="590" y="162" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">SPECTROGRAM + CWMD</text>
+<text x="590" y="176" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Short-time Fourier + wavelet</text>
+<!-- GNeSAI core -->
+<rect x="490" y="199" width="200" height="55" rx="5" fill="#001520" stroke="#00E5FF" stroke-width="2" filter="url(#glow)"/>
+<text x="590" y="220" class="m" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">G-NeSAI MODEL</text>
+<text x="590" y="234" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Graph Neural + Self-Attention</text>
+<text x="590" y="247" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Temporal spectral features</text>
+<!-- Classification output -->
+<rect x="490" y="269" width="200" height="55" rx="5" fill="#150010" stroke="#c084fc" stroke-width="1.5"/>
+<text x="590" y="290" class="m" fill="#c084fc" font-size="9" text-anchor="middle" font-weight="bold">WAVEFORM CLASS</text>
+<text x="590" y="304" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Spot / Sweep / Barrage / DRFM</text>
+<text x="590" y="318" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Countermeasure routed</text>
+<!-- Arrows -->
+<line x1="590" y1="127" x2="590" y2="142" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="590" y1="184" x2="590" y2="199" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="590" y1="254" x2="590" y2="269" stroke="#94a3b8" stroke-width="1.5"/>
+<!-- Side specs -->
+<rect x="715" y="85" width="210" height="240" rx="5" fill="#080d18" stroke="#F59E0B" stroke-width="1"/>
+<text x="820" y="104" class="m" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">SYSTEM SPECS</text>
+<line x1="715" y1="112" x2="925" y2="112" stroke="#F59E0B" stroke-width="0.5"/>
+<text x="725" y="130" class="m" fill="#94a3b8" font-size="8">Jammer types: 6 classes</text>
+<text x="725" y="148" class="m" fill="#94a3b8" font-size="8">Accuracy: 96.7%</text>
+<text x="725" y="166" class="m" fill="#94a3b8" font-size="8">SNR range: -20 to +30 dB</text>
+<text x="725" y="184" class="m" fill="#94a3b8" font-size="8">Inference: 2.3 ms</text>
+<text x="725" y="202" class="m" fill="#94a3b8" font-size="8">SDR frontend: USRP B210</text>
+<text x="725" y="220" class="m" fill="#F59E0B" font-size="8">G-NeSAI: 4-layer GNN</text>
+<text x="725" y="238" class="m" fill="#F59E0B" font-size="8">Self-attention heads: 8</text>
+<text x="725" y="256" class="m" fill="#00E5FF" font-size="8">Countermeasure: auto-route</text>
+<text x="725" y="274" class="m" fill="#10B981" font-size="8">Real-time capable: YES</text>
+<text x="725" y="292" class="m" fill="#94a3b8" font-size="8">Dataset: synthetic + ESA</text>
+<!-- Bottom -->
+<rect x="475" y="340" width="460" height="62" fill="#080d18" rx="4" stroke="#00E5FF" stroke-width="1"/>
+<text x="490" y="357" class="m" fill="#00E5FF" font-size="8.5" font-weight="bold">PROJECT AETHER — Electronic Warfare AI</text>
+<text x="490" y="373" class="m" fill="#94a3b8" font-size="8">G-NeSAI: Graph Neural EW Signal Autonomous Intelligence</text>
+<text x="490" y="388" class="m" fill="#94a3b8" font-size="8">Classifies jamming waveforms in under 3ms for real-time countermeasure dispatch</text>
+</svg>

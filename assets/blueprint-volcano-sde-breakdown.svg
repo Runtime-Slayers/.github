@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>
+    .m { font-family: "JetBrains Mono", monospace; }
+    .s { font-family: "Montserrat", sans-serif; }
+  </style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#150005"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.45"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#FF3366" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#FF3366" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#FF3366" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#FF3366" font-size="10.5" font-weight="bold">PROJ-44 // VOLCANO SDE MODEL — STUDENT BREAKDOWN PREDICTION</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-MATH-0044 | REV.A | COMPUTATIONAL PSYCHIATRY</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#FF3366" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#FF3366" stroke-width="0.8" opacity="0.4"/>
+
+<!-- LEFT: Volcano Phase Space & Catastrophe Bifurcation -->
+<text x="220" y="66" class="m" fill="#FF3366" font-size="9" text-anchor="middle">NON-LINEAR SDE MAGMA CHAMBER PHASE SPACE</text>
+<rect x="35" y="78" width="400" height="230" rx="5" fill="#150005" stroke="#FF3366" stroke-width="1.2"/>
+
+<!-- Volcano Magma Chamber Schematic -->
+<path d="M90 280 L160 170 L210 170 L280 280 Z" fill="#200508" stroke="#FF6B00" stroke-width="1.5"/>
+<ellipse cx="185" cy="270" rx="70" ry="18" fill="#FF3366" opacity="0.4" filter="url(#glow)"/>
+<text x="185" y="274" class="m" fill="#f8fafc" font-size="7.5" text-anchor="middle" font-weight="bold">MAGMA RESERVOIR (Stress Load)</text>
+
+<!-- Vent Conduit to Tipping Point -->
+<rect x="175" y="120" width="20" height="50" fill="#300a0a" stroke="#FF6B00" stroke-width="1"/>
+<line x1="185" y1="170" x2="185" y2="105" stroke="#FF3366" stroke-width="2.5" stroke-dasharray="4,2">
+  <animate attributeName="stroke-dashoffset" values="0;-16" dur="1s" repeatCount="indefinite"/>
+</line>
+
+<!-- Catastrophe Bifurcation Cusp Curve on the Right -->
+<g transform="translate(290, 95)">
+  <line x1="0" y1="120" x2="110" y2="120" stroke="#94a3b8" stroke-width="0.8"/>
+  <line x1="0" y1="0" x2="0" y2="120" stroke="#94a3b8" stroke-width="0.8"/>
+  <text x="55" y="132" class="m" fill="#94a3b8" font-size="6">Allostatic Load (x)</text>
+  <text x="-5" y="60" class="m" fill="#94a3b8" font-size="6" text-anchor="end">Pressure</text>
+  <!-- S-curve bifurcation -->
+  <path d="M10 110 Q35 105 50 80 Q65 55 55 35 Q45 15 80 10 Q100 10 105 10" fill="none" stroke="#FF3366" stroke-width="2" filter="url(#glow)"/>
+  <!-- Tipping point circle -->
+  <circle cx="50" cy="80" r="5" fill="#F59E0B" filter="url(#glow)"/>
+  <text x="60" y="78" class="m" fill="#F59E0B" font-size="6.5">Cusp (x_c)</text>
+</g>
+
+<!-- Status callout below -->
+<rect x="50" y="320" width="370" height="75" rx="4" fill="#001020" stroke="#FF3366" stroke-width="1"/>
+<text x="235" y="336" class="m" fill="#FF3366" font-size="8.5" text-anchor="middle" font-weight="bold">EARLY WARNING STOCHASTIC TELEMETRY</text>
+<text x="235" y="352" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Detects critical slowing down (variance + autocorrelation spike) in daily metrics</text>
+<text x="235" y="367" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">Warning Lead Time: 14 to 21 Days Before Clinical Crisis | AUC: 0.886</text>
+<text x="235" y="382" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">Poisson jump operator flags sudden academic/social catastrophic events</text>
+
+<!-- RIGHT PANEL: Forecast Horizon & Specs -->
+<text x="700" y="68" class="s" fill="#FF3366" font-size="11" font-weight="bold" text-anchor="middle">LEAD-TIME DETECTION ACCURACY</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#FF3366" stroke-width="0.5" opacity="0.4"/>
+
+<g class="m" font-size="7.5">
+  <text x="490" y="98" fill="#94a3b8">3 Days Prior (Crisis imminent)</text>
+  <rect x="650" y="88" width="230" height="13" fill="#FF3366" rx="2" filter="url(#glow)"/>
+  <text x="888" y="98" fill="#FF3366" font-weight="bold">94.8%</text>
+
+  <text x="490" y="118" fill="#F59E0B" font-weight="bold">14 Days Prior (Intervention Window)</text>
+  <rect x="650" y="108" width="205" height="13" fill="#F59E0B" rx="2"/>
+  <text x="862" y="118" fill="#F59E0B" font-weight="bold">88.6%</text>
+
+  <text x="490" y="138" fill="#94a3b8">28 Days Prior (Early drift)</text>
+  <rect x="650" y="128" width="150" height="13" fill="#38bdf8" rx="2" opacity="0.7"/>
+  <text x="808" y="138" fill="#38bdf8">71.2%</text>
+</g>
+
+<!-- Specs Block -->
+<rect x="475" y="165" width="460" height="235" fill="#080d18" rx="4" stroke="#FF3366" stroke-width="1"/>
+<text x="490" y="184" class="m" fill="#FF3366" font-size="8.5" font-weight="bold">VOLCANO SDE MATHEMATICAL SPECIFICATIONS</text>
+<line x1="475" y1="192" x2="935" y2="192" stroke="#FF3366" stroke-width="0.5"/>
+<g class="m" font-size="8">
+  <text x="490" y="210" fill="#94a3b8">SDE Equation:</text><text x="640" y="210" fill="#FF3366">dX_t = -grad V(X_t)dt + sigma dW_t + J dN_t</text>
+  <text x="490" y="228" fill="#94a3b8">Potential Function V(x):</text><text x="640" y="228" fill="#F59E0B">Cubic-quartic bistable cusp catastrophe</text>
+  <text x="490" y="246" fill="#94a3b8">Stochastic Term:</text><text x="640" y="246" fill="#38bdf8">Wiener process + Poisson jump catastrophe</text>
+  <text x="490" y="264" fill="#94a3b8">Input Telemetry:</text><text x="640" y="264" fill="#10B981">Circadian rhythm, LMS activity, HRV metrics</text>
+  <text x="490" y="282" fill="#94a3b8">Tipping Point Indicator:</text><text x="640" y="282" fill="#FF3366">Autoregressive lag-1 coefficient alpha &gt; 0.85</text>
+  <text x="490" y="300" fill="#94a3b8">Privacy Architecture:</text><text x="640" y="300" fill="#00E5FF">Differential Privacy (epsilon=0.5) edge compute</text>
+  <text x="490" y="318" fill="#94a3b8">False Alarm Rate:</text><text x="640" y="318" fill="#10B981">&lt; 3.8% across longitudinal academic cohorts</text>
+  <text x="490" y="336" fill="#94a3b8">Clinical Concordance:</text><text x="640" y="336" fill="#94a3b8">89.4% agreement with PHQ-9 / GAD-7 escalations</text>
+  <text x="490" y="354" fill="#94a3b8">CAD Reference:</text><text x="640" y="354" fill="#94a3b8">RS-MENTAL-SDE-044-REV-A</text>
+  <text x="490" y="372" fill="#F59E0B">Purpose: Preventive mental wellness interventions for universities</text>
+</g>
+
+</svg>

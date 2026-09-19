@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#000d05"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#10B981" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#10B981" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#10B981" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#10B981" font-size="11" font-weight="bold">PROJ-22 // AB42 QUANTUM SPIN — ALZHEIMER EARLY BIOMARKER</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-BIO-0022 | REV.A | BIOMEDICAL AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#10B981" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#10B981" stroke-width="0.8" opacity="0.4"/>
+
+<text x="220" y="66" class="m" fill="#10B981" font-size="9" text-anchor="middle">AMYLOID-BETA 42 QUANTUM SPIN — ALZHEIMERS BIOMARKER</text>
+<!-- Amyloid beta peptide structure (schematic) -->
+<text x="220" y="90" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Ab42 peptide — 42 amino acid chain — beta-sheet aggregation</text>
+<!-- Beta sheet ribbons -->
+<g stroke="#10B981" stroke-width="2" fill="none">
+  <path d="M40 130 Q100 110 160 130 Q220 150 280 130 Q340 110 400 130"/>
+  <path d="M40 155 Q100 135 160 155 Q220 175 280 155 Q340 135 400 155"/>
+  <path d="M40 180 Q100 160 160 180 Q220 200 280 180 Q340 160 400 180"/>
+</g>
+<!-- Amino acid side chains (vertical sticks) -->
+<g stroke="#38bdf8" stroke-width="1" opacity="0.6">
+  <line x1="60" y1="130" x2="60" y2="115"/><line x1="100" y1="120" x2="100" y2="105"/>
+  <line x1="140" y1="130" x2="140" y2="115"/><line x1="180" y1="140" x2="180" y2="125"/>
+  <line x1="220" y1="130" x2="220" y2="115"/><line x1="260" y1="120" x2="260" y2="105"/>
+  <line x1="300" y1="130" x2="300" y2="115"/><line x1="340" y1="120" x2="340" y2="105"/>
+  <line x1="380" y1="130" x2="380" y2="115"/>
+</g>
+<!-- Quantum spin markers on key residues -->
+<g fill="#FF3366" filter="url(#glow)">
+  <circle cx="100" cy="105" r="6"><animate attributeName="r" values="6;9;6" dur="1.5s" repeatCount="indefinite"/></circle>
+  <circle cx="220" cy="115" r="6"><animate attributeName="r" values="6;9;6" dur="1.8s" repeatCount="indefinite"/></circle>
+  <circle cx="340" cy="105" r="6"><animate attributeName="r" values="6;9;6" dur="1.3s" repeatCount="indefinite"/></circle>
+</g>
+<text x="100" y="98" class="m" fill="#FF3366" font-size="7" text-anchor="middle">His13</text>
+<text x="220" y="108" class="m" fill="#FF3366" font-size="7" text-anchor="middle">His14</text>
+<text x="340" y="98" class="m" fill="#FF3366" font-size="7" text-anchor="middle">Tyr10</text>
+<text x="220" y="200" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Paramagnetic Cu2+ binding sites — unpaired electron spin</text>
+<!-- Aggregation plaque formation -->
+<ellipse cx="220" cy="270" rx="120" ry="55" fill="#0a1500" stroke="#10B981" stroke-width="1.5" stroke-dasharray="5,3"/>
+<text x="220" y="260" class="m" fill="#10B981" font-size="8.5" text-anchor="middle" font-weight="bold">AMYLOID PLAQUE</text>
+<text x="220" y="274" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Ab42 fibril aggregation</text>
+<text x="220" y="287" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">EPR detectable spin signal</text>
+<!-- EPR spectrum -->
+<rect x="40" y="320" width="350" height="75" fill="#001a00" stroke="#10B981" stroke-width="1" rx="3"/>
+<text x="215" y="335" class="m" fill="#10B981" font-size="8" text-anchor="middle">EPR SPECTRUM — Cu2+ hyperfine splitting</text>
+<line x1="55" y1="380" x2="375" y2="380" stroke="#94a3b8" stroke-width="1"/>
+<polyline points="55,370 90,355 110,375 130,350 150,372 180,340 200,370 220,345 240,368 260,343 280,367 300,360 320,370 350,378 375,375" fill="none" stroke="#10B981" stroke-width="1.5" filter="url(#glow)"/>
+<text x="215" y="392" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">B-field (mT) — hyperfine quartet (4 lines) = Cu2+ signature</text>
+<!-- RIGHT: AI biomarker pipeline -->
+<text x="700" y="68" class="s" fill="#10B981" font-size="11" font-weight="bold" text-anchor="middle">AI ALZHEIMER BIOMARKER PIPELINE</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#10B981" stroke-width="0.5" opacity="0.4"/>
+<rect x="490" y="85" width="420" height="38" rx="3" fill="#001500" stroke="#10B981" stroke-width="1.5"/>
+<text x="700" y="103" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">EPR INPUT: Ab42 spin spectrum measurement</text>
+<text x="700" y="116" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">X-band EPR (9.8 GHz) — Cu2+ hyperfine quartet extraction</text>
+<rect x="490" y="131" width="420" height="38" rx="3" fill="#0a1500" stroke="#F59E0B" stroke-width="1.2"/>
+<text x="700" y="149" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">QUANTUM SPIN FEATURE EXTRACTION</text>
+<text x="700" y="162" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">g-tensor, hyperfine coupling constant A, D-parameter</text>
+<rect x="490" y="177" width="420" height="38" rx="3" fill="#001020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="700" y="195" class="m" fill="#c084fc" font-size="9" text-anchor="middle">ML CLASSIFIER: Random Forest + SVM</text>
+<text x="700" y="208" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Predicts AD stage from spin parameter fingerprint</text>
+<rect x="490" y="223" width="420" height="38" rx="3" fill="#001000" stroke="#10B981" stroke-width="1.5" filter="url(#glow)"/>
+<text x="700" y="241" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">OUTPUT: Early Alzheimer biomarker score</text>
+<text x="700" y="254" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Sensitivity 89% — 3 years before clinical symptoms</text>
+<rect x="475" y="278" width="460" height="118" fill="#080d18" rx="4" stroke="#10B981" stroke-width="1"/>
+<text x="490" y="295" class="m" fill="#10B981" font-size="8.5" font-weight="bold">KEY FINDINGS</text>
+<g class="m" font-size="8">
+  <text x="490" y="313" fill="#94a3b8">Peptide:</text><text x="615" y="313" fill="#10B981">Amyloid-beta 42 (Ab42)</text>
+  <text x="490" y="330" fill="#94a3b8">Spin sites:</text><text x="615" y="330" fill="#38bdf8">Cu2+ at His13, His14, Tyr10</text>
+  <text x="490" y="347" fill="#94a3b8">Method:</text><text x="615" y="347" fill="#c084fc">EPR + quantum spin Hamiltonian</text>
+  <text x="490" y="364" fill="#94a3b8">Early detect:</text><text x="615" y="364" fill="#10B981">3 years pre-clinical (AUC 0.91)</text>
+  <text x="490" y="381" fill="#94a3b8">Conference:</text><text x="615" y="381" fill="#F59E0B">CIBB 2026 presentation</text>
+</g>
+</svg>

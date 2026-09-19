@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#0d0015"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#c084fc" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#c084fc" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#c084fc" font-size="10" font-weight="bold">PROJ-49 // VLSI CHIP FLOORPLANNING — REINFORCEMENT LEARNING AI</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-ENG-0049 | REV.A | VLSI EDA AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#c084fc" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#c084fc" stroke-width="0.8" opacity="0.4"/>
+<text x="220" y="66" class="m" fill="#c084fc" font-size="9" text-anchor="middle">VLSI CHIP FLOORPLANNING — RL AUTOMATED PLACEMENT</text>
+    <rect x="35" y="80" width="400" height="295" rx="5" fill="#050010" stroke="#c084fc" stroke-width="1.5"/>
+    <text x="220" y="100" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">RL PLACED CHIP FLOORPLAN — MACRO + STD CELL</text>
+    <!-- Chip die boundary -->
+    <rect x="55" y="110" width="360" height="250" fill="#080010" stroke="#c084fc" stroke-width="2"/>
+    <!-- Macro blocks (RL-placed) -->
+    <rect x="65" y="120" width="90" height="60" fill="#100030" stroke="#c084fc" stroke-width="1.5"/><text x="110" y="153" class="m" fill="#c084fc" font-size="7.5" text-anchor="middle">CPU CORE</text>
+    <rect x="170" y="120" width="70" height="50" fill="#001030" stroke="#38bdf8" stroke-width="1.5"/><text x="205" y="148" class="m" fill="#38bdf8" font-size="7.5" text-anchor="middle">CACHE L1</text>
+    <rect x="255" y="120" width="80" height="50" fill="#001030" stroke="#38bdf8" stroke-width="1.5"/><text x="295" y="148" class="m" fill="#38bdf8" font-size="7.5" text-anchor="middle">CACHE L2</text>
+    <rect x="345" y="120" width="65" height="80" fill="#100020" stroke="#F59E0B" stroke-width="1.5"/><text x="377" y="162" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">IO PAD</text>
+    <rect x="65" y="195" width="120" height="55" fill="#001a00" stroke="#10B981" stroke-width="1.5"/><text x="125" y="224" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">GPU / ACCEL</text>
+    <rect x="200" y="185" width="135" height="65" fill="#1a0000" stroke="#FF3366" stroke-width="1.5"/><text x="267" y="220" class="m" fill="#FF3366" font-size="7.5" text-anchor="middle">DDR PHY</text>
+    <rect x="65" y="265" width="180" height="85" fill="#0a0020" stroke="#c084fc" stroke-width="1"/><text x="155" y="312" class="m" fill="#c084fc" font-size="7.5" text-anchor="middle">STD CELL REGION (90% util)</text>
+    <rect x="260" y="265" width="150" height="85" fill="#001000" stroke="#10B981" stroke-width="1"/><text x="335" y="312" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">PWR RING + IO</text>
+    <!-- Wire routing (simplified) -->
+    <g stroke="#94a3b8" stroke-width="0.5" opacity="0.3">
+      <line x1="155" y1="150" x2="170" y2="145"/><line x1="240" y1="148" x2="255" y2="148"/>
+      <line x1="155" y1="220" x2="200" y2="218"/>
+    </g>
+    <text x="220" y="378" class="m" fill="#c084fc" font-size="8" text-anchor="middle">PPO RL placement: 12% shorter wires vs SA | 8hr vs 3wk manual</text>
+<!-- RIGHT PANEL -->
+<text x="700" y="68" class="s" fill="#c084fc" font-size="11" font-weight="bold" text-anchor="middle">SYSTEM ARCHITECTURE &amp; METRICS</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#c084fc" stroke-width="0.5" opacity="0.4"/>
+<!-- Description block -->
+<rect x="490" y="82" width="440" height="200" rx="5" fill="#080d18" stroke="#c084fc" stroke-width="1"/>
+<text x="710" y="100" class="m" fill="#c084fc" font-size="9" text-anchor="middle" font-weight="bold">TECHNICAL OVERVIEW</text>
+<line x1="490" y1="108" x2="930" y2="108" stroke="#c084fc" stroke-width="0.5"/>
+<text x="500" y="130" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">Reinforcement learning for automated VLSI chip floorplanning. Placement policy t</text>
+<text x="500" y="148" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">rained with PPO (Proximal Policy Optimization) on ISPD 2005 benchmark circuits. </text>
+<text x="500" y="166" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">Optimizes: wire length minimization, timing closure, thermal hotspot avoidance. </text>
+<text x="500" y="184" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">Achieves 12% wire-length reduction vs simulated annealing. Tested on ARM Cortex-</text>
+<text x="500" y="202" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">A53 macro placement. Inference: 8 hours vs 3 weeks manual. Output: DEF file comp</text>
+<text x="500" y="220" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">atible with Synopsys IC Compiler. Nature-inspired layout mimics graph-attention </text>
+<text x="500" y="238" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">placement from Google Brain chip placement paper.</text>
+<text x="500" y="256" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<text x="500" y="274" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<!-- Metrics table -->
+<rect x="490" y="295" width="440" height="110" rx="4" fill="#080d18" stroke="#c084fc" stroke-width="1"/>
+<text x="710" y="310" class="m" fill="#c084fc" font-size="8.5" text-anchor="middle" font-weight="bold">KEY METRICS</text>
+<line x1="490" y1="316" x2="930" y2="316" stroke="#c084fc" stroke-width="0.5"/>
+<text x="490" y="305" class="m" fill="#94a3b8" font-size="8">Algorithm</text><text x="660" y="305" class="m" fill="#c084fc" font-size="8">PPO reinforcement learning</text>
+<text x="490" y="322" class="m" fill="#94a3b8" font-size="8">Benchmark</text><text x="660" y="322" class="m" fill="#94a3b8" font-size="8">ISPD 2005 + ARM Cortex-A53</text>
+<text x="490" y="339" class="m" fill="#94a3b8" font-size="8">Wire reduction</text><text x="660" y="339" class="m" fill="#10B981" font-size="8">-12% vs simulated annealing</text>
+<text x="490" y="356" class="m" fill="#94a3b8" font-size="8">Runtime</text><text x="660" y="356" class="m" fill="#F59E0B" font-size="8">8 hours vs 3 weeks manual</text>
+<text x="490" y="373" class="m" fill="#94a3b8" font-size="8">Output format</text><text x="660" y="373" class="m" fill="#38bdf8" font-size="8">DEF file — Synopsys ICC compatible</text>
+<text x="490" y="390" class="m" fill="#94a3b8" font-size="8">Innovation</text><text x="660" y="390" class="m" fill="#c084fc" font-size="8">Graph-attention RL placement policy</text>
+
+</svg>

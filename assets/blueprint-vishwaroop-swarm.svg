@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#12001a"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  
+    <pattern id="grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/>
+    </pattern>
+    <pattern id="grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#grid-minor)"/>
+      <path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/>
+    </pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#grid-major)" opacity="0.5"/>
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#c084fc" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <g stroke="#c084fc" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#c084fc" font-size="11" font-weight="bold">PROJ-09 // PROJECT VISHWAROOP — ACTIVE INFERENCE DEFENSE SWARM</text>
+  <text x="700" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#94a3b8" font-size="9">DRW-DEF-0009 | REV.A | DOMAIN: DEFENSE AI</text>
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#c084fc" stroke-width="0.8" opacity="0.6"/>
+<!-- LEFT: Swarm topology -->
+<text x="220" y="66" class="m" fill="#c084fc" font-size="9" text-anchor="middle">AUTOPOIETIC SWARM TOPOLOGY</text>
+<!-- Central command node -->
+<circle cx="220" cy="225" r="30" fill="#200030" stroke="#c084fc" stroke-width="2" filter="url(#glow)"/>
+<text x="220" y="220" class="m" fill="#c084fc" font-size="8" text-anchor="middle">VISHW-</text>
+<text x="220" y="232" class="m" fill="#c084fc" font-size="8" text-anchor="middle">AROOP</text>
+<text x="220" y="244" class="m" fill="#c084fc" font-size="7" text-anchor="middle">CORE</text>
+<!-- Swarm agent nodes -->
+<g fill="#0a0020" stroke="#FF3366" stroke-width="1.5">
+  <circle cx="120" cy="140" r="18"/>
+  <circle cx="320" cy="140" r="18"/>
+  <circle cx="80" cy="250" r="18"/>
+  <circle cx="360" cy="250" r="18"/>
+  <circle cx="120" cy="330" r="18"/>
+  <circle cx="320" cy="330" r="18"/>
+  <circle cx="220" cy="90" r="18"/>
+  <circle cx="220" cy="370" r="18"/>
+</g>
+<g class="m" fill="#FF3366" font-size="7" text-anchor="middle">
+  <text x="120" y="137">UAV</text><text x="120" y="147">A-01</text>
+  <text x="320" y="137">UAV</text><text x="320" y="147">A-02</text>
+  <text x="80" y="247">UGV</text><text x="80" y="257">B-01</text>
+  <text x="360" y="247">UGV</text><text x="360" y="257">B-02</text>
+  <text x="120" y="327">UUV</text><text x="120" y="337">C-01</text>
+  <text x="320" y="327">UUV</text><text x="320" y="337">C-02</text>
+  <text x="220" y="87">Orbit</text><text x="220" y="97">SAT</text>
+  <text x="220" y="367">Sub</text><text x="220" y="377">UUV</text>
+</g>
+<!-- Connections (active inference free energy minimization links) -->
+<g stroke="#c084fc" stroke-width="1" stroke-dasharray="4,3" opacity="0.6">
+  <line x1="190" y1="200" x2="130" y2="155"/>
+  <line x1="250" y1="200" x2="310" y2="155"/>
+  <line x1="195" y1="240" x2="98" y2="250"/>
+  <line x1="245" y1="240" x2="342" y2="250"/>
+  <line x1="200" y1="250" x2="130" y2="318"/>
+  <line x1="240" y1="250" x2="310" y2="318"/>
+  <line x1="220" y1="195" x2="220" y2="108"/>
+  <line x1="220" y1="255" x2="220" y2="352"/>
+</g>
+<!-- Threat cone (incoming) -->
+<path d="M420 150 L380 200 L420 250 Z" fill="#FF3366" opacity="0.2" stroke="#FF3366" stroke-width="1"/>
+<text x="430" y="205" class="m" fill="#FF3366" font-size="8">THREAT</text>
+<!-- Divider -->
+<line x1="455" y1="48" x2="455" y2="412" stroke="#c084fc" stroke-width="0.8" opacity="0.4"/>
+<!-- RIGHT: Active Inference diagram -->
+<text x="700" y="68" class="s" fill="#c084fc" font-size="11" font-weight="bold" text-anchor="middle">ACTIVE INFERENCE FREE ENERGY LOOP</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#c084fc" stroke-width="0.5" opacity="0.4"/>
+<!-- Perception box -->
+<rect x="490" y="90" width="180" height="50" rx="5" fill="#100020" stroke="#c084fc" stroke-width="1.5"/>
+<text x="580" y="111" class="m" fill="#c084fc" font-size="9" text-anchor="middle" font-weight="bold">PERCEPTION</text>
+<text x="580" y="125" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Variational inference q(theta)</text>
+<text x="580" y="136" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Bayesian update per agent</text>
+<!-- Action box -->
+<rect x="490" y="165" width="180" height="50" rx="5" fill="#0a1500" stroke="#10B981" stroke-width="1.5"/>
+<text x="580" y="186" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">ACTION</text>
+<text x="580" y="200" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Free Energy F = E[log p/q]</text>
+<text x="580" y="211" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Minimize surprise</text>
+<!-- Prediction box -->
+<rect x="490" y="240" width="180" height="50" rx="5" fill="#150500" stroke="#FF6B00" stroke-width="1.5"/>
+<text x="580" y="261" class="m" fill="#FF6B00" font-size="9" text-anchor="middle" font-weight="bold">PREDICTION</text>
+<text x="580" y="275" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Generative model p(x,theta)</text>
+<text x="580" y="286" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Enemy state prediction</text>
+<!-- Arrows circular -->
+<line x1="580" y1="140" x2="580" y2="165" stroke="#94a3b8" stroke-width="1.5"/><polygon points="577,163 580,170 583,163" fill="#94a3b8"/>
+<line x1="580" y1="215" x2="580" y2="240" stroke="#94a3b8" stroke-width="1.5"/><polygon points="577,238 580,245 583,238" fill="#94a3b8"/>
+<path d="M490 265 Q460 265 460 190 Q460 115 490 115" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="5,3"/>
+<polygon points="488,112 495,115 488,118" fill="#c084fc"/>
+<!-- Autopoiesis box -->
+<rect x="700" y="90" width="225" height="200" rx="5" fill="#080d18" stroke="#F59E0B" stroke-width="1"/>
+<text x="812" y="110" class="m" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">AUTOPOIETIC PROPERTIES</text>
+<line x1="700" y1="118" x2="925" y2="118" stroke="#F59E0B" stroke-width="0.5"/>
+<text x="712" y="135" class="m" fill="#94a3b8" font-size="8">Self-organization: YES</text>
+<text x="712" y="152" class="m" fill="#94a3b8" font-size="8">Self-repair: node re-route</text>
+<text x="712" y="169" class="m" fill="#94a3b8" font-size="8">Communication: swarm mesh</text>
+<text x="712" y="186" class="m" fill="#94a3b8" font-size="8">Decentralized control: YES</text>
+<text x="712" y="203" class="m" fill="#94a3b8" font-size="8">Threat class: multi-domain</text>
+<text x="712" y="220" class="m" fill="#F59E0B" font-size="8">F minimization latency: 8ms</text>
+<text x="712" y="237" class="m" fill="#10B981" font-size="8">Swarm size: 8-64 nodes</text>
+<text x="712" y="254" class="m" fill="#c084fc" font-size="8">Model: Karl Friston FEP</text>
+<text x="712" y="271" class="m" fill="#94a3b8" font-size="8">Domain: UAV,UGV,UUV,SAT</text>
+<!-- Bottom metrics -->
+<rect x="475" y="310" width="460" height="90" fill="#080d18" rx="4" stroke="#c084fc" stroke-width="1"/>
+<text x="490" y="328" class="m" fill="#c084fc" font-size="8.5" font-weight="bold">KEY INNOVATION: Active Inference Autopoietic Defense Swarm</text>
+<text x="490" y="345" class="m" fill="#94a3b8" font-size="8">Free Energy Principle (Friston): each agent minimizes variational free energy F</text>
+<text x="490" y="360" class="m" fill="#94a3b8" font-size="8">Autopoiesis: self-maintaining network topology even under node loss</text>
+<text x="490" y="375" class="m" fill="#94a3b8" font-size="8">Multi-domain: aerial UAV + ground UGV + underwater UUV + orbital SAT</text>
+<text x="490" y="390" class="m" fill="#F59E0B" font-size="8">SIMULATION ONLY — Research model | Runtime Slayers — Project-VISHWAROOP</text>
+</svg>

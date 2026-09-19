@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+  <defs>
+    <style>.mono{font-family:"JetBrains Mono","Courier New",monospace}.sans{font-family:"Montserrat","Segoe UI",sans-serif}</style>
+    <filter id="p5-glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="p5-bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#080d18"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+    <linearGradient id="p5-ion" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#00E5FF"/><stop offset="100%" stop-color="transparent"/></linearGradient>
+    <pattern id="p5-grid-minor" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="p5-grid-major" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#p5-grid-minor)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+  </defs>
+  <rect width="960" height="420" fill="url(#p5-bg)"/>
+  <rect width="960" height="420" fill="url(#p5-grid-major)" opacity="0.5"/>
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#00E5FF" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <g stroke="#00E5FF" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" class="mono" fill="#00E5FF" font-size="11" font-weight="bold">PROJ-05 // QUANTUM-TUNNELING ION PROPULSION — WKB APPROXIMATION</text>
+  <text x="700" y="32" class="mono" fill="#94a3b8" font-size="9">DRW-AERO-0005 | REV.A | QUANTUM PROPULSION</text>
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#00E5FF" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- LEFT PANEL: WKB Potential Barrier + Emission Schematic -->
+  <!-- Ion thruster body -->
+  <rect x="30" y="60" width="200" height="280" rx="10" fill="#0a1420" stroke="#00E5FF" stroke-width="2"/>
+  <text x="130" y="80" class="mono" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">GRID-ION THRUSTER</text>
+
+  <!-- Propellant (Xenon) -->
+  <rect x="45" y="88" width="170" height="55" rx="5" fill="#001a33" stroke="#38bdf8" stroke-width="1"/>
+  <text x="130" y="105" class="mono" fill="#38bdf8" font-size="8.5" text-anchor="middle">XENON PROPELLANT</text>
+  <text x="130" y="118" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Neutral gas reservoir</text>
+  <text x="130" y="130" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Controlled flow rate</text>
+
+  <!-- Ionization chamber -->
+  <rect x="45" y="150" width="170" height="60" rx="5" fill="#001020" stroke="#c084fc" stroke-width="1.5"/>
+  <text x="130" y="168" class="mono" fill="#c084fc" font-size="8.5" text-anchor="middle">IONIZATION CHAMBER</text>
+  <!-- Electron impact dots -->
+  <circle cx="70" cy="185" r="4" fill="#c084fc" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="0.8s" repeatCount="indefinite"/></circle>
+  <circle cx="90" cy="178" r="3" fill="#c084fc" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.1s" repeatCount="indefinite"/></circle>
+  <circle cx="130" cy="185" r="4" fill="#c084fc" opacity="0.7"><animate attributeName="opacity" values="0.7;0.1;0.7" dur="0.9s" repeatCount="indefinite"/></circle>
+  <circle cx="170" cy="180" r="3" fill="#c084fc" opacity="0.6"><animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.2s" repeatCount="indefinite"/></circle>
+  <text x="130" y="200" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Xe+ generation</text>
+
+  <!-- Cold field emitter (KEY INNOVATION) -->
+  <rect x="45" y="218" width="170" height="55" rx="5" fill="#0a0020" stroke="#FF3366" stroke-width="2"/>
+  <text x="130" y="236" class="mono" fill="#FF3366" font-size="8.5" text-anchor="middle" font-weight="bold">COLD FIELD EMITTER</text>
+  <text x="130" y="249" class="mono" fill="#F59E0B" font-size="7.5" text-anchor="middle">WKB quantum tunneling</text>
+  <text x="130" y="261" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">No heated cathode!</text>
+  <text x="130" y="272" class="mono" fill="#94a3b8" font-size="7">e- emitted via barrier tunnel</text>
+
+  <!-- Ion beam output -->
+  <rect x="45" y="280" width="170" height="40" rx="5" fill="#001530" stroke="#00E5FF" stroke-width="1.5"/>
+  <text x="130" y="300" class="mono" fill="#00E5FF" font-size="8.5" text-anchor="middle">ACCEL / DECEL GRIDS</text>
+  <text x="130" y="313" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">1200-3500 V accelerating</text>
+
+  <!-- Ion beam plume -->
+  <path d="M230 280 L400 240 L400 340 L230 320 Z" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.3"/>
+  <g filter="url(#p5-glow)">
+    <line x1="230" y1="295" x2="400" y2="280" stroke="#00E5FF" stroke-width="1.5" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1s" repeatCount="indefinite"/></line>
+    <line x1="230" y1="300" x2="420" y2="290" stroke="#00E5FF" stroke-width="2" opacity="1"><animate attributeName="opacity" values="1;0.3;1" dur="0.8s" repeatCount="indefinite"/></line>
+    <line x1="230" y1="305" x2="400" y2="310" stroke="#00E5FF" stroke-width="1.5" opacity="0.8"><animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.2s" repeatCount="indefinite"/></line>
+    <line x1="230" y1="295" x2="400" y2="285" stroke="#38bdf8" stroke-width="1" opacity="0.5"/>
+    <line x1="230" y1="308" x2="400" y2="318" stroke="#38bdf8" stroke-width="1" opacity="0.5"/>
+  </g>
+  <text x="350" y="375" class="mono" fill="#00E5FF" font-size="8" text-anchor="middle">Xe+ ION BEAM — Isp ~ 3000-5000 s</text>
+
+  <!-- WKB Potential Barrier Graph -->
+  <text x="280" y="70" class="mono" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">WKB BARRIER PENETRATION</text>
+  <line x1="245" y1="220" x2="420" y2="220" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="245" y1="220" x2="245" y2="80" stroke="#94a3b8" stroke-width="1"/>
+  <text x="242" y="78" class="mono" fill="#94a3b8" font-size="7" text-anchor="end">V(x)</text>
+  <text x="422" y="223" class="mono" fill="#94a3b8" font-size="7">x</text>
+  <!-- Barrier shape -->
+  <path d="M255 210 L280 210 L280 100 L360 100 L360 210 L420 210" fill="none" stroke="#F59E0B" stroke-width="2"/>
+  <!-- Classical particle (blocked) -->
+  <circle cx="268" cy="195" r="5" fill="#FF3366">
+    <animate attributeName="cx" values="255;275;255" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="262" y="185" class="mono" fill="#FF3366" font-size="7">e- blocked</text>
+  <!-- Quantum tunneling wave -->
+  <path d="M280 155 Q300 130 320 155 Q340 180 360 155" fill="none" stroke="#00E5FF" stroke-width="1.5" stroke-dasharray="4,2" filter="url(#p5-glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-12;0" dur="1s" repeatCount="indefinite"/>
+  </path>
+  <text x="320" y="148" class="mono" fill="#00E5FF" font-size="7" text-anchor="middle">WKB tunnel</text>
+  <!-- Transmitted wave -->
+  <path d="M360 195 L400 195" fill="none" stroke="#10B981" stroke-width="2" filter="url(#p5-glow)">
+    <animate attributeName="stroke-dashoffset" values="0;-8;0" dur="0.6s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="400" cy="195" r="4" fill="#10B981" filter="url(#p5-glow)">
+    <animate attributeName="cx" values="360;420;360" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="395" y="185" class="mono" fill="#10B981" font-size="7">transmitted!</text>
+
+  <!-- Divider -->
+  <line x1="455" y1="48" x2="455" y2="412" stroke="#00E5FF" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- RIGHT PANEL TOP: Performance Chart -->
+  <text x="480" y="68" class="sans" fill="#00E5FF" font-size="12" font-weight="bold">PROPULSION PERFORMANCE COMPARISON</text>
+  <line x1="480" y1="75" x2="940" y2="75" stroke="#00E5FF" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Isp comparison bars -->
+  <text x="490" y="100" class="mono" fill="#94a3b8" font-size="8">Specific Impulse (Isp) — seconds</text>
+  <!-- Chemical -->
+  <rect x="490" y="108" width="60" height="16" fill="#FF3366" rx="2"/>
+  <text x="558" y="120" class="mono" fill="#94a3b8" font-size="8">Chemical: 450 s</text>
+  <!-- Hall thruster -->
+  <rect x="490" y="130" width="200" height="16" fill="#F59E0B" rx="2"/>
+  <text x="698" y="142" class="mono" fill="#94a3b8" font-size="8">Hall thruster: 1600 s</text>
+  <!-- Gridded ion (conventional) -->
+  <rect x="490" y="152" width="280" height="16" fill="#38bdf8" rx="2"/>
+  <text x="778" y="164" class="mono" fill="#94a3b8" font-size="8">Grid ion (conv.): 3000 s</text>
+  <!-- WKB Quantum (this project) -->
+  <rect x="490" y="174" width="380" height="16" fill="#00E5FF" rx="2" filter="url(#p5-glow)"/>
+  <text x="878" y="186" class="mono" fill="#00E5FF" font-size="8" font-weight="bold">WKB QT: ~5000 s</text>
+  <text x="492" y="186" class="mono" fill="#0B0F19" font-size="7" font-weight="bold">QUANTUM TUNNELING</text>
+
+  <!-- RIGHT PANEL BOTTOM: CAD Title Block -->
+  <rect x="475" y="215" width="465" height="185" fill="#080d18" rx="4" stroke="#00E5FF" stroke-width="1"/>
+  <rect x="475" y="215" width="465" height="22" fill="#00152a" rx="4"/>
+  <text x="707" y="231" class="sans" fill="#00E5FF" font-size="10" font-weight="bold" text-anchor="middle">ENGINEERING SPECIFICATIONS</text>
+  <line x1="475" y1="237" x2="940" y2="237" stroke="#00E5FF" stroke-width="0.5"/>
+
+  <g class="mono" font-size="8.5">
+    <text x="490" y="255" fill="#94a3b8">Propellant</text><text x="640" y="255" fill="#38bdf8">Xenon (Xe)</text>
+    <text x="490" y="272" fill="#94a3b8">Emission Mechanism</text><text x="640" y="272" fill="#FF3366">Cold field emission (WKB tunneling)</text>
+    <text x="490" y="289" fill="#94a3b8">Specific Impulse</text><text x="640" y="289" fill="#10B981">~3000 — 5000 s</text>
+    <text x="490" y="306" fill="#94a3b8">Thrust Efficiency</text><text x="640" y="306" fill="#F59E0B">78% (vs 65% heated cathode)</text>
+    <text x="490" y="323" fill="#94a3b8">Cathode Required?</text><text x="640" y="323" fill="#10B981">NO — pure quantum emission</text>
+    <text x="490" y="340" fill="#94a3b8">AI Method</text><text x="640" y="340" fill="#c084fc">WKB PDE solver + PINN</text>
+    <text x="490" y="357" fill="#94a3b8">Lifetime Gain</text><text x="640" y="357" fill="#00E5FF">3x (no cathode erosion)</text>
+    <text x="490" y="374" fill="#94a3b8">Application</text><text x="640" y="374" fill="#94a3b8">Deep-space CubeSats, interplanetary</text>
+  </g>
+  <line x1="475" y1="382" x2="940" y2="382" stroke="#00E5FF" stroke-width="0.5"/>
+  <text x="490" y="395" class="mono" fill="#94a3b8" font-size="7.5">ORGANIZATION: Runtime Slayers</text>
+  <text x="700" y="395" class="mono" fill="#F59E0B" font-size="7.5">DRW: AERO-0005 | DOMAIN: QUANTUM PROPULSION</text>
+</svg>

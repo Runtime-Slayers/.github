@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>
+    .m { font-family: "JetBrains Mono", monospace; }
+    .s { font-family: "Montserrat", sans-serif; }
+  </style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#021008"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.45"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#10B981" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#10B981" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#10B981" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#10B981" font-size="10.5" font-weight="bold">PROJ-45 // RHIZOWHISPERER — 3D IN-SITU ROOT PHENOTYPING</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-AGRI-0045 | REV.A | PRECISION AGRI-AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#10B981" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#10B981" stroke-width="0.8" opacity="0.4"/>
+
+<!-- LEFT: 3D Root Architecture Diagram -->
+<text x="220" y="66" class="m" fill="#10B981" font-size="9" text-anchor="middle">3D MINIRHIZOTRON IN-SITU ROOT PHENOTYPING</text>
+<rect x="35" y="78" width="400" height="230" rx="5" fill="#021008" stroke="#10B981" stroke-width="1.2"/>
+
+<!-- Soil Surface Line -->
+<line x1="50" y1="105" x2="410" y2="105" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="6,3"/>
+<text x="405" y="100" class="m" fill="#94a3b8" font-size="7" text-anchor="end">Soil Surface z = 0</text>
+
+<!-- Root Architecture Skeleton -->
+<!-- Primary Taproot -->
+<path d="M220 105 Q215 150 220 200 Q225 240 220 290" fill="none" stroke="#F59E0B" stroke-width="4" filter="url(#glow)"/>
+<text x="235" y="195" class="m" fill="#F59E0B" font-size="7.5">Primary Taproot</text>
+
+<!-- Lateral First Order Branches -->
+<path d="M218 135 Q170 155 120 180" fill="none" stroke="#10B981" stroke-width="2.5"/>
+<path d="M219 145 Q270 160 320 175" fill="none" stroke="#10B981" stroke-width="2.5"/>
+<path d="M220 190 Q160 215 110 240" fill="none" stroke="#10B981" stroke-width="2"/>
+<path d="M222 205 Q280 230 330 250" fill="none" stroke="#10B981" stroke-width="2"/>
+
+<!-- Sub-millimeter Root Hairs / Fine Roots -->
+<path d="M120 180 Q90 195 70 220" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3,1"/>
+<path d="M320 175 Q350 190 380 210" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3,1"/>
+<path d="M110 240 Q90 260 80 280" fill="none" stroke="#38bdf8" stroke-width="1" stroke-dasharray="3,1"/>
+
+<!-- Convex Hull Envelope (Dotted) -->
+<polygon points="220,105 325,170 385,210 335,260 220,295 80,285 70,220 115,175" fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,4" opacity="0.6"/>
+<text x="350" y="275" class="m" fill="#F59E0B" font-size="6.5">Convex Hull Volume</text>
+
+<!-- Moisture Sensor & Minirhizotron Tube -->
+<rect x="55" y="110" width="18" height="175" fill="#001525" stroke="#00E5FF" stroke-width="1"/>
+<text x="64" y="200" class="m" fill="#00E5FF" font-size="6" text-anchor="middle" transform="rotate(-90 64 200)">1200 DPI Optical Tube</text>
+
+<!-- Lower callout block -->
+<rect x="50" y="320" width="370" height="75" rx="4" fill="#001020" stroke="#10B981" stroke-width="1"/>
+<text x="235" y="336" class="m" fill="#10B981" font-size="8.5" text-anchor="middle" font-weight="bold">IN-SITU DROUGHT RESILIENCE EARLY DETECTION</text>
+<text x="235" y="352" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Measures root elongation rate &amp; branching angle changes under moisture deficit</text>
+<text x="235" y="367" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">Detects subterranean stress 14 days before visible satellite/canopy wilting</text>
+<text x="235" y="382" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">Saves up to 35% irrigation water through targeted root-zone delivery</text>
+
+<!-- RIGHT PANEL: Root Phenomics Metrics -->
+<text x="700" y="68" class="s" fill="#10B981" font-size="11" font-weight="bold" text-anchor="middle">ROOT DEPTH TRAJECTORY UNDER DROUGHT</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#10B981" stroke-width="0.5" opacity="0.4"/>
+
+<g class="m" font-size="7.5">
+  <text x="490" y="98" fill="#94a3b8">Well-Watered Control</text>
+  <rect x="640" y="88" width="140" height="13" fill="#38bdf8" rx="2" opacity="0.7"/>
+  <text x="788" y="98" fill="#38bdf8">1.2 cm/day</text>
+
+  <text x="490" y="118" fill="#F59E0B" font-weight="bold">Drought-Resistant Sorghum</text>
+  <rect x="640" y="108" width="220" height="13" fill="#10B981" rx="2" filter="url(#glow)"/>
+  <text x="868" y="118" fill="#10B981" font-weight="bold">2.4 cm/day (Deeper)</text>
+
+  <text x="490" y="138" fill="#94a3b8">Drought-Susceptible Strain</text>
+  <rect x="640" y="128" width="90" height="13" fill="#FF3366" rx="2" opacity="0.7"/>
+  <text x="738" y="138" fill="#FF3366">0.6 cm/day (Stall)</text>
+</g>
+
+<!-- Specs Block -->
+<rect x="475" y="165" width="460" height="235" fill="#080d18" rx="4" stroke="#10B981" stroke-width="1"/>
+<text x="490" y="184" class="m" fill="#10B981" font-size="8.5" font-weight="bold">PHENOTYPING ARCHITECTURE SPECIFICATIONS</text>
+<line x1="475" y1="192" x2="935" y2="192" stroke="#10B981" stroke-width="0.5"/>
+<g class="m" font-size="8">
+  <text x="490" y="210" fill="#94a3b8">Imaging System:</text><text x="640" y="210" fill="#10B981">Automated Minirhizotron + Micro-CT Scanners</text>
+  <text x="490" y="228" fill="#94a3b8">Optical Resolution:</text><text x="640" y="228" fill="#38bdf8">1200 DPI (21.2 micron per pixel)</text>
+  <text x="490" y="246" fill="#94a3b8">Extracted Traits:</text><text x="640" y="246" fill="#F59E0B">Depth, Convex Hull, Branching Angle, Diameter</text>
+  <text x="490" y="264" fill="#94a3b8">Drought Lead Time:</text><text x="640" y="264" fill="#10B981">14 Days Prior to Visible Canopy Wilting</text>
+  <text x="490" y="282" fill="#94a3b8">Crops Validated:</text><text x="640" y="282" fill="#c084fc">Sorghum bicolor, Zea mays, Triticum aestivum</text>
+  <text x="490" y="300" fill="#94a3b8">Soil Depth Penetration:</text><text x="640" y="300" fill="#00E5FF">Up to 1.8 meters below field surface</text>
+  <text x="490" y="318" fill="#94a3b8">Reconstruction Speed:</text><text x="640" y="318" fill="#10B981">&lt; 85 ms per 3D volumetric cylinder</text>
+  <text x="490" y="336" fill="#94a3b8">Water Savings:</text><text x="640" y="336" fill="#38bdf8">35% reduction in agricultural water expenditure</text>
+  <text x="490" y="354" fill="#94a3b8">CAD Reference:</text><text x="640" y="354" fill="#94a3b8">RS-AGRI-ROOT-045-REV-A</text>
+  <text x="490" y="372" fill="#10B981">Impact: High-throughput phenotyping for climate-resilient agriculture</text>
+</g>
+
+</svg>

@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>
+    .m { font-family: "JetBrains Mono", monospace; }
+    .s { font-family: "Montserrat", sans-serif; }
+  </style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#150800"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.45"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#F59E0B" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#F59E0B" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#F59E0B" font-size="10.5" font-weight="bold">PROJ-47 // AUTOMATED P-HACKING DETECTION VIA STATISTICAL ML</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-STAT-0047 | REV.A | METASCIENCE AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#F59E0B" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#F59E0B" stroke-width="0.8" opacity="0.4"/>
+
+<!-- LEFT: p-Curve Analysis & Caliper Test -->
+<text x="220" y="66" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">STATISTICAL FORENSICS: P-CURVE DISCONTINUITY AT 0.05</text>
+<rect x="35" y="78" width="400" height="230" rx="5" fill="#150a00" stroke="#F59E0B" stroke-width="1.2"/>
+
+<!-- P-Value Coordinate Grid -->
+<g transform="translate(60, 95)">
+  <line x1="0" y1="180" x2="330" y2="180" stroke="#94a3b8" stroke-width="1"/>
+  <line x1="0" y1="0" x2="0" y2="180" stroke="#94a3b8" stroke-width="1"/>
+  <text x="165" y="195" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Reported p-value</text>
+  <text x="-5" y="90" class="m" fill="#94a3b8" font-size="7" text-anchor="end">Frequency</text>
+
+  <!-- Reference Line: p = 0.05 Boundary -->
+  <line x1="180" y1="0" x2="180" y2="180" stroke="#FF3366" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="180" y="-5" class="m" fill="#FF3366" font-size="7.5" text-anchor="middle" font-weight="bold">p = 0.05 Threshold</text>
+
+  <!-- Genuine Right-skewed Evidentiary Curve (Green dashed) -->
+  <path d="M10 20 Q40 90 90 140 Q140 165 240 175" fill="none" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3,2"/>
+  <text x="50" y="50" class="m" fill="#10B981" font-size="6.5">True Evidentiary Value</text>
+
+  <!-- P-Hacked Distribution: Massive Caliper Spike just under 0.05 -->
+  <!-- Bars -->
+  <rect x="15" y="150" width="20" height="30" fill="#00E5FF" opacity="0.7"/>
+  <rect x="40" y="155" width="20" height="25" fill="#00E5FF" opacity="0.7"/>
+  <rect x="65" y="160" width="20" height="20" fill="#00E5FF" opacity="0.7"/>
+  <rect x="90" y="162" width="20" height="18" fill="#00E5FF" opacity="0.7"/>
+  <rect x="115" y="155" width="20" height="25" fill="#00E5FF" opacity="0.7"/>
+  <rect x="140" y="110" width="20" height="70" fill="#F59E0B" opacity="0.8"/>
+  
+  <!-- THE SUSPICIOUS CLIFF AT 0.041 - 0.049 -->
+  <rect x="162" y="30" width="18" height="150" fill="#FF3366" filter="url(#glow)"/>
+  <text x="171" y="20" class="m" fill="#FF3366" font-size="7" text-anchor="middle" font-weight="bold">SPIKE: p=0.048</text>
+
+  <!-- Drop immediately above 0.05 -->
+  <rect x="185" y="168" width="20" height="12" fill="#94a3b8" opacity="0.4"/>
+  <rect x="210" y="172" width="20" height="8" fill="#94a3b8" opacity="0.4"/>
+  <rect x="235" y="175" width="20" height="5" fill="#94a3b8" opacity="0.4"/>
+</g>
+
+<!-- Status callout below -->
+<rect x="50" y="320" width="370" height="75" rx="4" fill="#001020" stroke="#F59E0B" stroke-width="1"/>
+<text x="235" y="336" class="m" fill="#F59E0B" font-size="8.5" text-anchor="middle" font-weight="bold">AUTOMATED STATISTICAL FORENSICS PIPELINE</text>
+<text x="235" y="352" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Extracts (t, F, r, z) statistics from PDF text and checks for mathematical consistency</text>
+<text x="235" y="367" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">Scanned 250,000+ PMC Articles | Flags Questionable Research Practices (QRP)</text>
+<text x="235" y="382" class="m" fill="#FF3366" font-size="7.5" text-anchor="middle">Identifies rounding tricks, selective reporting &amp; post-hoc subgroup filtering</text>
+
+<!-- RIGHT PANEL: Empirical Forensics & Specs -->
+<text x="700" y="68" class="s" fill="#F59E0B" font-size="11" font-weight="bold" text-anchor="middle">DETECTION ACCURACY ON BENCHMARK DATASETS</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#F59E0B" stroke-width="0.5" opacity="0.4"/>
+
+<g class="m" font-size="7.5">
+  <text x="490" y="98" fill="#94a3b8">Text Mining Entity Extraction F1</text>
+  <rect x="660" y="88" width="200" height="13" fill="#38bdf8" rx="2" opacity="0.8"/>
+  <text x="868" y="98" fill="#38bdf8">0.942 F1</text>
+
+  <text x="490" y="118" fill="#94a3b8">Statcheck Discrepancy Detection</text>
+  <rect x="660" y="108" width="215" height="13" fill="#F59E0B" rx="2" opacity="0.8"/>
+  <text x="882" y="118" fill="#F59E0B">96.8% Acc</text>
+
+  <text x="490" y="138" fill="#FF3366" font-weight="bold">P-Hacking Forensic Classification</text>
+  <rect x="660" y="128" width="225" height="13" fill="#FF3366" rx="2" filter="url(#glow)"/>
+  <text x="892" y="138" fill="#FF3366" font-weight="bold">91.5% AUC</text>
+</g>
+
+<!-- Specs Block -->
+<rect x="475" y="165" width="460" height="235" fill="#080d18" rx="4" stroke="#F59E0B" stroke-width="1"/>
+<text x="490" y="184" class="m" fill="#F59E0B" font-size="8.5" font-weight="bold">METASCIENCE ML SYSTEM SPECIFICATIONS</text>
+<line x1="475" y1="192" x2="935" y2="192" stroke="#F59E0B" stroke-width="0.5"/>
+<g class="m" font-size="8">
+  <text x="490" y="210" fill="#94a3b8">Forensic Corpus:</text><text x="640" y="210" fill="#F59E0B">250,000 open-access PMC papers (2010-2024)</text>
+  <text x="490" y="228" fill="#94a3b8">Test Statistics Extracted:</text><text x="640" y="228" fill="#00E5FF">t-test, ANOVA (F), Pearson (r), Chi-square, z</text>
+  <text x="490" y="246" fill="#94a3b8">Caliper Metric:</text><text x="640" y="246" fill="#FF3366">Caliper ratio: N(0.04-0.05) / N(0.05-0.06) &gt; 3.8</text>
+  <text x="490" y="264" fill="#94a3b8">Model Architecture:</text><text x="640" y="264" fill="#10B981">RoBERTa statistical entity parser + XGBoost</text>
+  <text x="490" y="282" fill="#94a3b8">Degrees of Freedom Check:</text><text x="640" y="282" fill="#38bdf8">Recalculates exact p-value from df1, df2 and stat</text>
+  <text x="490" y="300" fill="#94a3b8">Gross Inconsistency Flag:</text><text x="640" y="300" fill="#FF3366">Identified in 12.4% of surveyed biomedical papers</text>
+  <text x="490" y="318" fill="#94a3b8">Processing Throughput:</text><text x="640" y="318" fill="#10B981">&gt; 120 papers/min on multi-core CPU</text>
+  <text x="490" y="336" fill="#94a3b8">Reproducibility Impact:</text><text x="640" y="336" fill="#00E5FF">Restores scientific integrity &amp; auditability</text>
+  <text x="490" y="354" fill="#94a3b8">CAD Reference:</text><text x="640" y="354" fill="#94a3b8">RS-STAT-HACK-047-REV-A</text>
+  <text x="490" y="372" fill="#F59E0B">Application: Open-Science peer-review integrity guardian</text>
+</g>
+
+</svg>

@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#001018"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#38bdf8" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#38bdf8" font-size="11" font-weight="bold">PROJ-39 // DE NOVO PROTEOMICS — POINTER NETWORK SEQUENCING</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-GEN-0039 | REV.A | PROTEOMICS AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#38bdf8" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#38bdf8" stroke-width="0.8" opacity="0.4"/>
+
+<text x="220" y="66" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">DE NOVO PROTEOMICS — POINTER NETWORK SEQUENCING</text>
+<!-- MS/MS spectrum visualization -->
+<text x="220" y="88" class="m" fill="#F59E0B" font-size="8.5" text-anchor="middle" font-weight="bold">TANDEM MASS SPECTROMETRY (MS/MS) SPECTRUM</text>
+<rect x="35" y="96" width="400" height="200" rx="5" fill="#001020" stroke="#38bdf8" stroke-width="1.5"/>
+<!-- Axes -->
+<line x1="50" y1="280" x2="425" y2="280" stroke="#94a3b8" stroke-width="1"/>
+<line x1="50" y1="110" x2="50" y2="280" stroke="#94a3b8" stroke-width="1"/>
+<text x="237" y="293" class="m" fill="#94a3b8" font-size="8" text-anchor="middle">m/z (mass-to-charge ratio)</text>
+<!-- Fragment ion peaks -->
+<g fill="#38bdf8" opacity="0.8">
+  <rect x="80" y="240" width="8" height="40"/><rect x="110" y="200" width="8" height="80"/>
+  <rect x="145" y="180" width="8" height="100"/><rect x="175" y="150" width="8" height="130"/>
+  <rect x="210" y="190" width="8" height="90"/><rect x="245" y="165" width="8" height="115"/>
+  <rect x="280" y="220" width="8" height="60"/><rect x="315" y="175" width="8" height="105"/>
+  <rect x="355" y="200" width="8" height="80"/><rect x="395" y="240" width="8" height="40"/>
+</g>
+<!-- y-ion series (labeled) -->
+<g class="m" fill="#F59E0B" font-size="7">
+  <text x="84" y="236">y1</text><text x="114" y="196">y2</text><text x="149" y="176">y3</text>
+  <text x="179" y="146">y4</text><text x="249" y="161">b5</text><text x="319" y="171">b6</text>
+</g>
+<!-- Annotation -->
+<text x="237" y="360" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">y-ions: C-terminal fragments | b-ions: N-terminal fragments</text>
+<!-- Pointer network sequencing output -->
+<rect x="35" y="330" width="400" height="55" rx="4" fill="#001020" stroke="#38bdf8" stroke-width="1"/>
+<text x="235" y="346" class="m" fill="#38bdf8" font-size="8.5" text-anchor="middle">POINTER NETWORK — DE NOVO SEQUENCE</text>
+<text x="235" y="362" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">A - L - G - E - D - V - K (reconstructed)</text>
+<text x="235" y="376" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Per-residue confidence: 0.98 | AA accuracy: 94.7%</text>
+<!-- RIGHT: Architecture -->
+<text x="700" y="68" class="s" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">DE NOVO SEQUENCING ARCHITECTURE</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#38bdf8" stroke-width="0.5" opacity="0.4"/>
+<rect x="490" y="85" width="420" height="35" rx="3" fill="#001520" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="700" y="103" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">INPUT: MS/MS spectrum — m/z + intensity vectors</text>
+<text x="700" y="113" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">PRIDE Archive — HeLa cell digest — 12,000 spectra test set</text>
+<rect x="490" y="127" width="420" height="35" rx="3" fill="#001020" stroke="#F59E0B" stroke-width="1.2"/>
+<text x="700" y="145" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">SPECTRUM ENCODER: Transformer encoder</text>
+<text x="700" y="155" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Peak m/z + intensity → dense embedding — 512-d token</text>
+<rect x="490" y="169" width="420" height="35" rx="3" fill="#001020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="700" y="187" class="m" fill="#c084fc" font-size="9" text-anchor="middle">POINTER DECODER: Auto-regressive amino-acid pointer</text>
+<text x="700" y="197" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Points to spectrum peaks — selects residue mass deltas</text>
+<rect x="490" y="211" width="420" height="35" rx="3" fill="#001520" stroke="#38bdf8" stroke-width="1.5" filter="url(#glow)"/>
+<text x="700" y="229" class="m" fill="#38bdf8" font-size="9" text-anchor="middle" font-weight="bold">OUTPUT: Amino acid sequence — de novo (no DB)</text>
+<text x="700" y="239" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">No protein database required — discovers novel peptides</text>
+<rect x="475" y="263" width="460" height="130" fill="#080d18" rx="4" stroke="#38bdf8" stroke-width="1"/>
+<text x="490" y="280" class="m" fill="#38bdf8" font-size="8.5" font-weight="bold">PERFORMANCE METRICS</text>
+<g class="m" font-size="8">
+  <text x="490" y="297" fill="#94a3b8">AA accuracy:</text><text x="620" y="297" fill="#10B981">94.7% (vs 91.2% DeepNovo)</text>
+  <text x="490" y="314" fill="#94a3b8">Peptide accuracy:</text><text x="620" y="314" fill="#10B981">76.3% full correct sequence</text>
+  <text x="490" y="331" fill="#94a3b8">Architecture:</text><text x="620" y="331" fill="#c084fc">Transformer encoder + Pointer decoder</text>
+  <text x="490" y="348" fill="#94a3b8">Dataset:</text><text x="620" y="348" fill="#94a3b8">PRIDE Archive HeLa — 12k spectra</text>
+  <text x="490" y="365" fill="#94a3b8">Advantage:</text><text x="620" y="365" fill="#F59E0B">Discovers modified + novel peptides</text>
+  <text x="490" y="382" fill="#94a3b8">Application:</text><text x="620" y="382" fill="#38bdf8">Biomarker discovery, neoantigen ID</text>
+</g>
+</svg>

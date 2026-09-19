@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#000d05"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#10B981" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#10B981" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#10B981" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#10B981" font-size="11" font-weight="bold">PROJ-34 // BIOFILM SEGMENTATION — ADMM CONVEX OPTIMIZATION</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-GEN-0034 | REV.A | COMPUTATIONAL BIOLOGY</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#10B981" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#10B981" stroke-width="0.8" opacity="0.4"/>
+
+<text x="220" y="66" class="m" fill="#10B981" font-size="9" text-anchor="middle">ADMM CONVEX OPTIMIZATION — BIOFILM MICROSCOPY SEGMENTATION</text>
+<!-- Microscopy image simulation -->
+<text x="220" y="88" class="m" fill="#F59E0B" font-size="8.5" text-anchor="middle" font-weight="bold">CONFOCAL MICROSCOPY — BIOFILM SEGMENTATION</text>
+<rect x="35" y="96" width="400" height="270" rx="5" fill="#000a00" stroke="#10B981" stroke-width="1.5"/>
+<!-- Biofilm blobs -->
+<ellipse cx="120" cy="180" rx="70" ry="55" fill="#003300" stroke="#10B981" stroke-width="1.5"/>
+<ellipse cx="280" cy="200" rx="80" ry="60" fill="#002200" stroke="#10B981" stroke-width="1.5"/>
+<ellipse cx="180" cy="300" rx="65" ry="45" fill="#003300" stroke="#10B981" stroke-width="1"/>
+<!-- Individual bacteria (rod shapes) -->
+<g fill="#10B981" opacity="0.6">
+  <rect x="95" y="165" width="14" height="5" rx="2" transform="rotate(30 95 165)"/>
+  <rect x="115" y="180" width="14" height="5" rx="2" transform="rotate(-20 115 180)"/>
+  <rect x="130" y="170" width="14" height="5" rx="2" transform="rotate(10 130 170)"/>
+  <rect x="255" y="185" width="14" height="5" rx="2" transform="rotate(45 255 185)"/>
+  <rect x="275" y="200" width="14" height="5" rx="2" transform="rotate(-30 275 200)"/>
+  <rect x="295" y="210" width="14" height="5" rx="2" transform="rotate(15 295 210)"/>
+  <rect x="165" y="290" width="14" height="5" rx="2" transform="rotate(60 165 290)"/>
+  <rect x="185" y="305" width="14" height="5" rx="2" transform="rotate(-40 185 305)"/>
+</g>
+<!-- ADMM segmentation boundary overlay -->
+<ellipse cx="120" cy="180" rx="72" ry="57" fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="5,3" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-16" dur="2s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="280" cy="200" rx="82" ry="62" fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="5,3" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-16" dur="2.5s" repeatCount="indefinite"/></ellipse>
+<ellipse cx="180" cy="300" rx="67" ry="47" fill="none" stroke="#00E5FF" stroke-width="2" stroke-dasharray="5,3" filter="url(#glow)"><animate attributeName="stroke-dashoffset" values="0;-16" dur="3s" repeatCount="indefinite"/></ellipse>
+<text x="220" y="380" class="m" fill="#10B981" font-size="8" text-anchor="middle">ADMM boundary: blue = segmented colony, green = bacterial cells</text>
+<!-- RIGHT: ADMM optimization pipeline -->
+<text x="700" y="68" class="s" fill="#10B981" font-size="11" font-weight="bold" text-anchor="middle">ADMM SEGMENTATION ALGORITHM</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#10B981" stroke-width="0.5" opacity="0.4"/>
+<rect x="490" y="85" width="420" height="35" rx="3" fill="#001500" stroke="#10B981" stroke-width="1.5"/>
+<text x="700" y="103" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">INPUT: Confocal fluorescence image stack (Z-planes)</text>
+<text x="700" y="113" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">GFP-labeled E. coli biofilm — 512x512 px, 0.1 um/px resolution</text>
+<!-- ADMM core -->
+<rect x="490" y="127" width="420" height="55" rx="3" fill="#001a00" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="700" y="147" class="m" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">ADMM OPTIMIZATION FRAMEWORK</text>
+<text x="700" y="161" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">min ||Au - f||^2 + lambda*||u||_TV (total variation)</text>
+<text x="700" y="173" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Alternating Direction Method of Multipliers — 3-block split</text>
+<!-- Steps -->
+<rect x="490" y="189" width="420" height="35" rx="3" fill="#001020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="700" y="207" class="m" fill="#c084fc" font-size="9" text-anchor="middle">x-update: proximal L2 gradient — closed form</text>
+<text x="700" y="217" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">FFT-based fast solve: O(n log n) per iteration</text>
+<rect x="490" y="231" width="420" height="35" rx="3" fill="#001020" stroke="#38bdf8" stroke-width="1.2"/>
+<text x="700" y="249" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">z-update: soft-thresholding TV proximal</text>
+<text x="700" y="259" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Isotropic TV — preserves biofilm boundary sharpness</text>
+<rect x="490" y="273" width="420" height="35" rx="3" fill="#001500" stroke="#10B981" stroke-width="1.5" filter="url(#glow)"/>
+<text x="700" y="291" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">OUTPUT: Binary mask — colony + cell segmentation</text>
+<text x="700" y="301" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Intersection-over-Union: 0.94 — vs Otsu 0.71, U-Net 0.89</text>
+<rect x="475" y="325" width="460" height="78" fill="#080d18" rx="4" stroke="#10B981" stroke-width="1"/>
+<text x="490" y="342" class="m" fill="#10B981" font-size="8.5" font-weight="bold">SYSTEM PERFORMANCE</text>
+<g class="m" font-size="8">
+  <text x="490" y="359" fill="#94a3b8">Algorithm: ADMM — 50 iterations to convergence</text>
+  <text x="490" y="376" fill="#94a3b8">IoU: 0.94 (ADMM) vs 0.89 (U-Net) vs 0.71 (Otsu threshold)</text>
+  <text x="490" y="393" fill="#F59E0B">Speed: 2.3 s per 512x512 frame — no GPU required (convex)</text>
+</g>
+</svg>

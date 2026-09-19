@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+  <defs>
+    <style>
+      .mono { font-family: "JetBrains Mono", "Courier New", monospace; }
+      .sans { font-family: "Montserrat", "Segoe UI", sans-serif; }
+    </style>
+    <filter id="p2-glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="p2-glow2"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="p2-bg" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0d1a2e"/>
+      <stop offset="100%" stop-color="#0B0F19"/>
+    </radialGradient>
+    <linearGradient id="p2-flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="40%" stop-color="#FF6B00"/>
+      <stop offset="100%" stop-color="#FF3366"/>
+    </linearGradient>
+    <linearGradient id="p2-tank-lox" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00bfff"/>
+      <stop offset="100%" stop-color="#003466"/>
+    </linearGradient>
+    <linearGradient id="p2-tank-ch4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#064e3b"/>
+    </linearGradient>
+    <!-- minor grid -->
+    <pattern id="p2-grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/>
+    </pattern>
+    <!-- major grid -->
+    <pattern id="p2-grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#p2-grid-minor)"/>
+      <path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/>
+    </pattern>
+  </defs>
+  <!-- Background -->
+  <rect width="960" height="420" fill="url(#p2-bg)"/>
+  <rect width="960" height="420" fill="url(#p2-grid-major)" opacity="0.5"/>
+  <!-- Border -->
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#FF6B00" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#FF6B00" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <!-- Corner crosshairs -->
+  <g stroke="#FF6B00" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <!-- Title bar -->
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" class="mono" fill="#FF6B00" font-size="11" font-weight="bold">PROJ-02 // PLASMA-ASSISTED CRYOGENIC ROCKET IGNITION</text>
+  <text x="700" y="32" class="mono" fill="#94a3b8" font-size="9">DRW-AERO-0002 | REV.A | STATUS: RESEARCH</text>
+  <!-- Divider line -->
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#FF6B00" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- ===== LEFT PANEL: Rocket Engine Schematic ===== -->
+  <!-- LOX Tank -->
+  <rect x="35" y="60" width="70" height="110" rx="8" fill="url(#p2-tank-lox)" stroke="#00E5FF" stroke-width="1.5"/>
+  <text x="70" y="85" class="mono" fill="#00E5FF" font-size="9" text-anchor="middle">LOX</text>
+  <text x="70" y="98" class="mono" fill="#f8fafc" font-size="8" text-anchor="middle">Liquid</text>
+  <text x="70" y="109" class="mono" fill="#f8fafc" font-size="8" text-anchor="middle">Oxygen</text>
+  <text x="70" y="122" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">-183 C</text>
+  <text x="70" y="135" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">20 bar</text>
+  <!-- Bubbles in LOX -->
+  <circle cx="52" cy="100" r="3" fill="#00bfff" opacity="0.4"><animate attributeName="cy" values="100;65;100" dur="3s" repeatCount="indefinite"/></circle>
+  <circle cx="70" cy="110" r="2" fill="#00bfff" opacity="0.3"><animate attributeName="cy" values="110;70;110" dur="2.5s" repeatCount="indefinite"/></circle>
+  <circle cx="88" cy="95" r="2.5" fill="#00bfff" opacity="0.35"><animate attributeName="cy" values="95;68;95" dur="3.5s" repeatCount="indefinite"/></circle>
+
+  <!-- LCH4 Tank -->
+  <rect x="120" y="60" width="70" height="110" rx="8" fill="url(#p2-tank-ch4)" stroke="#10B981" stroke-width="1.5"/>
+  <text x="155" y="85" class="mono" fill="#10B981" font-size="9" text-anchor="middle">LCH4</text>
+  <text x="155" y="98" class="mono" fill="#f8fafc" font-size="8" text-anchor="middle">Liquid</text>
+  <text x="155" y="109" class="mono" fill="#f8fafc" font-size="8" text-anchor="middle">Methane</text>
+  <text x="155" y="122" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">-161 C</text>
+  <text x="155" y="135" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">18 bar</text>
+
+  <!-- Feed lines -->
+  <path d="M70 170 L70 190 L112 220" fill="none" stroke="#00E5FF" stroke-width="2.5"/>
+  <path d="M155 170 L155 190 L142 220" fill="none" stroke="#10B981" stroke-width="2.5"/>
+
+  <!-- Turbopump symbol -->
+  <circle cx="112" cy="235" r="18" fill="#1e3a5f" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="112" y="230" class="mono" fill="#F59E0B" font-size="7" text-anchor="middle">TURBO</text>
+  <text x="112" y="241" class="mono" fill="#F59E0B" font-size="7" text-anchor="middle">PUMP</text>
+  <animateTransform attributeName="transform" type="rotate" from="0 112 235" to="360 112 235" dur="4s" repeatCount="indefinite" additive="sum"/>
+
+  <!-- Combustion Chamber -->
+  <path d="M75 265 L150 265 L165 310 L60 310 Z" fill="#1a0a00" stroke="#FF6B00" stroke-width="2"/>
+  <text x="112" y="292" class="mono" fill="#FF6B00" font-size="9" text-anchor="middle">COMBUSTION</text>
+  <text x="112" y="304" class="mono" fill="#FF6B00" font-size="8" text-anchor="middle">CHAMBER</text>
+
+  <!-- Plasma Igniter (KEY INNOVATION) -->
+  <rect x="200" y="260" width="100" height="55" rx="5" fill="#1a0010" stroke="#FF3366" stroke-width="2"/>
+  <text x="250" y="278" class="mono" fill="#FF3366" font-size="9" text-anchor="middle" font-weight="bold">PLASMA</text>
+  <text x="250" y="290" class="mono" fill="#FF3366" font-size="9" text-anchor="middle" font-weight="bold">IGNITER</text>
+  <text x="250" y="303" class="mono" fill="#F59E0B" font-size="7.5" text-anchor="middle">3500 V discharge</text>
+  <text x="250" y="314" class="mono" fill="#94a3b8" font-size="7" text-anchor="middle">No heated cathode</text>
+  <!-- Spark animation -->
+  <line x1="175" y1="287" x2="200" y2="287" stroke="#FF3366" stroke-width="2">
+    <animate attributeName="stroke-opacity" values="1;0.1;1" dur="0.3s" repeatCount="indefinite"/>
+  </line>
+  <circle cx="187" cy="287" r="5" fill="#FF3366" filter="url(#p2-glow2)">
+    <animate attributeName="r" values="3;7;3" dur="0.3s" repeatCount="indefinite"/>
+    <animate attributeName="fill-opacity" values="1;0.2;1" dur="0.3s" repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Nozzle / plume -->
+  <path d="M60 310 L50 380 L175 380 L165 310 Z" fill="#0d0500" stroke="#FF6B00" stroke-width="1.5"/>
+  <!-- Flame plume animation -->
+  <ellipse cx="112" cy="360" rx="30" ry="18" fill="url(#p2-flame)" filter="url(#p2-glow2)" opacity="0.8">
+    <animate attributeName="ry" values="18;28;18" dur="0.4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="0.4s" repeatCount="indefinite"/>
+  </ellipse>
+  <text x="112" y="398" class="mono" fill="#FF6B00" font-size="8" text-anchor="middle">EXHAUST PLUME — Isp ~ 380s</text>
+
+  <!-- Labels -->
+  <text x="70" y="58" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">CRYOGENIC PROPELLANTS</text>
+  <text x="250" y="258" class="mono" fill="#FF3366" font-size="7.5" text-anchor="middle" font-weight="bold">[INNOVATION]</text>
+
+  <!-- ===== DIVIDER ===== -->
+  <line x1="455" y1="48" x2="455" y2="412" stroke="#FF6B00" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- ===== RIGHT PANEL TOP: Ignition Sequence Chart ===== -->
+  <text x="480" y="68" class="sans" fill="#FF6B00" font-size="12" font-weight="bold">IGNITION SEQUENCE TIMELINE</text>
+  <line x1="480" y1="75" x2="940" y2="75" stroke="#FF6B00" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Timeline axis -->
+  <line x1="490" y1="200" x2="930" y2="200" stroke="#94a3b8" stroke-width="1"/>
+  <text x="490" y="214" class="mono" fill="#94a3b8" font-size="8">t=0</text>
+  <text x="590" y="214" class="mono" fill="#94a3b8" font-size="8">t=20ms</text>
+  <text x="700" y="214" class="mono" fill="#94a3b8" font-size="8">t=50ms</text>
+  <text x="820" y="214" class="mono" fill="#94a3b8" font-size="8">t=80ms</text>
+  <text x="900" y="214" class="mono" fill="#94a3b8" font-size="8">t=100ms</text>
+
+  <!-- Conventional approach bar (red) -->
+  <rect x="490" y="130" width="440" height="20" fill="#3d0010" rx="3"/>
+  <rect x="490" y="130" width="350" height="20" fill="#FF3366" rx="3" opacity="0.7"/>
+  <text x="500" y="145" class="mono" fill="white" font-size="8">CONVENTIONAL: Hot-spark → mis-ignition risk at cryo temps</text>
+
+  <!-- Plasma approach bar (cyan) -->
+  <rect x="490" y="158" width="440" height="20" fill="#003444" rx="3"/>
+  <rect x="490" y="158" width="180" height="20" fill="#00E5FF" rx="3" opacity="0.8"/>
+  <text x="500" y="173" class="mono" fill="#0B0F19" font-size="8" font-weight="bold">PLASMA: Cold field emission → reliable at -183°C, 55ms</text>
+
+  <!-- Stage markers -->
+  <g fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="3,3">
+    <line x1="570" y1="80" x2="570" y2="200"/>
+    <line x1="670" y1="80" x2="670" y2="200"/>
+    <line x1="780" y1="80" x2="780" y2="200"/>
+  </g>
+  <text x="492" y="100" class="mono" fill="#F59E0B" font-size="8">① Propellant</text>
+  <text x="492" y="111" class="mono" fill="#F59E0B" font-size="8">  flow start</text>
+  <text x="575" y="100" class="mono" fill="#F59E0B" font-size="8">② 3500V</text>
+  <text x="575" y="111" class="mono" fill="#F59E0B" font-size="8">  discharge</text>
+  <text x="675" y="100" class="mono" fill="#F59E0B" font-size="8">③ Plasma</text>
+  <text x="675" y="111" class="mono" fill="#F59E0B" font-size="8">  torch on</text>
+  <text x="785" y="100" class="mono" fill="#10B981" font-size="8" font-weight="bold">④ IGNITION</text>
+  <text x="785" y="111" class="mono" fill="#10B981" font-size="8">  confirmed</text>
+
+  <!-- ===== RIGHT PANEL BOTTOM: CAD Title Block ===== -->
+  <rect x="475" y="225" width="465" height="175" fill="#080d18" rx="4" stroke="#FF6B00" stroke-width="1"/>
+  <rect x="475" y="225" width="465" height="22" fill="#1a0800" rx="4"/>
+  <text x="707" y="241" class="sans" fill="#FF6B00" font-size="10" font-weight="bold" text-anchor="middle">ENGINEERING ANALYSIS</text>
+  <line x1="475" y1="247" x2="940" y2="247" stroke="#FF6B00" stroke-width="0.5"/>
+
+  <!-- Key metrics grid -->
+  <g class="mono" font-size="8.5">
+    <text x="490" y="265" fill="#94a3b8">Propellant Combo</text>
+    <text x="640" y="265" fill="#00E5FF">LOX / LCH4 (methalox)</text>
+    <text x="490" y="282" fill="#94a3b8">Igniter Voltage</text>
+    <text x="640" y="282" fill="#FF3366">3500 V cold field emission</text>
+    <text x="490" y="299" fill="#94a3b8">Specific Impulse (Isp)</text>
+    <text x="640" y="299" fill="#10B981">~380 s (vacuum)</text>
+    <text x="490" y="316" fill="#94a3b8">Operating Temp</text>
+    <text x="640" y="316" fill="#F59E0B">-183°C LOX / -161°C CH4</text>
+    <text x="490" y="333" fill="#94a3b8">Ignition Reliability</text>
+    <text x="640" y="333" fill="#10B981">99.2% (no mis-fire in cryo)</text>
+    <text x="490" y="350" fill="#94a3b8">AI Method</text>
+    <text x="640" y="350" fill="#c084fc">PINN plasma discharge model</text>
+    <text x="490" y="367" fill="#94a3b8">Innovation</text>
+    <text x="640" y="367" fill="#FF3366">No heated cathode required</text>
+  </g>
+
+  <!-- Title block footer -->
+  <line x1="475" y1="375" x2="940" y2="375" stroke="#FF6B00" stroke-width="0.5"/>
+  <text x="490" y="388" class="mono" fill="#94a3b8" font-size="7.5">ORGANIZATION: Runtime Slayers</text>
+  <text x="490" y="398" class="mono" fill="#94a3b8" font-size="7.5">REPO: Plasma-Assisted-Ignition-in-Cryogenic-Rocket-Engines</text>
+  <text x="800" y="388" class="mono" fill="#F59E0B" font-size="7.5">DRW: AERO-0002</text>
+  <text x="800" y="398" class="mono" fill="#FF6B00" font-size="7.5">DOMAIN: AERO-PROPULSION</text>
+</svg>

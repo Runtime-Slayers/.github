@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#001020"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#38bdf8" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#38bdf8" font-size="10" font-weight="bold">PROJ-44 // CLINICAL NLP — MEDICAL NER + RELATION EXTRACTION</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-ML-0044 | REV.A | CLINICAL NLP</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#38bdf8" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#38bdf8" stroke-width="0.8" opacity="0.4"/>
+<text x="220" y="66" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">CLINICAL NLP — NAMED ENTITY RECOGNITION + RELATIONS</text>
+    <rect x="35" y="80" width="400" height="295" rx="5" fill="#001020" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="220" y="100" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">EHR TEXT ANNOTATION — NER OUTPUT</text>
+    <!-- Clinical text with NER annotations -->
+    <rect x="50" y="110" width="370" height="40" fill="#001520" rx="3"/>
+    <text x="60" y="127" class="m" fill="#f8fafc" font-size="8">Patient presents with </text>
+    <rect x="210" y="114" width="90" height="16" fill="#FF3366" opacity="0.3" rx="2"/>
+    <text x="210" y="126" class="m" fill="#FF3366" font-size="8">type 2 diabetes</text>
+    <text x="305" y="127" class="m" fill="#f8fafc" font-size="8"> and</text>
+    <rect x="50" y="140" width="380" height="16" fill="#001520" rx="3"/>
+    <rect x="55" y="141" width="85" height="14" fill="#c084fc" opacity="0.3" rx="2"/>
+    <text x="55" y="152" class="m" fill="#c084fc" font-size="8">hypertension.</text>
+    <text x="145" y="152" class="m" fill="#f8fafc" font-size="8"> Started on </text>
+    <rect x="210" y="141" width="70" height="14" fill="#10B981" opacity="0.3" rx="2"/>
+    <text x="210" y="152" class="m" fill="#10B981" font-size="8">metformin</text>
+    <text x="284" y="152" class="m" fill="#f8fafc" font-size="8"> </text>
+    <rect x="290" y="141" width="50" height="14" fill="#F59E0B" opacity="0.3" rx="2"/>
+    <text x="290" y="152" class="m" fill="#F59E0B" font-size="8">500mg BD.</text>
+    <!-- Legend -->
+    <rect x="55" y="168" width="10" height="10" fill="#FF3366" opacity="0.6" rx="1"/><text x="70" y="177" class="m" fill="#94a3b8" font-size="7.5">Disease</text>
+    <rect x="130" y="168" width="10" height="10" fill="#c084fc" opacity="0.6" rx="1"/><text x="145" y="177" class="m" fill="#94a3b8" font-size="7.5">Condition</text>
+    <rect x="215" y="168" width="10" height="10" fill="#10B981" opacity="0.6" rx="1"/><text x="230" y="177" class="m" fill="#94a3b8" font-size="7.5">Medication</text>
+    <rect x="305" y="168" width="10" height="10" fill="#F59E0B" opacity="0.6" rx="1"/><text x="320" y="177" class="m" fill="#94a3b8" font-size="7.5">Dosage</text>
+    <!-- Relation graph -->
+    <rect x="50" y="195" width="370" height="120" fill="#001020" rx="3"/>
+    <text x="235" y="210" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">RELATION EXTRACTION GRAPH</text>
+    <circle cx="130" cy="260" r="22" fill="#FF3366" opacity="0.3" stroke="#FF3366" stroke-width="1.5"/>
+    <text x="130" y="264" class="m" fill="#FF3366" font-size="7.5" text-anchor="middle">T2DM</text>
+    <circle cx="250" cy="250" r="22" fill="#10B981" opacity="0.3" stroke="#10B981" stroke-width="1.5"/>
+    <text x="250" y="254" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">metformin</text>
+    <line x1="152" y1="256" x2="228" y2="252" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="190" y="246" class="m" fill="#38bdf8" font-size="7">treats</text>
+    <circle cx="370" cy="260" r="20" fill="#F59E0B" opacity="0.3" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="370" y="264" class="m" fill="#F59E0B" font-size="7" text-anchor="middle">HbA1c</text>
+    <line x1="252" y1="270" x2="350" y2="263" stroke="#F59E0B" stroke-width="1.5"/>
+    <text x="305" y="262" class="m" fill="#F59E0B" font-size="7">indicates</text>
+    <text x="220" y="345" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">BioBERT NER + RE: 50k clinical notes — HIPAA anonymized</text>
+<!-- RIGHT PANEL -->
+<text x="700" y="68" class="s" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">SYSTEM ARCHITECTURE &amp; METRICS</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#38bdf8" stroke-width="0.5" opacity="0.4"/>
+<!-- Description block -->
+<rect x="490" y="82" width="440" height="200" rx="5" fill="#080d18" stroke="#38bdf8" stroke-width="1"/>
+<text x="710" y="100" class="m" fill="#38bdf8" font-size="9" text-anchor="middle" font-weight="bold">TECHNICAL OVERVIEW</text>
+<line x1="490" y1="108" x2="930" y2="108" stroke="#38bdf8" stroke-width="0.5"/>
+<text x="500" y="130" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">BioBERT + ClinicalBERT fine-tuned for clinical named entity recognition (NER) an</text>
+<text x="500" y="148" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">d relation extraction from EHR discharge summaries. Extracts: Diseases, Medicati</text>
+<text x="500" y="166" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">ons, Dosages, Procedures, Lab values, Anatomy. Relation types: treats, causes, i</text>
+<text x="500" y="184" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">ndicates, contraindicates. Tested on i2b2-2010 + n2c2-2018 datasets. F1 Disease:</text>
+<text x="500" y="202" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"> 0.921, Medication: 0.944, Relation F1: 0.878. HIPAA-compliant anonymization pip</text>
+<text x="500" y="220" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">eline included. Spans across 50k clinical notes.</text>
+<text x="500" y="238" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<text x="500" y="256" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<text x="500" y="274" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<!-- Metrics table -->
+<rect x="490" y="295" width="440" height="110" rx="4" fill="#080d18" stroke="#38bdf8" stroke-width="1"/>
+<text x="710" y="310" class="m" fill="#38bdf8" font-size="8.5" text-anchor="middle" font-weight="bold">KEY METRICS</text>
+<line x1="490" y1="316" x2="930" y2="316" stroke="#38bdf8" stroke-width="0.5"/>
+<text x="490" y="305" class="m" fill="#94a3b8" font-size="8">Model</text><text x="660" y="305" class="m" fill="#38bdf8" font-size="8">BioBERT + ClinicalBERT fine-tuned</text>
+<text x="490" y="322" class="m" fill="#94a3b8" font-size="8">NER F1 (Disease)</text><text x="660" y="322" class="m" fill="#10B981" font-size="8">0.921 — i2b2-2010 benchmark</text>
+<text x="490" y="339" class="m" fill="#94a3b8" font-size="8">NER F1 (Medication)</text><text x="660" y="339" class="m" fill="#10B981" font-size="8">0.944 — n2c2-2018</text>
+<text x="490" y="356" class="m" fill="#94a3b8" font-size="8">Relation F1</text><text x="660" y="356" class="m" fill="#F59E0B" font-size="8">0.878 — treats/causes/indicates</text>
+<text x="490" y="373" class="m" fill="#94a3b8" font-size="8">Dataset</text><text x="660" y="373" class="m" fill="#94a3b8" font-size="8">i2b2-2010 + n2c2-2018 + 50k notes</text>
+<text x="490" y="390" class="m" fill="#94a3b8" font-size="8">Compliance</text><text x="660" y="390" class="m" fill="#c084fc" font-size="8">HIPAA de-identification pipeline</text>
+
+</svg>

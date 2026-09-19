@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#000812"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  
+    <pattern id="grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/>
+    </pattern>
+    <pattern id="grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#grid-minor)"/>
+      <path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/>
+    </pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#grid-major)" opacity="0.5"/>
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#00E5FF" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <g stroke="#00E5FF" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#00E5FF" font-size="11" font-weight="bold">PROJ-16 // POSEIDON AI — AUTONOMOUS SUBMARINE CONTROL BRAIN</text>
+  <text x="700" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#94a3b8" font-size="9">DRW-DEF-0016 | REV.A | DOMAIN: AUTONOMOUS SYSTEMS</text>
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#00E5FF" stroke-width="0.8" opacity="0.6"/>
+<!-- LEFT: Submarine systems with AI overlaid -->
+<text x="220" y="66" class="m" fill="#00E5FF" font-size="9" text-anchor="middle">AUTONOMOUS CONTROL ARCHITECTURE</text>
+<!-- Central AI brain -->
+<circle cx="220" cy="235" r="45" fill="#000820" stroke="#00E5FF" stroke-width="2" filter="url(#glow)"/>
+<text x="220" y="224" class="m" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">POSEIDON</text>
+<text x="220" y="237" class="m" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">AI BRAIN</text>
+<text x="220" y="250" class="m" fill="#38bdf8" font-size="7.5" text-anchor="middle">RL + SLAM</text>
+<!-- Orbital ring -->
+<ellipse cx="220" cy="235" rx="75" ry="75" fill="none" stroke="#00E5FF" stroke-width="0.8" stroke-dasharray="5,5" opacity="0.4">
+  <animateTransform attributeName="transform" type="rotate" from="0 220 235" to="360 220 235" dur="12s" repeatCount="indefinite"/>
+</ellipse>
+<!-- Sensor inputs -->
+<rect x="30" y="80" width="90" height="40" rx="4" fill="#001520" stroke="#38bdf8" stroke-width="1.2"/>
+<text x="75" y="97" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">SONAR</text>
+<text x="75" y="110" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Active / passive</text>
+<rect x="30" y="135" width="90" height="40" rx="4" fill="#001520" stroke="#38bdf8" stroke-width="1.2"/>
+<text x="75" y="152" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">INERTIAL NAV</text>
+<text x="75" y="165" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">INS + DVL</text>
+<rect x="30" y="190" width="90" height="40" rx="4" fill="#001520" stroke="#38bdf8" stroke-width="1.2"/>
+<text x="75" y="207" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">OCEANOGRAPHY</text>
+<text x="75" y="220" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">SVP + thermohaline</text>
+<rect x="30" y="245" width="90" height="40" rx="4" fill="#001520" stroke="#38bdf8" stroke-width="1.2"/>
+<text x="75" y="262" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">THREAT DETECT</text>
+<text x="75" y="275" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">EW + acoustic</text>
+<!-- Lines from sensors to brain -->
+<line x1="120" y1="100" x2="175" y2="205" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<line x1="120" y1="155" x2="178" y2="215" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<line x1="120" y1="210" x2="180" y2="228" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<line x1="120" y1="265" x2="180" y2="245" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<!-- Actuator outputs -->
+<rect x="320" y="80" width="110" height="40" rx="4" fill="#150020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="375" y="97" class="m" fill="#c084fc" font-size="8" text-anchor="middle">NAVIGATION</text>
+<text x="375" y="110" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Course / depth / speed</text>
+<rect x="320" y="135" width="110" height="40" rx="4" fill="#150020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="375" y="152" class="m" fill="#c084fc" font-size="8" text-anchor="middle">WEAPON SYS</text>
+<text x="375" y="165" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Torpedo / AUV deploy</text>
+<rect x="320" y="190" width="110" height="40" rx="4" fill="#150020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="375" y="207" class="m" fill="#c084fc" font-size="8" text-anchor="middle">PROPULSION</text>
+<text x="375" y="220" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Pump-jet RPM ctrl</text>
+<rect x="320" y="245" width="110" height="40" rx="4" fill="#150020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="375" y="262" class="m" fill="#c084fc" font-size="8" text-anchor="middle">COMMS</text>
+<text x="375" y="275" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">ULF / acoustic modem</text>
+<!-- Lines from brain to actuators -->
+<line x1="265" y1="205" x2="320" y2="100" stroke="#c084fc" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<line x1="265" y1="215" x2="320" y2="155" stroke="#c084fc" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<line x1="265" y1="228" x2="320" y2="210" stroke="#c084fc" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<line x1="265" y1="245" x2="320" y2="265" stroke="#c084fc" stroke-width="1" stroke-dasharray="4,3" opacity="0.7"/>
+<!-- SLAM map at bottom -->
+<text x="220" y="340" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">SLAM OCCUPANCY GRID</text>
+<rect x="80" y="348" width="290" height="42" fill="#001020" stroke="#F59E0B" stroke-width="1" rx="3"/>
+<text x="225" y="375" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">Sonar-SLAM: particle filter 3D map — ocean floor + obstacles</text>
+<!-- Divider -->
+<line x1="455" y1="48" x2="455" y2="412" stroke="#00E5FF" stroke-width="0.8" opacity="0.4"/>
+<!-- RIGHT: RL algorithm + specs -->
+<text x="700" y="68" class="s" fill="#00E5FF" font-size="11" font-weight="bold" text-anchor="middle">RL MISSION PLANNER DESIGN</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#00E5FF" stroke-width="0.5" opacity="0.4"/>
+<!-- RL loop -->
+<rect x="490" y="85" width="200" height="50" rx="5" fill="#001525" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="590" y="107" class="m" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">ENVIRONMENT</text>
+<text x="590" y="120" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Underwater world model</text>
+<text x="590" y="131" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Threat + ocean state</text>
+<rect x="490" y="155" width="200" height="50" rx="5" fill="#001020" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="590" y="177" class="m" fill="#38bdf8" font-size="9" text-anchor="middle" font-weight="bold">POLICY NETWORK</text>
+<text x="590" y="190" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">PPO + LSTM memory</text>
+<text x="590" y="201" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Action: course, depth, speed</text>
+<rect x="490" y="225" width="200" height="50" rx="5" fill="#001020" stroke="#c084fc" stroke-width="1.5"/>
+<text x="590" y="247" class="m" fill="#c084fc" font-size="9" text-anchor="middle" font-weight="bold">REWARD FUNCTION</text>
+<text x="590" y="260" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Mission complete + stealth</text>
+<text x="590" y="271" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Penalty: detection + collision</text>
+<!-- Arrows -->
+<line x1="590" y1="135" x2="590" y2="155" stroke="#94a3b8" stroke-width="1.5"/>
+<line x1="590" y1="205" x2="590" y2="225" stroke="#94a3b8" stroke-width="1.5"/>
+<path d="M690 250 Q720 250 720 165 Q720 110 690 110" fill="none" stroke="#c084fc" stroke-width="1.5" stroke-dasharray="4,3"/>
+<polygon points="692,107 686,110 692,113" fill="#c084fc"/>
+<!-- Specs block -->
+<rect x="715" y="85" width="210" height="200" rx="5" fill="#080d18" stroke="#F59E0B" stroke-width="1"/>
+<text x="820" y="104" class="m" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">AI BRAIN SPECS</text>
+<line x1="715" y1="112" x2="925" y2="112" stroke="#F59E0B" stroke-width="0.5"/>
+<g class="m" font-size="8">
+  <text x="725" y="130" fill="#94a3b8">Algorithm:</text><text x="800" y="130" fill="#38bdf8">PPO + LSTM</text>
+  <text x="725" y="148" fill="#94a3b8">State space:</text><text x="800" y="148" fill="#94a3b8">42-dimensional</text>
+  <text x="725" y="166" fill="#94a3b8">Action space:</text><text x="800" y="166" fill="#94a3b8">Continuous 5-DOF</text>
+  <text x="725" y="184" fill="#94a3b8">SLAM:</text><text x="800" y="184" fill="#10B981">Particle filter 3D</text>
+  <text x="725" y="202" fill="#94a3b8">Nav accuracy:</text><text x="800" y="202" fill="#10B981">±2m GPS-denied</text>
+  <text x="725" y="220" fill="#94a3b8">Training env:</text><text x="800" y="220" fill="#c084fc">MBSYS ocean sim</text>
+  <text x="725" y="238" fill="#94a3b8">Decision time:</text><text x="800" y="238" fill="#F59E0B">&lt;50 ms per tick</text>
+  <text x="725" y="256" fill="#94a3b8">Mission types:</text><text x="800" y="256" fill="#94a3b8">ISR, ASW, MCM</text>
+  <text x="725" y="274" fill="#94a3b8">Autonomy level:</text><text x="800" y="274" fill="#FF3366">Level 4 autonomous</text>
+</g>
+<!-- Bottom -->
+<rect x="475" y="300" width="460" height="102" fill="#080d18" rx="4" stroke="#00E5FF" stroke-width="1"/>
+<text x="490" y="317" class="m" fill="#00E5FF" font-size="8.5" font-weight="bold">POSEIDON AI — AUTONOMOUS CONTROL BRAIN</text>
+<text x="490" y="334" class="m" fill="#94a3b8" font-size="8">RL mission planner: PPO + LSTM for long-horizon underwater tasks</text>
+<text x="490" y="349" class="m" fill="#94a3b8" font-size="8">SLAM navigation: Particle filter 3D map in GPS-denied ocean</text>
+<text x="490" y="364" class="m" fill="#94a3b8" font-size="8">Threat avoidance: acoustic + EW sensor fusion for self-preservation</text>
+<text x="490" y="379" class="m" fill="#94a3b8" font-size="8">Autonomy: full Level 4 — no human-in-loop for tactical decisions</text>
+<text x="490" y="394" class="m" fill="#FF3366" font-size="8">SIMULATION ONLY — Runtime Slayers | DRW-DEF-0016</text>
+</svg>

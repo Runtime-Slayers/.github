@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#000d1a"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#00E5FF" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#00E5FF" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#00E5FF" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#00E5FF" font-size="11" font-weight="bold">PROJ-18 // QUANTUM BIOLOGICAL MAGNETOMETRY — GPS-DENIED NAV</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-QUANTUM-0018 | REV.A | QUANTUM SENSING</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#00E5FF" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#00E5FF" stroke-width="0.8" opacity="0.4"/>
+
+<text x="220" y="66" class="m" fill="#00E5FF" font-size="9" text-anchor="middle">NV DIAMOND QUANTUM MAGNETOMETER — GPS-DENIED NAV</text>
+<!-- NV center diamond lattice -->
+<rect x="90" y="80" width="260" height="200" rx="8" fill="#001020" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="220" y="98" class="m" fill="#00E5FF" font-size="8.5" text-anchor="middle">DIAMOND CRYSTAL — NV CENTER</text>
+<!-- Diamond lattice nodes -->
+<g fill="#94a3b8" stroke="none">
+  <circle cx="130" cy="130" r="6"/><circle cx="170" cy="110" r="6"/><circle cx="210" cy="130" r="6"/>
+  <circle cx="250" cy="110" r="6"/><circle cx="290" cy="130" r="6"/>
+  <circle cx="150" cy="160" r="6"/><circle cx="190" cy="145" r="6"/>
+  <circle cx="230" cy="160" r="6"/><circle cx="270" cy="145" r="6"/>
+  <circle cx="130" cy="190" r="6"/><circle cx="170" cy="175" r="6"/>
+  <circle cx="210" cy="190" r="6"/><circle cx="250" cy="175" r="6"/><circle cx="290" cy="190" r="6"/>
+  <circle cx="150" cy="220" r="6"/><circle cx="190" cy="210" r="6"/><circle cx="230" cy="220" r="6"/>
+</g>
+<!-- NV defect center (highlighted) -->
+<circle cx="190" cy="145" r="12" fill="#00E5FF" opacity="0.3" filter="url(#glow)"/>
+<circle cx="190" cy="145" r="6" fill="#00E5FF" filter="url(#glow)"><animate attributeName="opacity" values="1;0.4;1" dur="1.5s" repeatCount="indefinite"/></circle>
+<text x="220" y="143" class="m" fill="#00E5FF" font-size="7.5" font-weight="bold">NV center</text>
+<text x="220" y="154" class="m" fill="#94a3b8" font-size="7">N-V defect pair</text>
+<!-- Laser excitation -->
+<line x1="50" y1="145" x2="90" y2="145" stroke="#10B981" stroke-width="2" filter="url(#glow)"/>
+<text x="35" y="143" class="m" fill="#10B981" font-size="7.5">532nm</text>
+<text x="35" y="154" class="m" fill="#10B981" font-size="7.5">laser</text>
+<!-- Fluorescence output -->
+<line x1="190" y1="80" x2="190" y2="55" stroke="#FF3366" stroke-width="2" filter="url(#glow)"><animate attributeName="opacity" values="1;0.2;1" dur="0.8s" repeatCount="indefinite"/></line>
+<text x="200" y="52" class="m" fill="#FF3366" font-size="7.5">637nm PL</text>
+<!-- Magnetic field lines -->
+<path d="M95 145 Q85 120 100 100" fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2"/>
+<path d="M95 145 Q80 145 80 130" fill="none" stroke="#F59E0B" stroke-width="1" stroke-dasharray="4,2"/>
+<text x="55" y="105" class="m" fill="#F59E0B" font-size="7.5">B-field</text>
+<!-- ODMR spectrum at bottom -->
+<rect x="55" y="295" width="300" height="90" fill="#001020" stroke="#00E5FF" stroke-width="1" rx="3"/>
+<text x="205" y="311" class="m" fill="#00E5FF" font-size="8.5" text-anchor="middle">ODMR SPECTRUM — Zeeman splitting</text>
+<line x1="70" y1="365" x2="340" y2="365" stroke="#94a3b8" stroke-width="1"/>
+<line x1="70" y1="320" x2="70" y2="365" stroke="#94a3b8" stroke-width="1"/>
+<!-- ODMR dip profile -->
+<path d="M75,340 L130,340 Q145,318 160,340 L180,340 Q195,318 210,340 L340,340" fill="none" stroke="#00E5FF" stroke-width="2" filter="url(#glow)"/>
+<text x="147" y="316" class="m" fill="#F59E0B" font-size="7">f1</text>
+<text x="197" y="316" class="m" fill="#F59E0B" font-size="7">f2</text>
+<text x="205" y="378" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Split = 2*gamma_e*B = femtoTesla sensitivity</text>
+<!-- RIGHT: Navigation pipeline -->
+<text x="700" y="68" class="s" fill="#00E5FF" font-size="11" font-weight="bold" text-anchor="middle">QUANTUM NAVIGATION PIPELINE</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#00E5FF" stroke-width="0.5" opacity="0.4"/>
+<rect x="490" y="85" width="420" height="38" rx="3" fill="#001525" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="700" y="103" class="m" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">NV DIAMOND SENSOR: femtoTesla B-field measurement</text>
+<text x="700" y="116" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">ODMR: optically detected magnetic resonance — spin-state readout</text>
+<rect x="490" y="131" width="420" height="38" rx="3" fill="#0a1a00" stroke="#10B981" stroke-width="1.2"/>
+<text x="700" y="149" class="m" fill="#10B981" font-size="9" text-anchor="middle">RADICAL-PAIR MECHANISM: quantum coherence navigation</text>
+<text x="700" y="162" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Bio-inspired: bird compass cryptochrome radical-pair spin dynamics</text>
+<rect x="490" y="177" width="420" height="38" rx="3" fill="#100a00" stroke="#F59E0B" stroke-width="1.2"/>
+<text x="700" y="195" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">GEOMAGNETIC MAP MATCHING</text>
+<text x="700" y="208" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">IGRF model + measured B-vector — particle filter position estimate</text>
+<rect x="490" y="223" width="420" height="38" rx="3" fill="#001020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="700" y="241" class="m" fill="#c084fc" font-size="9" text-anchor="middle">AI FUSION: Quantum + INS + odometry</text>
+<text x="700" y="254" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Extended Kalman filter — quantum sensor + IMU data fusion</text>
+<rect x="490" y="269" width="420" height="38" rx="3" fill="#150020" stroke="#FF3366" stroke-width="1.5" filter="url(#glow)"/>
+<text x="700" y="287" class="m" fill="#FF3366" font-size="9" text-anchor="middle" font-weight="bold">OUTPUT: Position estimate — GPS-DENIED navigation</text>
+<text x="700" y="300" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Accuracy: ±50m over 100 km — no GPS signal required</text>
+<!-- Bottom metrics -->
+<rect x="475" y="320" width="460" height="85" fill="#080d18" rx="4" stroke="#00E5FF" stroke-width="1"/>
+<text x="490" y="337" class="m" fill="#00E5FF" font-size="8.5" font-weight="bold">SENSOR SPECIFICATIONS</text>
+<text x="490" y="354" class="m" fill="#94a3b8" font-size="8">B-field sensitivity: 1 femtoTesla / sqrt(Hz)   |   Diamond: CVD NV ensemble</text>
+<text x="490" y="369" class="m" fill="#94a3b8" font-size="8">ODMR linewidth: 1 MHz   |   Zeeman split: 2.8 MHz/mT   |   Temp: 293K (room)</text>
+<text x="490" y="384" class="m" fill="#94a3b8" font-size="8">Navigation accuracy: 50m/100km GPS-denied   |   Power: 2W (compact)</text>
+<text x="490" y="399" class="m" fill="#F59E0B" font-size="8">Application: submarine, UAV, spacecraft — any GPS-denied environment</text>
+</svg>

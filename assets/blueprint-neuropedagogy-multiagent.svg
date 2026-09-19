@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>
+    .m { font-family: "JetBrains Mono", monospace; }
+    .s { font-family: "Montserrat", sans-serif; }
+  </style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#100800"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.45"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#F59E0B" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#F59E0B" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#F59E0B" font-size="10.5" font-weight="bold">PROJ-42 // MULTI-AGENT NEUROPEDAGOGICAL CLASSROOM SIMULATION</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-AI-0042 | REV.A | COGNITIVE AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#F59E0B" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#F59E0B" stroke-width="0.8" opacity="0.4"/>
+
+<!-- LEFT: Multi-Agent Cognitive Feedback Loop -->
+<text x="220" y="66" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">NEUROPEDAGOGICAL MULTI-AGENT CLASSROOM DYNAMICS</text>
+<rect x="35" y="78" width="400" height="230" rx="5" fill="#100800" stroke="#F59E0B" stroke-width="1.2"/>
+
+<!-- Teacher Agent -->
+<rect x="55" y="95" width="100" height="60" rx="4" fill="#201000" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="105" y="118" class="m" fill="#F59E0B" font-size="8.5" text-anchor="middle" font-weight="bold">TEACHER AGENT</text>
+<text x="105" y="132" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Adaptive Pacing</text>
+<text x="105" y="144" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Concept Delivery</text>
+
+<!-- Student Agent 1: ADHD Profile -->
+<rect x="270" y="95" width="145" height="50" rx="3" fill="#1a0015" stroke="#FF3366" stroke-width="1.2"/>
+<text x="342" y="114" class="m" fill="#FF3366" font-size="7.5" text-anchor="middle" font-weight="bold">STUDENT A: ADHD Persona</text>
+<text x="342" y="126" class="m" fill="#94a3b8" font-size="6.5" text-anchor="middle">High Novelty Need | Rapid Decay</text>
+<text x="342" y="138" class="m" fill="#FF3366" font-size="6.5" text-anchor="middle">Attentional Wander: t &gt; 8 min</text>
+
+<!-- Student Agent 2: Working Memory Constrained -->
+<rect x="270" y="155" width="145" height="50" rx="3" fill="#001525" stroke="#00E5FF" stroke-width="1.2"/>
+<text x="342" y="174" class="m" fill="#00E5FF" font-size="7.5" text-anchor="middle" font-weight="bold">STUDENT B: Low WM Span</text>
+<text x="342" y="186" class="m" fill="#94a3b8" font-size="6.5" text-anchor="middle">Cognitive Overload at 4 Chunks</text>
+<text x="342" y="198" class="m" fill="#00E5FF" font-size="6.5" text-anchor="middle">Needs Scaffolding Prompts</text>
+
+<!-- Student Agent 3: High Focus -->
+<rect x="270" y="215" width="145" height="50" rx="3" fill="#002010" stroke="#10B981" stroke-width="1.2"/>
+<text x="342" y="234" class="m" fill="#10B981" font-size="7.5" text-anchor="middle" font-weight="bold">STUDENT C: Deep Focus</text>
+<text x="342" y="246" class="m" fill="#94a3b8" font-size="6.5" text-anchor="middle">Flow State | Resilient Recall</text>
+<text x="342" y="258" class="m" fill="#10B981" font-size="6.5" text-anchor="middle">Thrives on Complex Derivations</text>
+
+<!-- Interaction Streams -->
+<path d="M155 125 L260 120" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,2"/>
+<path d="M155 125 L260 175" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,2"/>
+<path d="M155 125 L260 235" stroke="#F59E0B" stroke-width="1.5" stroke-dasharray="4,2"/>
+
+<!-- EEG Closed Loop Controller Below -->
+<rect x="50" y="320" width="370" height="75" rx="4" fill="#0a0515" stroke="#c084fc" stroke-width="1"/>
+<text x="235" y="336" class="m" fill="#c084fc" font-size="8.5" text-anchor="middle" font-weight="bold">NEURO-ADAPTIVE INSTRUCTIONAL RE-BALANCING</text>
+<text x="235" y="352" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Classroom-wide EEG attentional index dynamically alters lecture trajectory</text>
+<text x="235" y="367" class="m" fill="#10B981" font-size="7.5" text-anchor="middle">Retention Gain: +41.8% | Dropout Risk Reduction: 73% | 30-Agent Swarm</text>
+<text x="235" y="382" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">Simulates Baddeley's Multicomponent Working Memory in real time</text>
+
+<!-- RIGHT PANEL: Simulation Results & Specs -->
+<text x="700" y="68" class="s" fill="#F59E0B" font-size="11" font-weight="bold" text-anchor="middle">STUDENT RETENTION ACCORDING TO PACING</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#F59E0B" stroke-width="0.5" opacity="0.4"/>
+
+<!-- Retention Comparison Bars -->
+<g class="m" font-size="7.5">
+  <text x="490" y="98" fill="#94a3b8">Standard Lecture (Fixed)</text>
+  <rect x="640" y="88" width="120" height="13" fill="#FF3366" rx="2" opacity="0.7"/>
+  <text x="768" y="98" fill="#FF3366">44.2%</text>
+
+  <text x="490" y="118" fill="#94a3b8">Standard Adaptive (Quiz-based)</text>
+  <rect x="640" y="108" width="170" height="13" fill="#F59E0B" rx="2" opacity="0.8"/>
+  <text x="818" y="118" fill="#F59E0B">61.5%</text>
+
+  <text x="490" y="138" fill="#10B981" font-weight="bold">Neuropedagogical Agent Swarm</text>
+  <rect x="640" y="128" width="235" height="13" fill="#10B981" rx="2" filter="url(#glow)"/>
+  <text x="882" y="138" fill="#10B981" font-weight="bold">86.0%</text>
+</g>
+
+<!-- Specs Block -->
+<rect x="475" y="165" width="460" height="235" fill="#080d18" rx="4" stroke="#F59E0B" stroke-width="1"/>
+<text x="490" y="184" class="m" fill="#F59E0B" font-size="8.5" font-weight="bold">AGENT SYSTEM ARCHITECTURE</text>
+<line x1="475" y1="192" x2="935" y2="192" stroke="#F59E0B" stroke-width="0.5"/>
+<g class="m" font-size="8">
+  <text x="490" y="210" fill="#94a3b8">Framework:</text><text x="640" y="210" fill="#F59E0B">Partially Observable Markov Game (POMG)</text>
+  <text x="490" y="228" fill="#94a3b8">Cognitive Models:</text><text x="640" y="228" fill="#00E5FF">Baddeley Working Memory + Sweller Load</text>
+  <text x="490" y="246" fill="#94a3b8">Student Archetypes:</text><text x="640" y="246" fill="#c084fc">8 Distinct Neurodivergent/Neurotypical Personas</text>
+  <text x="490" y="264" fill="#94a3b8">Classroom Size:</text><text x="640" y="264" fill="#10B981">Up to 60 Concurrent Interactive Agents</text>
+  <text x="490" y="282" fill="#94a3b8">EEG Priors:</text><text x="640" y="282" fill="#38bdf8">Trained on 64-channel International 10-20 EEG</text>
+  <text x="490" y="300" fill="#94a3b8">Pacing Optimization:</text><text x="640" y="300" fill="#10B981">Reinforcement Learning with PPO Policy</text>
+  <text x="490" y="318" fill="#94a3b8">Attention Synchrony:</text><text x="640" y="318" fill="#FF3366">Inter-Subject Correlation (ISC) &gt; 0.72</text>
+  <text x="490" y="336" fill="#94a3b8">Intervention Latency:</text><text x="640" y="336" fill="#94a3b8">&lt; 1.2 s per classroom-wide transition</text>
+  <text x="490" y="354" fill="#94a3b8">CAD Reference:</text><text x="640" y="354" fill="#94a3b8">RS-PED-SWARM-042-REV-A</text>
+  <text x="490" y="372" fill="#10B981">Status: Applied to STEM Adaptive Curriculum Systems</text>
+</g>
+
+</svg>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#000d18"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#38bdf8" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#38bdf8" font-size="11" font-weight="bold">PROJ-26 // NVST-APEX: VASCULAR ALLOSTATIC LOAD ANALYSIS</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-BIO-0026 | REV.A | VASCULAR HEALTH AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#38bdf8" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#38bdf8" stroke-width="0.8" opacity="0.4"/>
+
+<text x="220" y="66" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">NVST-APEX: VASCULAR ALLOSTATIC LOAD ANALYSIS</text>
+<!-- Carotid ultrasound + waveform -->
+<rect x="35" y="78" width="200" height="170" rx="5" fill="#001020" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="135" y="95" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">CAROTID ULTRASOUND</text>
+<!-- B-mode scan -->
+<ellipse cx="135" cy="170" rx="80" ry="55" fill="#001528" stroke="#38bdf8" stroke-width="0.8"/>
+<!-- Vessel lumen -->
+<rect x="80" y="150" width="110" height="40" rx="20" fill="#003366" stroke="#00E5FF" stroke-width="1.5"/>
+<text x="135" y="175" class="m" fill="#00E5FF" font-size="7" text-anchor="middle">VESSEL LUMEN</text>
+<!-- IMT measurement -->
+<line x1="80" y1="150" x2="80" y2="145" stroke="#F59E0B" stroke-width="1.5"/>
+<line x1="190" y1="150" x2="190" y2="145" stroke="#F59E0B" stroke-width="1.5"/>
+<line x1="80" y1="147" x2="190" y2="147" stroke="#F59E0B" stroke-width="1"/>
+<text x="135" y="142" class="m" fill="#F59E0B" font-size="7.5" text-anchor="middle">IMT: 0.72mm</text>
+<text x="135" y="240" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Intima-media thickness (normality)</text>
+<!-- Doppler waveform -->
+<rect x="35" y="255" width="200" height="100" rx="4" fill="#001020" stroke="#38bdf8" stroke-width="1"/>
+<text x="135" y="270" class="m" fill="#38bdf8" font-size="7.5" text-anchor="middle">DOPPLER VELOCITY</text>
+<polyline points="45,330 65,290 80,335 100,285 120,330 140,288 160,325 180,292 200,328 220,330" fill="none" stroke="#00E5FF" stroke-width="1.5" filter="url(#glow)"/>
+<text x="135" y="348" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">PSV / EDV / RI measurement</text>
+<!-- Allostatic load score gauge (right of left panel) -->
+<rect x="250" y="78" width="185" height="277" rx="5" fill="#001020" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="342" y="95" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">ALLOSTATIC LOAD</text>
+<text x="342" y="106" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">SCORE GAUGE</text>
+<!-- Gauge arc -->
+<path d="M295 200 A75 75 0 0 1 390 200" fill="none" stroke="#1e3a5f" stroke-width="18"/>
+<path d="M295 200 A75 75 0 0 1 342 130" fill="none" stroke="#10B981" stroke-width="18" stroke-dasharray="120 300"/>
+<circle cx="342" cy="200" r="40" fill="#001020" stroke="#F59E0B" stroke-width="1.5"/>
+<text x="342" y="196" class="m" fill="#F59E0B" font-size="14" text-anchor="middle" font-weight="bold">3.2</text>
+<text x="342" y="210" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">NORMAL</text>
+<!-- Labels -->
+<text x="278" y="220" class="m" fill="#10B981" font-size="7.5">Low</text>
+<text x="298" y="240" class="m" fill="#10B981" font-size="7.5">0</text>
+<text x="380" y="220" class="m" fill="#FF3366" font-size="7.5">High</text>
+<text x="368" y="240" class="m" fill="#FF3366" font-size="7.5">10</text>
+<!-- Component list -->
+<text x="260" y="265" class="m" fill="#94a3b8" font-size="7.5">Biomarkers used:</text>
+<text x="260" y="279" class="m" fill="#38bdf8" font-size="7.5">IMT, PSV, RI, PWV</text>
+<text x="260" y="293" class="m" fill="#38bdf8" font-size="7.5">BP, cortisol, CRP</text>
+<text x="260" y="307" class="m" fill="#38bdf8" font-size="7.5">HRV, grip strength</text>
+<text x="260" y="321" class="m" fill="#F59E0B" font-size="7.5">Population normality</text>
+<text x="260" y="333" class="m" fill="#F59E0B" font-size="7.5">baseline established</text>
+<text x="260" y="347" class="m" fill="#94a3b8" font-size="7">Runtime Slayers</text>
+<text x="260" y="358" class="m" fill="#94a3b8" font-size="7">NVST-Apex cohort</text>
+<!-- RIGHT: Pipeline + metrics -->
+<text x="700" y="68" class="s" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">ALLOSTATIC LOAD PIPELINE</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#38bdf8" stroke-width="0.5" opacity="0.4"/>
+<rect x="490" y="85" width="420" height="35" rx="3" fill="#001520" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="700" y="103" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">Phase 1: Vascular + biological biomarker collection</text>
+<text x="700" y="113" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Ultrasound DICOM + blood panel + HRV ECG — 12 biomarker streams</text>
+<rect x="490" y="127" width="420" height="35" rx="3" fill="#0a1000" stroke="#F59E0B" stroke-width="1.2"/>
+<text x="700" y="145" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">Phase 2: Population normality modelling</text>
+<text x="700" y="155" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Age/sex-stratified reference intervals — Gaussian mixture models</text>
+<rect x="490" y="169" width="420" height="35" rx="3" fill="#001020" stroke="#c084fc" stroke-width="1.2"/>
+<text x="700" y="187" class="m" fill="#c084fc" font-size="9" text-anchor="middle">Phase 3: Allostatic load scoring (MacArthur battery)</text>
+<text x="700" y="197" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Composite score from 12 biomarkers — weighted clinical importance</text>
+<rect x="490" y="211" width="420" height="35" rx="3" fill="#001520" stroke="#38bdf8" stroke-width="1.5" filter="url(#glow)"/>
+<text x="700" y="229" class="m" fill="#38bdf8" font-size="9" text-anchor="middle" font-weight="bold">Phase 4: Cardiovascular risk stratification</text>
+<text x="700" y="239" class="m" fill="#94a3b8" font-size="7" text-anchor="middle">Low / Moderate / High risk — clinical intervention guidance</text>
+<rect x="475" y="263" width="460" height="132" fill="#080d18" rx="4" stroke="#38bdf8" stroke-width="1"/>
+<text x="490" y="280" class="m" fill="#38bdf8" font-size="8.5" font-weight="bold">COHORT METRICS</text>
+<g class="m" font-size="8">
+  <text x="490" y="297" fill="#94a3b8">Study population:</text><text x="640" y="297" fill="#38bdf8">n = 847 participants (NVST cohort)</text>
+  <text x="490" y="314" fill="#94a3b8">IMT measurement:</text><text x="640" y="314" fill="#10B981">ICC 0.94 (excellent reproducibility)</text>
+  <text x="490" y="331" fill="#94a3b8">AL score range:</text><text x="640" y="331" fill="#F59E0B">0-10 scale (clinical validated)</text>
+  <text x="490" y="348" fill="#94a3b8">Predictive accuracy:</text><text x="640" y="348" fill="#10B981">AUC 0.88 CVD 10-year risk</text>
+  <text x="490" y="365" fill="#94a3b8">Normality baseline:</text><text x="640" y="365" fill="#94a3b8">Age-sex stratified (20-80 yr)</text>
+  <text x="490" y="382" fill="#94a3b8">Biomarker count:</text><text x="640" y="382" fill="#c084fc">12 validated biomarkers</text>
+</g>
+</svg>

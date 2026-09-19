@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+  <defs>
+    <style>.mono{font-family:"JetBrains Mono","Courier New",monospace}.sans{font-family:"Montserrat","Segoe UI",sans-serif}</style>
+    <filter id="p7-glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <radialGradient id="p7-bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#050d1a"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+    <radialGradient id="p7-bec" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#00E5FF" stop-opacity="0.8"/><stop offset="70%" stop-color="#38bdf8" stop-opacity="0.3"/><stop offset="100%" stop-color="transparent"/></radialGradient>
+    <pattern id="p7-grid-minor" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="p7-grid-major" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#p7-grid-minor)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+  </defs>
+  <rect width="960" height="420" fill="url(#p7-bg)"/>
+  <rect width="960" height="420" fill="url(#p7-grid-major)" opacity="0.5"/>
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <g stroke="#38bdf8" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" class="mono" fill="#38bdf8" font-size="11" font-weight="bold">PROJ-07 // BOSE-EINSTEIN CONDENSATE HOLOGRAPHIC MEMORY MODEL</text>
+  <text x="700" y="32" class="mono" fill="#94a3b8" font-size="9">DRW-QUANTUM-0007 | REV.A | EXOTIC PHYSICS</text>
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#38bdf8" stroke-width="0.8" opacity="0.6"/>
+
+  <!-- BEC Vortex Lattice Visualization -->
+  <text x="220" y="66" class="mono" fill="#38bdf8" font-size="9" text-anchor="middle">BEC VORTEX LATTICE — MEMORY ENCODING</text>
+  <!-- BEC cloud -->
+  <ellipse cx="220" cy="230" rx="180" ry="140" fill="url(#p7-bec)" filter="url(#p7-glow)"/>
+  <ellipse cx="220" cy="230" rx="180" ry="140" fill="none" stroke="#00E5FF" stroke-width="1" stroke-dasharray="6,4" opacity="0.5">
+    <animate attributeName="rx" values="180;185;180" dur="4s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Vortex lattice points (triangular lattice) -->
+  <g fill="#FF3366" filter="url(#p7-glow)">
+    <!-- Row 1 -->
+    <circle cx="160" cy="175" r="5"><animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="175" r="5"><animate attributeName="r" values="5;7;5" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="175" r="5"><animate attributeName="r" values="5;7;5" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="175" r="5"><animate attributeName="r" values="5;7;5" dur="2.5s" repeatCount="indefinite"/></circle>
+    <!-- Row 2 (offset) -->
+    <circle cx="140" cy="210" r="5"><animate attributeName="r" values="5;7;5" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="180" cy="210" r="5"><animate attributeName="r" values="5;7;5" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="210" r="5"><animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="210" r="5"><animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/></circle>
+    <circle cx="300" cy="210" r="5"><animate attributeName="r" values="5;7;5" dur="1.7s" repeatCount="indefinite"/></circle>
+    <!-- Row 3 -->
+    <circle cx="160" cy="245" r="5"><animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="200" cy="245" r="5"><animate attributeName="r" values="5;7;5" dur="2.6s" repeatCount="indefinite"/></circle>
+    <circle cx="240" cy="245" r="5"><animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="280" cy="245" r="5"><animate attributeName="r" values="5;7;5" dur="2.2s" repeatCount="indefinite"/></circle>
+    <!-- Row 4 -->
+    <circle cx="180" cy="280" r="5"><animate attributeName="r" values="5;7;5" dur="1.9s" repeatCount="indefinite"/></circle>
+    <circle cx="220" cy="280" r="5"><animate attributeName="r" values="5;7;5" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="260" cy="280" r="5"><animate attributeName="r" values="5;7;5" dur="2s" repeatCount="indefinite"/></circle>
+  </g>
+  <!-- Vortex connections showing lattice order -->
+  <g stroke="#38bdf8" stroke-width="0.5" opacity="0.3">
+    <line x1="160" y1="175" x2="200" y2="175"/><line x1="200" y1="175" x2="240" y2="175"/><line x1="240" y1="175" x2="280" y2="175"/>
+    <line x1="140" y1="210" x2="180" y2="210"/><line x1="180" y1="210" x2="220" y2="210"/><line x1="220" y1="210" x2="260" y2="210"/><line x1="260" y1="210" x2="300" y2="210"/>
+    <line x1="160" y1="175" x2="140" y2="210"/><line x1="200" y1="175" x2="180" y2="210"/><line x1="240" y1="175" x2="220" y2="210"/><line x1="280" y1="175" x2="260" y2="210"/>
+  </g>
+  <!-- Labels -->
+  <text x="108" y="170" class="mono" fill="#FF3366" font-size="7" text-anchor="end">quantized</text>
+  <text x="108" y="180" class="mono" fill="#FF3366" font-size="7" text-anchor="end">vortex = 1 bit</text>
+  <text x="220" y="400" class="mono" fill="#38bdf8" font-size="8" text-anchor="middle">Abrikosov vortex lattice encodes holographic memory bits</text>
+  <!-- Temperature label -->
+  <text x="50" y="250" class="mono" fill="#00E5FF" font-size="8">T ~ nK</text>
+  <text x="50" y="262" class="mono" fill="#00E5FF" font-size="8">(nano-Kelvin)</text>
+
+  <!-- Divider -->
+  <line x1="455" y1="48" x2="455" y2="412" stroke="#38bdf8" stroke-width="0.8" opacity="0.4"/>
+
+  <!-- RIGHT PANEL -->
+  <text x="480" y="68" class="sans" fill="#38bdf8" font-size="12" font-weight="bold">MEMORY ARCHITECTURE &amp; PHYSICS MODEL</text>
+  <line x1="480" y1="75" x2="940" y2="75" stroke="#38bdf8" stroke-width="0.5" opacity="0.4"/>
+
+  <!-- Architecture flow -->
+  <!-- Step 1: Laser cooling -->
+  <rect x="490" y="85" width="200" height="45" rx="5" fill="#001020" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="590" y="106" class="mono" fill="#38bdf8" font-size="9" text-anchor="middle" font-weight="bold">1. LASER COOLING</text>
+  <text x="590" y="120" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Rb-87 atoms cooled to ~100 nK</text>
+
+  <!-- Step 2: BEC formation -->
+  <rect x="490" y="145" width="200" height="45" rx="5" fill="#000d20" stroke="#00E5FF" stroke-width="1.5"/>
+  <text x="590" y="166" class="mono" fill="#00E5FF" font-size="9" text-anchor="middle" font-weight="bold">2. BEC FORMATION</text>
+  <text x="590" y="180" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Phase transition to condensate</text>
+
+  <!-- Step 3: Vortex imprinting -->
+  <rect x="490" y="205" width="200" height="45" rx="5" fill="#200010" stroke="#FF3366" stroke-width="1.5"/>
+  <text x="590" y="226" class="mono" fill="#FF3366" font-size="9" text-anchor="middle" font-weight="bold">3. VORTEX IMPRINT</text>
+  <text x="590" y="240" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Stirring laser creates Abrikosov lattice</text>
+
+  <!-- Step 4: Holographic readout -->
+  <rect x="490" y="265" width="200" height="45" rx="5" fill="#002000" stroke="#10B981" stroke-width="1.5"/>
+  <text x="590" y="286" class="mono" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">4. HOLOGRAPHIC READ</text>
+  <text x="590" y="300" class="mono" fill="#94a3b8" font-size="7.5" text-anchor="middle">Phase-contrast imaging retrieves bits</text>
+
+  <!-- Arrows -->
+  <line x1="590" y1="130" x2="590" y2="145" stroke="#94a3b8" stroke-width="1.5"/><polygon points="587,143 590,150 593,143" fill="#94a3b8"/>
+  <line x1="590" y1="190" x2="590" y2="205" stroke="#94a3b8" stroke-width="1.5"/><polygon points="587,203 590,210 593,203" fill="#94a3b8"/>
+  <line x1="590" y1="250" x2="590" y2="265" stroke="#94a3b8" stroke-width="1.5"/><polygon points="587,263 590,270 593,263" fill="#94a3b8"/>
+
+  <!-- AI GPE solver -->
+  <rect x="720" y="85" width="210" height="225" rx="5" fill="#080d18" stroke="#F59E0B" stroke-width="1.5"/>
+  <text x="825" y="108" class="mono" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">GROSS-PITAEVSKII AI</text>
+  <line x1="720" y1="115" x2="930" y2="115" stroke="#F59E0B" stroke-width="0.5"/>
+  <text x="730" y="133" class="mono" fill="#94a3b8" font-size="8">GPE: ih dPsi/dt =</text>
+  <text x="730" y="148" class="mono" fill="#38bdf8" font-size="8">  [-h2/2m nabla2 + V</text>
+  <text x="730" y="163" class="mono" fill="#38bdf8" font-size="8">  + g|Psi|2] Psi</text>
+  <text x="730" y="183" class="mono" fill="#94a3b8" font-size="8">PINN surrogate solver:</text>
+  <text x="730" y="198" class="mono" fill="#F59E0B" font-size="8">  Auto-differentiable GPE</text>
+  <text x="730" y="213" class="mono" fill="#F59E0B" font-size="8">  Vortex nucleation predict</text>
+  <text x="730" y="228" class="mono" fill="#F59E0B" font-size="8">  Lattice stability optimise</text>
+  <text x="730" y="248" class="mono" fill="#94a3b8" font-size="8">Memory density:</text>
+  <text x="730" y="263" class="mono" fill="#10B981" font-size="8">  ~10^6 vortex bits / mm^2</text>
+  <text x="730" y="278" class="mono" fill="#94a3b8" font-size="8">Coherence time:</text>
+  <text x="730" y="293" class="mono" fill="#10B981" font-size="8">  ~100 ms (nano-K trap)</text>
+
+  <!-- Bottom metrics -->
+  <rect x="475" y="325" width="460" height="75" fill="#080d18" rx="4" stroke="#38bdf8" stroke-width="1"/>
+  <text x="490" y="342" class="mono" fill="#38bdf8" font-size="8.5" font-weight="bold">ENGINEERING SPECIFICATIONS</text>
+  <text x="490" y="358" class="mono" fill="#94a3b8" font-size="8">Atom species: Rb-87   |   Trap: optical dipole   |   Temperature: 100 nanoKelvin</text>
+  <text x="490" y="373" class="mono" fill="#94a3b8" font-size="8">Vortex quantization: h/(m) circulation quanta   |   Lattice type: Abrikosov triangular</text>
+  <text x="490" y="388" class="mono" fill="#c084fc" font-size="8">AI: PINN-GPE solver   |   Application: Quantum holographic memory storage</text>
+</svg>

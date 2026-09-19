@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#000a12"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <linearGradient id="hull" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#1a2a3a"/><stop offset="100%" stop-color="#071018"/></linearGradient>
+  <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#003060"/><stop offset="100%" stop-color="#000a20"/></linearGradient>
+  
+    <pattern id="grid-minor" width="10" height="10" patternUnits="userSpaceOnUse">
+      <path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/>
+    </pattern>
+    <pattern id="grid-major" width="50" height="50" patternUnits="userSpaceOnUse">
+      <rect width="50" height="50" fill="url(#grid-minor)"/>
+      <path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/>
+    </pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#grid-major)" opacity="0.5"/>
+  <rect x="2" y="2" width="956" height="416" fill="none" stroke="#38bdf8" stroke-width="1.5"/>
+  <rect x="6" y="6" width="948" height="408" fill="none" stroke="#38bdf8" stroke-width="0.5" stroke-dasharray="8,4"/>
+  <g stroke="#38bdf8" stroke-width="1" opacity="0.8">
+    <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+    <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+    <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+    <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+  </g>
+  <rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+  <text x="30" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#38bdf8" font-size="11" font-weight="bold">PROJ-15 // POSEIDON STEALTH SUBMARINE — HYDRODYNAMIC AI DESIGN</text>
+  <text x="700" y="32" font-family="JetBrains Mono, Courier New, monospace" fill="#94a3b8" font-size="9">DRW-DEF-0015 | REV.B | DOMAIN: NAVAL DEFENSE</text>
+  <line x1="20" y1="48" x2="940" y2="48" stroke="#38bdf8" stroke-width="0.8" opacity="0.6"/>
+<!-- LEFT: Submarine silhouette (side view) -->
+<text x="220" y="66" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">POSEIDON HULL — ACOUSTIC STEALTH GEOMETRY</text>
+<!-- Water surface -->
+<rect x="30" y="155" width="410" height="4" fill="#38bdf8" opacity="0.3"/>
+<text x="240" y="150" class="m" fill="#38bdf8" font-size="7.5" text-anchor="middle">SEA SURFACE</text>
+<!-- Underwater atmosphere -->
+<rect x="30" y="159" width="410" height="230" fill="url(#water)" opacity="0.4" rx="0"/>
+<!-- Bubble particles -->
+<circle cx="70" cy="250" r="2" fill="#38bdf8" opacity="0.3"><animate attributeName="cy" values="300;170;300" dur="4s" repeatCount="indefinite"/></circle>
+<circle cx="140" cy="280" r="2" fill="#38bdf8" opacity="0.25"><animate attributeName="cy" values="350;180;350" dur="5s" repeatCount="indefinite"/></circle>
+<circle cx="300" cy="260" r="1.5" fill="#38bdf8" opacity="0.2"><animate attributeName="cy" values="320;175;320" dur="3.5s" repeatCount="indefinite"/></circle>
+<!-- Submarine hull (streamlined) -->
+<path d="M55 220 Q70 200 120 195 L350 195 Q400 195 430 220 Q400 245 350 250 L120 250 Q70 245 55 220 Z" fill="url(#hull)" stroke="#38bdf8" stroke-width="2"/>
+<!-- Sail (conning tower) -->
+<rect x="190" y="172" width="60" height="24" rx="5" fill="#1a2a3a" stroke="#38bdf8" stroke-width="1.5"/>
+<text x="220" y="188" class="m" fill="#38bdf8" font-size="7" text-anchor="middle">SAIL</text>
+<!-- Propulsor (pump-jet) -->
+<ellipse cx="430" cy="222" rx="12" ry="28" fill="#0a1a2a" stroke="#c084fc" stroke-width="1.5"/>
+<text x="445" y="218" class="m" fill="#c084fc" font-size="7">PUMP-JET</text>
+<text x="445" y="228" class="m" fill="#94a3b8" font-size="6.5">PROPULSOR</text>
+<!-- Anechoic coating annotation -->
+<path d="M180 195 L165 160" stroke="#F59E0B" stroke-width="0.8" stroke-dasharray="3,2"/>
+<text x="85" y="158" class="m" fill="#F59E0B" font-size="7.5">Anechoic rubber tiles (50mm)</text>
+<!-- Hydroplane annotation -->
+<line x1="110" y1="240" x2="85" y2="270" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="3,2"/>
+<text x="35" y="283" class="m" fill="#94a3b8" font-size="7">Fore planes</text>
+<!-- AUV launch tubes -->
+<rect x="150" y="248" width="120" height="10" fill="#0d2030" stroke="#00E5FF" stroke-width="1"/>
+<text x="210" y="257" class="m" fill="#00E5FF" font-size="6.5" text-anchor="middle">AUV/TORPEDO TUBES x6</text>
+<!-- Depth label -->
+<line x1="440" y1="160" x2="440" y2="385" stroke="#38bdf8" stroke-width="0.7" stroke-dasharray="3,3" opacity="0.3"/>
+<text x="445" y="285" class="m" fill="#38bdf8" font-size="7">500m</text>
+<text x="445" y="320" class="m" fill="#38bdf8" font-size="7">depth</text>
+<!-- Wake / turbulence (AI minimized) -->
+<path d="M55 220 Q30 215 20 220 Q30 225 55 220" fill="none" stroke="#38bdf8" stroke-width="1" opacity="0.3"/>
+<text x="20" y="210" class="m" fill="#38bdf8" font-size="7" text-anchor="middle">MIN</text>
+<text x="20" y="220" class="m" fill="#38bdf8" font-size="7" text-anchor="middle">WAKE</text>
+<!-- Divider -->
+<line x1="455" y1="48" x2="455" y2="412" stroke="#38bdf8" stroke-width="0.8" opacity="0.4"/>
+<!-- RIGHT: AI Design analysis -->
+<text x="700" y="68" class="s" fill="#38bdf8" font-size="11" font-weight="bold" text-anchor="middle">CFD AI-OPTIMIZED DESIGN</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#38bdf8" stroke-width="0.5" opacity="0.4"/>
+<!-- Drag coefficient chart -->
+<text x="490" y="96" class="m" fill="#F59E0B" font-size="8.5" font-weight="bold">DRAG + ACOUSTIC SIGNATURE COMPARISON</text>
+<text x="490" y="115" class="m" fill="#94a3b8" font-size="8">Conv. submarine hull</text><rect x="640" y="105" width="150" height="14" fill="#FF3366" rx="2" opacity="0.8"/><text x="796" y="116" class="m" fill="#94a3b8" font-size="7.5">Cd=0.025, 110dB</text>
+<text x="490" y="136" class="m" fill="#94a3b8" font-size="8">POSEIDON AI hull</text><rect x="640" y="126" width="80" height="14" fill="#10B981" rx="2" filter="url(#glow)"/><text x="726" y="137" class="m" fill="#10B981" font-size="7.5">Cd=0.012, 72dB</text>
+<!-- AI optimization steps -->
+<text x="490" y="162" class="m" fill="#F59E0B" font-size="8.5" font-weight="bold">AI HULL OPTIMIZATION PIPELINE</text>
+<rect x="490" y="170" width="420" height="32" rx="3" fill="#001020" stroke="#38bdf8" stroke-width="1"/>
+<text x="700" y="186" class="m" fill="#38bdf8" font-size="8" text-anchor="middle">1. Parametric hull definition (B-spline control points)</text>
+<text x="700" y="197" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Boundary conditions: max length 120m, beam 12m, depth 500m</text>
+<rect x="490" y="208" width="420" height="32" rx="3" fill="#001a00" stroke="#10B981" stroke-width="1"/>
+<text x="700" y="224" class="m" fill="#10B981" font-size="8" text-anchor="middle">2. CFD surrogate (PINN + OpenFOAM dataset)</text>
+<text x="700" y="235" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Navier-Stokes RANS — drag and turbulent wake prediction</text>
+<rect x="490" y="246" width="420" height="32" rx="3" fill="#100a00" stroke="#F59E0B" stroke-width="1"/>
+<text x="700" y="262" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">3. NSGA-II multi-objective optimization</text>
+<text x="700" y="273" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Minimize: drag coefficient + radiated acoustic noise</text>
+<rect x="490" y="284" width="420" height="32" rx="3" fill="#100020" stroke="#c084fc" stroke-width="1"/>
+<text x="700" y="300" class="m" fill="#c084fc" font-size="8" text-anchor="middle">4. Acoustic FEA: vibration isolation + anechoic tiles</text>
+<text x="700" y="311" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Finite element modal analysis, HVAC raft mount resonance</text>
+<!-- Bottom metrics -->
+<rect x="475" y="328" width="460" height="75" fill="#080d18" rx="4" stroke="#38bdf8" stroke-width="1"/>
+<text x="490" y="345" class="m" fill="#38bdf8" font-size="8.5" font-weight="bold">POSEIDON DESIGN SPECIFICATIONS</text>
+<text x="490" y="362" class="m" fill="#94a3b8" font-size="8">Length: 120m   |   Beam: 12m   |   Displacement: 9500 t   |   Depth: 500m</text>
+<text x="490" y="377" class="m" fill="#94a3b8" font-size="8">Propulsion: pump-jet 45MW   |   Speed: 35 kt submerged   |   Crew: 80</text>
+<text x="490" y="392" class="m" fill="#F59E0B" font-size="8">Acoustic signature: 72 dB (48% reduction vs convention) | SIMULATION ONLY</text>
+</svg>

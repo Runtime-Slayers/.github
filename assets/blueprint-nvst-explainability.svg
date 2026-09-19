@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#0d0015"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#c084fc" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#c084fc" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#c084fc" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#c084fc" font-size="11" font-weight="bold">PROJ-27 // NVST-EXPLAINABLEAI: 12-CHANNEL FEATURE ATTRIBUTION</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-BIO-0027 | REV.A | EXPLAINABLE AI</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#c084fc" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#c084fc" stroke-width="0.8" opacity="0.4"/>
+
+<text x="220" y="66" class="m" fill="#c084fc" font-size="9" text-anchor="middle">NVST-EXPLAINABLEAI: 12-CHANNEL FEATURE ATTRIBUTION</text>
+<!-- Feature importance SHAP plot -->
+<text x="220" y="90" class="m" fill="#F59E0B" font-size="8.5" text-anchor="middle" font-weight="bold">SHAP FEATURE ATTRIBUTION — CVD RISK MODEL</text>
+<!-- SHAP beeswarm style visualization -->
+<line x1="35" y1="350" x2="430" y2="350" stroke="#94a3b8" stroke-width="1"/>
+<line x1="230" y1="100" x2="230" y2="355" stroke="#94a3b8" stroke-width="0.8" stroke-dasharray="4,3"/>
+<text x="232" y="96" class="m" fill="#94a3b8" font-size="7.5">SHAP=0</text>
+<!-- Features (top to bottom by importance) -->
+<g class="m" font-size="8">
+  <!-- IMT -->
+  <text x="225" y="118" fill="#94a3b8" text-anchor="end">IMT (mm)</text>
+  <rect x="232" y="109" width="120" height="14" rx="3" fill="#FF3366" opacity="0.7" filter="url(#glow)"/>
+  <!-- PSV -->
+  <text x="225" y="138" fill="#94a3b8" text-anchor="end">PSV (cm/s)</text>
+  <rect x="232" y="129" width="90" height="14" rx="3" fill="#FF3366" opacity="0.65"/>
+  <!-- Blood pressure -->
+  <text x="225" y="158" fill="#94a3b8" text-anchor="end">SBP (mmHg)</text>
+  <rect x="232" y="149" width="80" height="14" rx="3" fill="#FF6B00" opacity="0.7"/>
+  <!-- CRP -->
+  <text x="225" y="178" fill="#94a3b8" text-anchor="end">CRP (mg/L)</text>
+  <rect x="232" y="169" width="65" height="14" rx="3" fill="#F59E0B" opacity="0.7"/>
+  <!-- HRV -->
+  <text x="225" y="198" fill="#94a3b8" text-anchor="end">HRV (ms)</text>
+  <rect x="125" y="189" width="105" height="14" rx="3" fill="#10B981" opacity="0.7"/>
+  <!-- PWV -->
+  <text x="225" y="218" fill="#94a3b8" text-anchor="end">PWV (m/s)</text>
+  <rect x="232" y="209" width="55" height="14" rx="3" fill="#F59E0B" opacity="0.6"/>
+  <!-- cortisol -->
+  <text x="225" y="238" fill="#94a3b8" text-anchor="end">Cortisol</text>
+  <rect x="232" y="229" width="45" height="14" rx="3" fill="#F59E0B" opacity="0.5"/>
+  <!-- LDL -->
+  <text x="225" y="258" fill="#94a3b8" text-anchor="end">LDL (mmol/L)</text>
+  <rect x="232" y="249" width="40" height="14" rx="3" fill="#c084fc" opacity="0.5"/>
+  <!-- BMI -->
+  <text x="225" y="278" fill="#94a3b8" text-anchor="end">BMI</text>
+  <rect x="232" y="269" width="35" height="14" rx="3" fill="#c084fc" opacity="0.45"/>
+  <!-- Age -->
+  <text x="225" y="298" fill="#94a3b8" text-anchor="end">Age</text>
+  <rect x="232" y="289" width="30" height="14" rx="3" fill="#c084fc" opacity="0.4"/>
+  <!-- Sex -->
+  <text x="225" y="318" fill="#94a3b8" text-anchor="end">Sex</text>
+  <rect x="180" y="309" width="50" height="14" rx="3" fill="#38bdf8" opacity="0.4"/>
+  <!-- Smoking -->
+  <text x="225" y="338" fill="#94a3b8" text-anchor="end">Smoking</text>
+  <rect x="232" y="329" width="20" height="14" rx="3" fill="#c084fc" opacity="0.35"/>
+</g>
+<!-- Axis labels -->
+<text x="280" y="362" class="m" fill="#FF3366" font-size="7.5">High risk (positive SHAP)</text>
+<text x="125" y="362" class="m" fill="#10B981" font-size="7.5">Low risk (negative)</text>
+<text x="220" y="390" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">IMT and PSV are strongest predictors of CVD risk</text>
+<!-- RIGHT: Interpretability architecture -->
+<text x="700" y="68" class="s" fill="#c084fc" font-size="11" font-weight="bold" text-anchor="middle">MODEL INTERPRETABILITY ARCHITECTURE</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#c084fc" stroke-width="0.5" opacity="0.4"/>
+<rect x="490" y="85" width="420" height="38" rx="3" fill="#100020" stroke="#c084fc" stroke-width="1.5"/>
+<text x="700" y="103" class="m" fill="#c084fc" font-size="9" text-anchor="middle" font-weight="bold">INPUT: 12-channel vascular biomarker vector</text>
+<text x="700" y="116" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">IMT, PSV, EDV, RI, PWV, SBP, DBP, CRP, HRV, LDL, cortisol, BMI</text>
+<rect x="490" y="131" width="420" height="38" rx="3" fill="#0a0020" stroke="#F59E0B" stroke-width="1.2"/>
+<text x="700" y="149" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">ENSEMBLE MODEL: XGBoost + Random Forest + LR</text>
+<text x="700" y="162" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Stacked ensemble — 5-fold CV — probability calibration (Platt)</text>
+<rect x="490" y="177" width="420" height="38" rx="3" fill="#001020" stroke="#38bdf8" stroke-width="1.2"/>
+<text x="700" y="195" class="m" fill="#38bdf8" font-size="9" text-anchor="middle">SHAP EXPLAINER: TreeSHAP — exact attribution</text>
+<text x="700" y="208" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Per-patient SHAP values — waterfall + beeswarm + force plots</text>
+<rect x="490" y="223" width="420" height="38" rx="3" fill="#001020" stroke="#10B981" stroke-width="1.5" filter="url(#glow)"/>
+<text x="700" y="241" class="m" fill="#10B981" font-size="9" text-anchor="middle" font-weight="bold">OUTPUT: CVD risk score + feature attribution report</text>
+<text x="700" y="254" class="m" fill="#94a3b8" font-size="7.5" text-anchor="middle">Clinician-readable: which biomarker most drove this patient's risk</text>
+<rect x="475" y="280" width="460" height="115" fill="#080d18" rx="4" stroke="#c084fc" stroke-width="1"/>
+<text x="490" y="297" class="m" fill="#c084fc" font-size="8.5" font-weight="bold">PERFORMANCE</text>
+<g class="m" font-size="8">
+  <text x="490" y="314" fill="#94a3b8">CVD risk AUC:</text><text x="640" y="314" fill="#10B981">0.921 (n=847 NVST cohort)</text>
+  <text x="490" y="331" fill="#94a3b8">SHAP method:</text><text x="640" y="331" fill="#c084fc">TreeSHAP (exact, not approx)</text>
+  <text x="490" y="348" fill="#94a3b8">Top predictor:</text><text x="640" y="348" fill="#FF3366">IMT — carotid wall thickness</text>
+  <text x="490" y="365" fill="#94a3b8">Calibration:</text><text x="640" y="365" fill="#F59E0B">Brier score 0.089 (excellent)</text>
+  <text x="490" y="382" fill="#94a3b8">Clinician trust:</text><text x="640" y="382" fill="#10B981">Per-patient waterfall explanation</text>
+</g>
+</svg>

@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" width="100%" height="100%">
+<defs>
+  <style>.m{font-family:"JetBrains Mono",monospace}.s{font-family:"Montserrat",sans-serif}</style>
+  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <radialGradient id="bg" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#100800"/><stop offset="100%" stop-color="#0B0F19"/></radialGradient>
+  <pattern id="gmin" width="10" height="10" patternUnits="userSpaceOnUse"><path d="M10 0H0V10" fill="none" stroke="#1e3a5f" stroke-width="0.3"/></pattern>
+    <pattern id="gmaj" width="50" height="50" patternUnits="userSpaceOnUse"><rect width="50" height="50" fill="url(#gmin)"/><path d="M50 0H0V50" fill="none" stroke="#1e3a5f" stroke-width="0.7"/></pattern>
+</defs>
+<rect width="960" height="420" fill="url(#bg)"/>
+<rect width="960" height="420" fill="url(#gmaj)" opacity="0.5"/>
+<rect x="2" y="2" width="956" height="416" fill="none" stroke="#F59E0B" stroke-width="1.5"/>
+<rect x="6" y="6" width="948" height="408" fill="none" stroke="#F59E0B" stroke-width="0.5" stroke-dasharray="8,4"/>
+<g stroke="#F59E0B" stroke-width="1" opacity="0.8">
+  <line x1="2" y1="20" x2="2" y2="2"/><line x1="2" y1="2" x2="20" y2="2"/>
+  <line x1="940" y1="2" x2="958" y2="2"/><line x1="958" y1="2" x2="958" y2="20"/>
+  <line x1="2" y1="400" x2="2" y2="418"/><line x1="2" y1="418" x2="20" y2="418"/>
+  <line x1="940" y1="418" x2="958" y2="418"/><line x1="958" y1="418" x2="958" y2="400"/>
+</g>
+<rect x="20" y="14" width="920" height="28" fill="#0B0F19" rx="2"/>
+<text x="30" y="32" class="m" fill="#F59E0B" font-size="10" font-weight="bold">PROJ-42 // AUTONOMOUS VEHICLE LIDAR POINT-CLOUD 3D OBJECT DETECTION</text>
+<text x="700" y="32" class="m" fill="#94a3b8" font-size="9">DRW-ML-0042 | REV.A | AUTONOMOUS DRIVING</text>
+<line x1="20" y1="48" x2="940" y2="48" stroke="#F59E0B" stroke-width="0.8" opacity="0.6"/>
+<line x1="455" y1="48" x2="455" y2="412" stroke="#F59E0B" stroke-width="0.8" opacity="0.4"/>
+<text x="220" y="66" class="m" fill="#F59E0B" font-size="9" text-anchor="middle">LIDAR 3D POINT CLOUD — OBJECT DETECTION</text>
+    <rect x="35" y="80" width="400" height="300" rx="5" fill="#000d00" stroke="#F59E0B" stroke-width="1.5"/>
+    <!-- Bird-eye view LiDAR points -->
+    <text x="220" y="100" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">BIRD-EYE VIEW — POINTPILLARS DETECTION</text>
+    <!-- Ego vehicle -->
+    <rect x="190" y="200" width="60" height="35" rx="3" fill="#F59E0B" opacity="0.8"/>
+    <text x="220" y="222" class="m" fill="#0B0F19" font-size="7.5" text-anchor="middle">EGO</text>
+    <!-- LiDAR points -->
+    <g fill="#10B981" opacity="0.5">
+      <circle cx="120" cy="160" r="2"/><circle cx="135" cy="165" r="2"/><circle cx="110" cy="175" r="2"/>
+      <circle cx="310" cy="155" r="2"/><circle cx="325" cy="160" r="2"/><circle cx="315" cy="170" r="2"/>
+      <circle cx="180" cy="130" r="2"/><circle cx="195" cy="125" r="2"/><circle cx="175" cy="140" r="2"/>
+      <circle cx="80" cy="220" r="2"/><circle cx="90" cy="215" r="2"/><circle cx="75" cy="230" r="2"/>
+      <circle cx="350" cy="240" r="2"/><circle cx="360" cy="235" r="2"/><circle cx="345" cy="250" r="2"/>
+    </g>
+    <!-- Detected 3D boxes -->
+    <rect x="105" y="153" width="40" height="28" fill="none" stroke="#00E5FF" stroke-width="1.5"/><text x="125" y="171" class="m" fill="#00E5FF" font-size="7" text-anchor="middle">Car</text>
+    <rect x="300" y="148" width="35" height="28" fill="none" stroke="#00E5FF" stroke-width="1.5"/><text x="317" y="165" class="m" fill="#00E5FF" font-size="7" text-anchor="middle">Car</text>
+    <rect x="170" y="118" width="30" height="22" fill="none" stroke="#FF3366" stroke-width="1.5"/><text x="185" y="133" class="m" fill="#FF3366" font-size="7" text-anchor="middle">Ped</text>
+    <rect x="70" y="210" width="22" height="22" fill="none" stroke="#c084fc" stroke-width="1.5"/><text x="81" y="225" class="m" fill="#c084fc" font-size="7" text-anchor="middle">Cyc</text>
+    <rect x="340" y="230" width="25" height="22" fill="none" stroke="#c084fc" stroke-width="1.5"/><text x="352" y="245" class="m" fill="#c084fc" font-size="7" text-anchor="middle">Cyc</text>
+    <!-- Range rings -->
+    <ellipse cx="220" cy="218" rx="100" ry="80" fill="none" stroke="#F59E0B" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.3"/>
+    <ellipse cx="220" cy="218" rx="170" ry="140" fill="none" stroke="#F59E0B" stroke-width="0.5" stroke-dasharray="4,4" opacity="0.2"/>
+    <text x="220" y="380" class="m" fill="#F59E0B" font-size="8" text-anchor="middle">PointPillars: 18.7 FPS | 100m range | mAP 67.4% nuScenes</text>
+<!-- RIGHT PANEL -->
+<text x="700" y="68" class="s" fill="#F59E0B" font-size="11" font-weight="bold" text-anchor="middle">SYSTEM ARCHITECTURE &amp; METRICS</text>
+<line x1="480" y1="75" x2="940" y2="75" stroke="#F59E0B" stroke-width="0.5" opacity="0.4"/>
+<!-- Description block -->
+<rect x="490" y="82" width="440" height="200" rx="5" fill="#080d18" stroke="#F59E0B" stroke-width="1"/>
+<text x="710" y="100" class="m" fill="#F59E0B" font-size="9" text-anchor="middle" font-weight="bold">TECHNICAL OVERVIEW</text>
+<line x1="490" y1="108" x2="930" y2="108" stroke="#F59E0B" stroke-width="0.5"/>
+<text x="500" y="130" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">Real-time 3D LiDAR point cloud processing for autonomous vehicle perception. Poi</text>
+<text x="500" y="148" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">ntPillars + CenterPoint architecture on KITTI and nuScenes datasets. Detects car</text>
+<text x="500" y="166" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">s, pedestrians, cyclists in 3D at 18.7 FPS on NVIDIA Jetson AGX Orin. Range: 100</text>
+<text x="500" y="184" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">m. Voxel size: 0.16m. mAP: 67.4% (nuScenes test). Sensor fusion: LiDAR + camera </text>
+<text x="500" y="202" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">for 3D bounding box estimation. Key innovation: pillar-based voxelization enable</text>
+<text x="500" y="220" class="m" fill="#94a3b8" font-size="8" xml:space="preserve">s real-time inference under 55ms.</text>
+<text x="500" y="238" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<text x="500" y="256" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<text x="500" y="274" class="m" fill="#94a3b8" font-size="8" xml:space="preserve"></text>
+<!-- Metrics table -->
+<rect x="490" y="295" width="440" height="110" rx="4" fill="#080d18" stroke="#F59E0B" stroke-width="1"/>
+<text x="710" y="310" class="m" fill="#F59E0B" font-size="8.5" text-anchor="middle" font-weight="bold">KEY METRICS</text>
+<line x1="490" y1="316" x2="930" y2="316" stroke="#F59E0B" stroke-width="0.5"/>
+<text x="490" y="305" class="m" fill="#94a3b8" font-size="8">Architecture</text><text x="660" y="305" class="m" fill="#F59E0B" font-size="8">PointPillars + CenterPoint</text>
+<text x="490" y="322" class="m" fill="#94a3b8" font-size="8">Dataset</text><text x="660" y="322" class="m" fill="#94a3b8" font-size="8">KITTI + nuScenes (6.4k frames)</text>
+<text x="490" y="339" class="m" fill="#94a3b8" font-size="8">mAP (nuScenes)</text><text x="660" y="339" class="m" fill="#10B981" font-size="8">67.4% 3D bounding box</text>
+<text x="490" y="356" class="m" fill="#94a3b8" font-size="8">Inference speed</text><text x="660" y="356" class="m" fill="#00E5FF" font-size="8">18.7 FPS — Jetson AGX Orin</text>
+<text x="490" y="373" class="m" fill="#94a3b8" font-size="8">Range</text><text x="660" y="373" class="m" fill="#F59E0B" font-size="8">100m — voxel 0.16m</text>
+<text x="490" y="390" class="m" fill="#94a3b8" font-size="8">Classes</text><text x="660" y="390" class="m" fill="#c084fc" font-size="8">Car, Pedestrian, Cyclist</text>
+
+</svg>
