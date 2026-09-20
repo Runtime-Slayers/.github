@@ -29,9 +29,7 @@
 <!-- Viral Quick-Actions Bar -->
 <p align="center">
   <a href="https://twitter.com/intent/tweet?text=Discover%20Runtime%20Slayers%3A%20Autonomous%20Deep-Tech%20Research%20Collective%20applying%20AI%20across%20Aerospace%2C%20Biomedical%2C%20Quantum%2C%20and%20Defense%20with%20100%25%20Empirical%20Ground%20Truth!&url=https%3A%2F%2Fgithub.com%2FRuntime-Slayers&hashtags=DeepTech,ArtificialIntelligence,OpenScience,Physics" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Share%20on%20X-000000?style=for-the-badge&logo=x&logoColor=white" alt="Share on X" /></a>
-  <a href="https://news.ycombinator.com/submitlink?u=https%3A%2F%2Fgithub.com%2FRuntime-Slayers&t=Show%20HN%3A%20Runtime%20Slayers%20%E2%80%93%20108%20Zero-Synthetic%20Deep-Tech%20AI%20Repositories" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Discuss%20on-Hacker%20News-FF6600?style=for-the-badge&logo=y-combinator&logoColor=white" alt="Discuss on Hacker News" /></a>
-  <a href="#cite-collective"><img src="https://img.shields.io/badge/Cite%20Collective-BibTeX-00E5FF?style=for-the-badge&logo=latex&logoColor=black" alt="Cite Collective" /></a>
-  <a href="https://github.com/Runtime-Slayers" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Star%20Repositories-%E2%AD%90-F59E0B?style=for-the-badge&logo=github&logoColor=black" alt="Star Repositories" /></a>
+ 
 </p>
 
 ---
