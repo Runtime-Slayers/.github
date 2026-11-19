@@ -157,7 +157,7 @@ The intellectual engine of **Runtime-Slayers** is driven by our founding researc
       • Active Inference, Free Energy Minimization &amp; Cognitive Defense Grids</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧬 Boddu Saran Kumar</h3>
+      <h3>🧬 Boddu Saran</h3>
       <p><b>Systems Bioengineer &amp; Transducer Architect</b></p>
       <p>
         <a href="https://github.com/sepas1609"><img src="https://img.shields.io/badge/GitHub-sepas1609-181717?style=flat-square&logo=github" alt="GitHub" /></a>
